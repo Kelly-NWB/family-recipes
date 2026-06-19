@@ -5,7 +5,13 @@ LIVE SITE (after Pages is on):
   https://kelly-nwb.github.io/family-recipes/
 
 PIPE (same idea as NWB):
-  you chat → agent updates → git push main → family refreshes the link
+  you chat → agent updates → push28 → git push main → VERIFY → then say live
+
+PUSH28 CHECKPOINT (agent MUST — Kelly never reads this):
+  1. git push origin main
+  2. Wait ~60s
+  3. powershell -File scripts/verify-live.ps1 -MustContain "<snippet from edit>"
+  4. PASS before telling Kelly "it's live" — push alone is not live
 
 WHAT IS IN THE REPO (public, family-safe):
   index.html
