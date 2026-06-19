@@ -154,20 +154,31 @@
       position: sticky;
       top: 0;
       z-index: 20;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.75rem;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0.8rem 1.25rem;
+      padding: 0.75rem 1.25rem 0.85rem;
       background: rgba(236, 234, 228, 0.96);
       border-bottom: 2px solid var(--bark);
       backdrop-filter: blur(6px);
     }
 
+    .toolbar-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.65rem 1rem;
+      align-items: center;
+    }
+
+    .toolbar-row--main {
+      justify-content: space-between;
+      margin-bottom: 0.55rem;
+    }
+
+    .toolbar-row--filters {
+      gap: 0.75rem 1.25rem;
+    }
+
     .search-wrap {
-      flex: 1 1 220px;
-      max-width: 440px;
+      flex: 1 1 200px;
+      max-width: 480px;
     }
 
     .search-wrap input {
@@ -198,58 +209,57 @@
       color: var(--bark);
     }
 
-    .filter-chips {
+    .filter-select-wrap {
       display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
+      align-items: center;
+      gap: 0.45rem;
+      min-width: 0;
     }
 
-    .chip {
-      padding: 0.38rem 0.8rem;
-      border: 2px solid var(--bark);
-      border-radius: 2px;
-      background: var(--stone-warm);
+    .filter-label {
       font-family: 'Josefin Sans', sans-serif;
-      font-size: 0.68rem;
-      font-weight: 600;
-      letter-spacing: 0.1em;
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
       text-transform: uppercase;
       color: var(--ink-soft);
+      white-space: nowrap;
+    }
+
+    .filter-select {
+      appearance: none;
+      padding: 0.42rem 1.75rem 0.42rem 0.65rem;
+      border: 2px solid var(--bark);
+      border-radius: 2px;
+      background: var(--stone-warm) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%235C4A3A' d='M1 1l4 4 4-4'/%3E%3C/svg%3E") no-repeat right 0.55rem center;
+      font: inherit;
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--ink);
       cursor: pointer;
-      transition: background 0.15s, color 0.15s;
+      min-width: 8.5rem;
+      max-width: 100%;
     }
 
-    .chip:hover { background: var(--canvas); color: var(--pine-deep); }
-
-    .filter-chips--types {
-      width: 100%;
-      margin-top: 0.15rem;
-      padding-top: 0.5rem;
-      border-top: 1px dashed var(--canvas);
+    .filter-select:focus {
+      outline: none;
+      border-color: var(--pine-mid);
+      box-shadow: 0 0 0 2px rgba(61, 92, 74, 0.25);
     }
 
-    .chip-type {
-      display: inline-flex;
+    .type-select-wrap {
+      display: flex;
       align-items: center;
       gap: 0.4rem;
-      padding-left: 0.55rem;
     }
 
-    .chip-type .type-swatch {
+    .type-swatch-active {
       width: 4px;
-      height: 1.05em;
+      height: 1.35rem;
       border-radius: 1px;
+      background: var(--canvas);
       flex-shrink: 0;
-    }
-
-    .chip-type.active .type-swatch {
-      box-shadow: 0 0 0 1px rgba(255,255,255,0.5);
-    }
-
-    .chip.active {
-      background: var(--pine);
-      border-color: var(--pine-deep);
-      color: var(--stone-warm);
+      transition: background 0.15s;
     }
 
     main {
@@ -440,11 +450,6 @@
     .recipe-card.cat-other,
     .recipe-card.cat-uncategorized { border-left-color: #9A9590; }
 
-    .chip-count {
-      opacity: 0.75;
-      font-weight: 500;
-    }
-
     .recipe-card:hover {
       transform: translate(-1px, -1px);
       box-shadow: 5px 5px 0 var(--shadow);
@@ -606,6 +611,71 @@
       font-weight: 500;
     }
 
+    .nwb-note {
+      max-width: 1120px;
+      margin: 0 auto 0;
+      padding: 0 1.25rem 2.5rem;
+    }
+
+    .nwb-note-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem 1.5rem;
+      padding: 1.1rem 1.25rem;
+      background: var(--stone-warm);
+      border: 2px solid var(--bark);
+      border-radius: 2px;
+      box-shadow: 3px 3px 0 var(--shadow);
+    }
+
+    .nwb-note-copy {
+      flex: 1 1 16rem;
+      min-width: 0;
+    }
+
+    .nwb-note-copy h2 {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--pine-deep);
+      margin-bottom: 0.35rem;
+    }
+
+    .nwb-note-copy p {
+      font-size: 0.92rem;
+      color: var(--ink-soft);
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    .nwb-note-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.55rem 1rem;
+      border: 2px solid var(--pine-deep);
+      border-radius: 2px;
+      background: var(--pine);
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: var(--stone-warm);
+      white-space: nowrap;
+      transition: background 0.15s, border-color 0.15s;
+    }
+
+    .nwb-note-link:hover {
+      background: var(--pine-deep);
+      border-color: var(--bark-dark);
+    }
+
     footer {
       text-align: center;
       padding: 2rem 1.25rem;
@@ -617,6 +687,13 @@
 
     footer strong { color: var(--stone-warm); font-weight: 600; }
 
+    footer a {
+      color: var(--campfire);
+      text-decoration: none;
+    }
+
+    footer a:hover { text-decoration: underline; }
+
     @media (max-width: 700px) {
       .collection-hero {
         grid-template-columns: 1fr;
@@ -625,7 +702,7 @@
     }
 
     @media print {
-      .toolbar, footer { display: none; }
+      .toolbar, .nwb-note, footer { display: none; }
       .recipe-card { break-inside: avoid; box-shadow: none; }
       body { background: white; }
     }
@@ -668,12 +745,23 @@
 </header>
 
 <div class="toolbar">
-  <div class="search-wrap">
-    <input type="search" id="search" placeholder="Search recipes, names, ingredients…" autocomplete="off">
+  <div class="toolbar-row toolbar-row--main">
+    <div class="search-wrap">
+      <input type="search" id="search" placeholder="Search recipes, names, ingredients…" autocomplete="off">
+    </div>
+    <div class="stats" id="stats"></div>
   </div>
-  <div class="filter-chips" id="filters"></div>
-  <div class="filter-chips filter-chips--types" id="cat-filters"></div>
-  <div class="stats" id="stats"></div>
+  <div class="toolbar-row toolbar-row--filters">
+    <label class="filter-select-wrap">
+      <span class="filter-label">Cookbook</span>
+      <select class="filter-select" id="collection-select" aria-label="Filter by cookbook"></select>
+    </label>
+    <label class="filter-select-wrap type-select-wrap">
+      <span class="filter-label">Type</span>
+      <span class="type-swatch-active" id="type-swatch" aria-hidden="true"></span>
+      <select class="filter-select" id="category-select" aria-label="Filter by recipe type"></select>
+    </label>
+  </div>
 </div>
 
 <main>
@@ -682,8 +770,18 @@
   <div class="recipe-grid" id="recipe-grid"></div>
 </main>
 
+<aside class="nwb-note">
+  <div class="nwb-note-inner">
+    <div class="nwb-note-copy">
+      <h2>From the same kitchen table</h2>
+      <p>Family site, family build. If you want a site, flyer, or fix for your shop or event, Kelly runs <strong>NWB Vending</strong> out of Kuna — practical help for small business.</p>
+    </div>
+    <a class="nwb-note-link" href="https://NWB-Vending.com" target="_blank" rel="noopener noreferrer">Visit NWB-Vending.com</a>
+  </div>
+</aside>
+
 <footer>
-  <p><strong>Family Recipes</strong> &mdash; one spot for all of them. Open this file anytime.</p>
+  <p><strong>Family Recipes</strong> &mdash; one spot for all of them. Built by <a href="https://NWB-Vending.com" target="_blank" rel="noopener noreferrer">NWB Vending</a>.</p>
 </footer>
 
 <script src="data/recipes.js"></script>
@@ -806,29 +904,35 @@ function filteredRecipes() {
   });
 }
 
+function collectionLabel(c) {
+  return c.id === 'prescott-cousins' ? 'Prescott' : c.title;
+}
+
+function updateTypeSwatch() {
+  const swatch = document.getElementById('type-swatch');
+  if (!swatch) return;
+  const color = activeCategory === 'all'
+    ? 'var(--canvas)'
+    : (CAT_COLORS[activeCategory] || CAT_COLORS.uncategorized);
+  swatch.style.background = color;
+}
+
 function renderFilters() {
-  const el = document.getElementById('filters');
-  const chips = [
-    { id: 'all', label: 'All' },
+  const el = document.getElementById('collection-select');
+  const options = [
+    { id: 'all', label: 'All cookbooks' },
     ...sortCollections(DATA.collections).map(c => ({
       id: c.id,
-      label: c.id === 'prescott-cousins' ? 'Prescott' : c.title
+      label: collectionLabel(c)
     }))
   ];
-  el.innerHTML = chips.map(c => `
-    <button type="button" class="chip${activeCollection === c.id ? ' active' : ''}" data-collection="${c.id}">${c.label}</button>
+  el.innerHTML = options.map(c => `
+    <option value="${c.id}"${activeCollection === c.id ? ' selected' : ''}>${escapeHtml(c.label)}</option>
   `).join('');
-  el.querySelectorAll('.chip').forEach(btn => {
-    btn.addEventListener('click', () => {
-      activeCollection = btn.dataset.collection;
-      activeCategory = 'all';
-      render();
-    });
-  });
 }
 
 function renderCatFilters() {
-  const el = document.getElementById('cat-filters');
+  const el = document.getElementById('category-select');
   const scoped = recipesInCollection();
   const counts = {};
   scoped.forEach(r => {
@@ -842,36 +946,34 @@ function renderCatFilters() {
     return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi) || a.localeCompare(b);
   });
 
-  if (!cats.length) {
-    el.innerHTML = '';
-    return;
-  }
-
   if (activeCategory !== 'all' && !counts[activeCategory]) activeCategory = 'all';
 
-  const chips = [
-    { id: 'all', label: 'All types', color: null, count: scoped.length },
+  const options = [
+    { id: 'all', label: `All types (${scoped.length})` },
     ...cats.map(c => ({
       id: c,
-      label: c,
-      color: CAT_COLORS[c] || CAT_COLORS.uncategorized,
-      count: counts[c]
+      label: `${c} (${counts[c]})`
     }))
   ];
 
-  el.innerHTML = chips.map(c => {
-    const swatch = c.color
-      ? `<span class="type-swatch" style="background:${c.color}"></span>`
-      : '';
-    return `<button type="button" class="chip chip-type${activeCategory === c.id ? ' active' : ''}" data-category="${c.id}">${swatch}${escapeHtml(c.label)} <span class="chip-count">(${c.count})</span></button>`;
-  }).join('');
+  el.innerHTML = options.map(c => `
+    <option value="${c.id}"${activeCategory === c.id ? ' selected' : ''}>${escapeHtml(c.label)}</option>
+  `).join('');
 
-  el.querySelectorAll('[data-category]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      activeCategory = btn.dataset.category;
-      renderRecipes();
-      renderCatFilters();
-    });
+  updateTypeSwatch();
+}
+
+function bindFilterControls() {
+  document.getElementById('collection-select').addEventListener('change', e => {
+    activeCollection = e.target.value;
+    activeCategory = 'all';
+    render();
+  });
+
+  document.getElementById('category-select').addEventListener('change', e => {
+    activeCategory = e.target.value;
+    renderRecipes();
+    updateTypeSwatch();
   });
 }
 
@@ -1036,6 +1138,7 @@ if (!DATA.recipes.length) {
   document.getElementById('recipe-grid').innerHTML =
     '<p class="empty-state">Recipe data missing — run <code>scripts/build-data.py</code> to rebuild.</p>';
 } else {
+  bindFilterControls();
   render();
 }
 </script>
