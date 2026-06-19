@@ -584,70 +584,60 @@
       font-weight: 500;
     }
 
-    .nwb-note {
-      max-width: 1120px;
-      margin: 0 auto 0;
-      padding: 0 1.25rem 2.5rem;
+    .type-legend {
+      margin-bottom: 1.1rem;
+      padding: 0.6rem 0.8rem;
+      background: var(--stone);
+      border: 1px dashed var(--canvas);
+      border-radius: 2px;
     }
 
-    .nwb-note-inner {
+    .type-legend-title {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      margin-bottom: 0.45rem;
+    }
+
+    .type-legend-items {
       display: flex;
       flex-wrap: wrap;
-      align-items: center;
-      justify-content: space-between;
-      gap: 1rem 1.5rem;
-      padding: 1.1rem 1.25rem;
-      background: var(--stone-warm);
-      border: 2px solid var(--bark);
-      border-radius: 2px;
-      box-shadow: 3px 3px 0 var(--shadow);
+      gap: 0.4rem 0.9rem;
     }
 
-    .nwb-note-copy {
-      flex: 1 1 16rem;
-      min-width: 0;
-    }
-
-    .nwb-note-copy h2 {
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: 0.72rem;
-      font-weight: 700;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--pine-deep);
-      margin-bottom: 0.35rem;
-    }
-
-    .nwb-note-copy p {
-      font-size: 0.92rem;
-      color: var(--ink-soft);
-      line-height: 1.5;
-      margin: 0;
-    }
-
-    .nwb-note-link {
+    .legend-item {
       display: inline-flex;
       align-items: center;
-      gap: 0.5rem;
-      padding: 0.55rem 1rem;
-      border: 2px solid var(--pine-deep);
-      border-radius: 2px;
-      background: var(--pine);
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: 0.72rem;
-      font-weight: 700;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      text-decoration: none;
-      color: var(--stone-warm);
-      white-space: nowrap;
-      transition: background 0.15s, border-color 0.15s;
+      gap: 0.4rem;
+      font-size: 0.8rem;
+      color: var(--ink-soft);
     }
 
-    .nwb-note-link:hover {
-      background: var(--pine-deep);
-      border-color: var(--bark-dark);
+    .legend-swatch {
+      width: 4px;
+      height: 1.05em;
+      border-radius: 1px;
+      flex-shrink: 0;
     }
+
+    .site-credit {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 0 1.25rem 2rem;
+      text-align: center;
+      font-size: 0.88rem;
+      color: var(--ink-soft);
+    }
+
+    .site-credit a {
+      color: var(--pine-mid);
+      text-decoration: none;
+    }
+
+    .site-credit a:hover { text-decoration: underline; }
 
     footer {
       text-align: center;
@@ -675,7 +665,7 @@
     }
 
     @media print {
-      .toolbar, .nwb-note, footer { display: none; }
+      .toolbar, .site-credit, footer { display: none; }
       .recipe-card { break-inside: avoid; box-shadow: none; }
       body { background: white; }
     }
@@ -730,21 +720,14 @@
 <main>
   <div id="collections"></div>
   <p class="section-label" id="recipe-label">All Recipes</p>
+  <div class="type-legend" id="type-legend" aria-label="Recipe type color key"></div>
   <div class="recipe-grid" id="recipe-grid"></div>
 </main>
 
-<aside class="nwb-note">
-  <div class="nwb-note-inner">
-    <div class="nwb-note-copy">
-      <h2>From the same kitchen table</h2>
-      <p>Family site, family build. If you want a site, flyer, or fix for your shop or event, Kelly runs <strong>NWB Vending</strong> out of Kuna — practical help for small business.</p>
-    </div>
-    <a class="nwb-note-link" href="https://NWB-Vending.com" target="_blank" rel="noopener noreferrer">Visit NWB-Vending.com</a>
-  </div>
-</aside>
+<p class="site-credit">Built by KJ. If you're curious: <a href="https://NWB-Vending.com" target="_blank" rel="noopener noreferrer">NWB-Vending.com</a></p>
 
 <footer>
-  <p><strong>Family Recipes</strong> &mdash; one spot for all of them. Built by <a href="https://NWB-Vending.com" target="_blank" rel="noopener noreferrer">NWB Vending</a>.</p>
+  <p><strong>Family Recipes</strong> &mdash; one spot for all of them.</p>
 </footer>
 
 <script src="data/recipes.js"></script>
@@ -837,6 +820,15 @@ const CAT_COLORS = {
   uncategorized: '#9A9590'
 };
 
+const CAT_LEGEND_ORDER = [
+  'dessert', 'main', 'side', 'salad', 'bread', 'appetizer',
+  'candy', 'sauce', 'beverage', 'condiment', 'other', 'uncategorized'
+];
+
+const CAT_LABELS = {
+  uncategorized: 'not tagged yet'
+};
+
 function catClass(category) {
   const key = (category || 'uncategorized').toLowerCase().replace(/[^a-z]/g, '');
   return CAT_COLORS[key] ? `cat-${key}` : 'cat-uncategorized';
@@ -862,6 +854,35 @@ function filteredRecipes() {
 
 function collectionLabel(c) {
   return c.id === 'prescott-cousins' ? 'Prescott' : c.title;
+}
+
+function catLegendLabel(key) {
+  return CAT_LABELS[key] || key;
+}
+
+function renderTypeLegend() {
+  const el = document.getElementById('type-legend');
+  const present = new Set(recipesInCollection().map(recipeCategory));
+  const items = CAT_LEGEND_ORDER.filter(c => present.has(c));
+
+  if (!items.length) {
+    el.innerHTML = '';
+    el.hidden = true;
+    return;
+  }
+
+  el.hidden = false;
+  el.innerHTML = `
+    <p class="type-legend-title">Colored bar = recipe type</p>
+    <div class="type-legend-items">
+      ${items.map(c => `
+        <span class="legend-item">
+          <span class="legend-swatch" style="background:${CAT_COLORS[c] || CAT_COLORS.uncategorized}"></span>
+          ${escapeHtml(catLegendLabel(c))}
+        </span>
+      `).join('')}
+    </div>
+  `;
 }
 
 function renderFilters() {
@@ -1038,6 +1059,7 @@ function renderRecipes() {
 function render() {
   renderFilters();
   renderCollections();
+  renderTypeLegend();
   renderRecipes();
 }
 
