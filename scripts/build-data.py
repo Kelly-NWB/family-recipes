@@ -141,7 +141,7 @@ def main() -> None:
                 "title": "Prescott Cousins' Cookbook",
                 "subtitle": "Hi, ya'll",
                 "cover": "assets/prescott-cover.png",
-                "source": src_pdf[0].name,
+                "source": "Prescott Cousins' Cook Book.pdf",
                 "recipeCount": len(recipes),
             }
         ],
