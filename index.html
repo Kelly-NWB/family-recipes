@@ -727,7 +727,7 @@ function renderFilters() {
     { id: 'all', label: 'All' },
     ...sortCollections(DATA.collections).map(c => ({
       id: c.id,
-      label: c.id === 'prescott-cousins' ? 'Prescotts' : c.title
+      label: c.id === 'prescott-cousins' ? 'Prescott' : c.title
     }))
   ];
   el.innerHTML = chips.map(c => `
