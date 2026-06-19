@@ -220,6 +220,32 @@
     }
 
     .chip:hover { background: var(--canvas); color: var(--pine-deep); }
+
+    .filter-chips--types {
+      width: 100%;
+      margin-top: 0.15rem;
+      padding-top: 0.5rem;
+      border-top: 1px dashed var(--canvas);
+    }
+
+    .chip-type {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding-left: 0.55rem;
+    }
+
+    .chip-type .type-swatch {
+      width: 4px;
+      height: 1.05em;
+      border-radius: 1px;
+      flex-shrink: 0;
+    }
+
+    .chip-type.active .type-swatch {
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.5);
+    }
+
     .chip.active {
       background: var(--pine);
       border-color: var(--pine-deep);
@@ -414,31 +440,9 @@
     .recipe-card.cat-other,
     .recipe-card.cat-uncategorized { border-left-color: #9A9590; }
 
-    .cat-legend {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem 1rem;
-      margin: -0.75rem 0 1.25rem;
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: 0.62rem;
-      font-weight: 600;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--bark);
-    }
-
-    .cat-legend span {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-    }
-
-    .cat-legend i {
-      display: inline-block;
-      width: 0.55rem;
-      height: 0.9rem;
-      border-radius: 1px;
-      font-style: normal;
+    .chip-count {
+      opacity: 0.75;
+      font-weight: 500;
     }
 
     .recipe-card:hover {
@@ -668,13 +672,13 @@
     <input type="search" id="search" placeholder="Search recipes, names, ingredients…" autocomplete="off">
   </div>
   <div class="filter-chips" id="filters"></div>
+  <div class="filter-chips filter-chips--types" id="cat-filters"></div>
   <div class="stats" id="stats"></div>
 </div>
 
 <main>
   <div id="collections"></div>
   <p class="section-label" id="recipe-label">All Recipes</p>
-  <div class="cat-legend" id="cat-legend" aria-hidden="true"></div>
   <div class="recipe-grid" id="recipe-grid"></div>
 </main>
 
@@ -686,6 +690,7 @@
 <script>
 let DATA = window.RECIPE_DATA || { collections: [], recipes: [] };
 let activeCollection = 'all';
+let activeCategory = 'all';
 let searchQuery = '';
 let coverView = 'modern';
 
@@ -772,14 +777,30 @@ const CAT_COLORS = {
   uncategorized: '#9A9590'
 };
 
+const CAT_ORDER = [
+  'dessert', 'main', 'side', 'salad', 'bread', 'appetizer',
+  'candy', 'sauce', 'beverage', 'condiment', 'other', 'uncategorized'
+];
+
 function catClass(category) {
   const key = (category || 'uncategorized').toLowerCase().replace(/[^a-z]/g, '');
   return CAT_COLORS[key] ? `cat-${key}` : 'cat-uncategorized';
 }
 
-function filteredRecipes() {
+function recipeCategory(r) {
+  return (r.category || 'uncategorized').toLowerCase();
+}
+
+function recipesInCollection() {
   return DATA.recipes.filter(r => {
     if (activeCollection !== 'all' && r.collection !== activeCollection) return false;
+    return true;
+  });
+}
+
+function filteredRecipes() {
+  return recipesInCollection().filter(r => {
+    if (activeCategory !== 'all' && recipeCategory(r) !== activeCategory) return false;
     if (searchQuery && !slugMatch(r, searchQuery)) return false;
     return true;
   });
@@ -800,7 +821,56 @@ function renderFilters() {
   el.querySelectorAll('.chip').forEach(btn => {
     btn.addEventListener('click', () => {
       activeCollection = btn.dataset.collection;
+      activeCategory = 'all';
       render();
+    });
+  });
+}
+
+function renderCatFilters() {
+  const el = document.getElementById('cat-filters');
+  const scoped = recipesInCollection();
+  const counts = {};
+  scoped.forEach(r => {
+    const c = recipeCategory(r);
+    counts[c] = (counts[c] || 0) + 1;
+  });
+
+  const cats = Object.keys(counts).sort((a, b) => {
+    const ai = CAT_ORDER.indexOf(a);
+    const bi = CAT_ORDER.indexOf(b);
+    return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi) || a.localeCompare(b);
+  });
+
+  if (!cats.length) {
+    el.innerHTML = '';
+    return;
+  }
+
+  if (activeCategory !== 'all' && !counts[activeCategory]) activeCategory = 'all';
+
+  const chips = [
+    { id: 'all', label: 'All types', color: null, count: scoped.length },
+    ...cats.map(c => ({
+      id: c,
+      label: c,
+      color: CAT_COLORS[c] || CAT_COLORS.uncategorized,
+      count: counts[c]
+    }))
+  ];
+
+  el.innerHTML = chips.map(c => {
+    const swatch = c.color
+      ? `<span class="type-swatch" style="background:${c.color}"></span>`
+      : '';
+    return `<button type="button" class="chip chip-type${activeCategory === c.id ? ' active' : ''}" data-category="${c.id}">${swatch}${escapeHtml(c.label)} <span class="chip-count">(${c.count})</span></button>`;
+  }).join('');
+
+  el.querySelectorAll('[data-category]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeCategory = btn.dataset.category;
+      renderRecipes();
+      renderCatFilters();
     });
   });
 }
@@ -929,8 +999,7 @@ function renderRecipes() {
   document.getElementById('stats').textContent = `${list.length} shown · ${complete} ready`;
 
   if (!list.length) {
-    grid.innerHTML = '<p class="empty-state">Nothing matched — try another search.</p>';
-    document.getElementById('cat-legend').innerHTML = '';
+    grid.innerHTML = '<p class="empty-state">Nothing matched — try another search or type.</p>';
     return;
   }
 
@@ -949,26 +1018,11 @@ function renderRecipes() {
   });
 
   grid.innerHTML = sorted.map(renderRecipeCard).join('');
-  renderCatLegend(list);
-}
-
-function renderCatLegend(list) {
-  const el = document.getElementById('cat-legend');
-  const cats = [...new Set(list.map(r => (r.category || 'uncategorized').toLowerCase()))]
-    .filter(c => c !== 'uncategorized')
-    .sort((a, b) => a.localeCompare(b));
-  if (!cats.length) {
-    el.innerHTML = '';
-    return;
-  }
-  el.innerHTML = cats.map(c => {
-    const color = CAT_COLORS[c] || CAT_COLORS.uncategorized;
-    return `<span><i style="background:${color}"></i>${escapeHtml(c)}</span>`;
-  }).join('');
 }
 
 function render() {
   renderFilters();
+  renderCatFilters();
   renderCollections();
   renderRecipes();
 }
