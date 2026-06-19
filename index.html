@@ -130,6 +130,48 @@
       line-height: 1.05;
     }
 
+    .builder-credit {
+      position: relative;
+      z-index: 1;
+      margin-top: 0.85rem;
+    }
+
+    .built-by {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: clamp(1.05rem, 3.2vw, 1.45rem);
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--mist);
+    }
+
+    .built-by .kj-mark {
+      font-size: clamp(1.55rem, 5vw, 2.35rem);
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      color: var(--campfire);
+      text-shadow: 0 1px 0 rgba(30, 48, 40, 0.35);
+    }
+
+    .built-by-link {
+      margin-top: 0.35rem;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 0.95rem;
+      font-style: italic;
+      opacity: 0.82;
+    }
+
+    .built-by-link a {
+      color: var(--stone);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(236, 234, 228, 0.35);
+    }
+
+    .built-by-link a:hover {
+      color: var(--campfire);
+      border-bottom-color: var(--campfire);
+    }
+
     .site-header .sub {
       font-family: 'Josefin Sans', sans-serif;
       font-size: clamp(0.78rem, 2vw, 0.92rem);
@@ -623,22 +665,6 @@
       flex-shrink: 0;
     }
 
-    .site-credit {
-      max-width: 1120px;
-      margin: 0 auto;
-      padding: 0 1.25rem 2rem;
-      text-align: center;
-      font-size: 0.88rem;
-      color: var(--ink-soft);
-    }
-
-    .site-credit a {
-      color: var(--pine-mid);
-      text-decoration: none;
-    }
-
-    .site-credit a:hover { text-decoration: underline; }
-
     footer {
       text-align: center;
       padding: 2rem 1.25rem;
@@ -665,7 +691,7 @@
     }
 
     @media print {
-      .toolbar, .site-credit, footer { display: none; }
+      .toolbar, footer { display: none; }
       .recipe-card { break-inside: avoid; box-shadow: none; }
       body { background: white; }
     }
@@ -703,6 +729,10 @@
     <path d="M600 54 L618 34 L636 54 L626 44 L610 44 Z" fill="#3D5C4A"/>
   </svg>
   <h1>Family Recipes</h1>
+  <div class="builder-credit">
+    <p class="built-by">Built by <span class="kj-mark">KJ</span></p>
+    <p class="built-by-link"><a href="https://NWB-Vending.com" target="_blank" rel="noopener noreferrer">NWB-Vending.com</a></p>
+  </div>
   <p class="sub">All Families · Starting with Prescott · More on the way</p>
   <span class="stamp">One archive for every cookbook we scan — cousin binders, grandma's cards, the whole pile</span>
 </header>
@@ -723,8 +753,6 @@
   <div class="type-legend" id="type-legend" aria-label="Recipe type color key"></div>
   <div class="recipe-grid" id="recipe-grid"></div>
 </main>
-
-<p class="site-credit">Built by KJ. If you're curious: <a href="https://NWB-Vending.com" target="_blank" rel="noopener noreferrer">NWB-Vending.com</a></p>
 
 <footer>
   <p><strong>Family Recipes</strong> &mdash; one spot for all of them.</p>
