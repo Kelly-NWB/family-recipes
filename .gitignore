@@ -1,0 +1,27 @@
+# Scanned originals & source files — stay on your machine only
+sources/
+Recipe Hole/
+archive/
+dist/
+
+# Transcription working files (rebuild from batch JSON)
+scripts/pdf-pages/
+scripts/page-images/
+
+# Cabin / photo scans (text is in recipes.js)
+assets/cabin/
+assets/Photo Recipes/
+assets/anonymous-quote-page.png
+
+# Binaries we do not ship
+*.pdf
+*.docx
+*.zip
+*.jpeg
+*.jpg
+desktop.ini
+
+# Local junk
+terminals/
+.DS_Store
+Thumbs.db

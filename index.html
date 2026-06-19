@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Family Recipes — heirloom cookbooks, pioneer stock, passed down">
+  <meta name="theme-color" content="#2A4035">
+  <title>Family Recipes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --pine-deep: #1E3028;
+      --pine: #2A4035;
+      --pine-mid: #3D5C4A;
+      --pine-light: #4F7263;
+      --bark: #5C4A3A;
+      --bark-dark: #3D3028;
+      --iron: #353530;
+      --stone: #ECEAE4;
+      --stone-warm: #F4F2EC;
+      --canvas: #D8D4CC;
+      --campfire: #A67C3D;
+      --flannel: #7A3E3E;
+      --mist: #C5CEC8;
+      --ink: #222820;
+      --ink-soft: #454D44;
+      --shadow: rgba(30, 48, 40, 0.18);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--stone-warm);
+      background-image:
+        linear-gradient(45deg, rgba(122, 62, 62, 0.04) 25%, transparent 25%, transparent 75%, rgba(122, 62, 62, 0.04) 75%),
+        linear-gradient(45deg, rgba(122, 62, 62, 0.04) 25%, transparent 25%, transparent 75%, rgba(122, 62, 62, 0.04) 75%),
+        linear-gradient(180deg, var(--canvas) 0%, var(--stone-warm) 22%, var(--stone) 100%);
+      background-size: 24px 24px, 24px 24px, 100% 100%;
+      background-position: 0 0, 12px 12px, 0 0;
+      color: var(--ink);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .opening-quote {
+      text-align: center;
+      padding: 1.1rem 1.5rem;
+      background: var(--bark-dark);
+      border-bottom: 3px solid var(--campfire);
+      color: var(--stone-warm);
+    }
+
+    .opening-quote .quote-body {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: clamp(0.98rem, 2.4vw, 1.18rem);
+      font-weight: 500;
+      letter-spacing: 0.01em;
+      line-height: 1.55;
+      max-width: 36rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .opening-quote .quote-body p {
+      margin: 0.12rem 0;
+    }
+
+    .opening-quote .quote-payoff {
+      margin-top: 0.85rem;
+      font-style: italic;
+    }
+
+    .opening-quote cite {
+      display: block;
+      margin-top: 0.75rem;
+      text-align: center;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.62rem;
+      font-weight: 600;
+      font-style: normal;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--mist);
+      opacity: 0.85;
+    }
+
+    .site-header {
+      position: relative;
+      text-align: center;
+      padding: 2.5rem 1.25rem 2.25rem;
+      background: linear-gradient(180deg, var(--pine-deep) 0%, var(--pine) 60%, var(--pine-mid) 100%);
+      color: var(--stone-warm);
+      border-bottom: 4px solid var(--bark);
+      overflow: hidden;
+    }
+
+    .site-header::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        90deg,
+        transparent,
+        transparent 3px,
+        rgba(0, 0, 0, 0.03) 3px,
+        rgba(0, 0, 0, 0.03) 4px
+      );
+      pointer-events: none;
+    }
+
+    .forest-scene {
+      display: block;
+      width: 100%;
+      max-width: 680px;
+      margin: 0 auto 1rem;
+      height: 64px;
+      opacity: 0.9;
+    }
+
+    .site-header h1 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-size: clamp(2.2rem, 7vw, 3.6rem);
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      line-height: 1.05;
+    }
+
+    .site-header .sub {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: clamp(0.78rem, 2vw, 0.92rem);
+      font-weight: 600;
+      letter-spacing: 0.34em;
+      text-transform: uppercase;
+      color: var(--mist);
+      margin-top: 0.7rem;
+    }
+
+    .site-header .stamp {
+      display: block;
+      margin-top: 1rem;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.08rem;
+      font-weight: 500;
+      color: var(--stone);
+      opacity: 0.92;
+    }
+
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.8rem 1.25rem;
+      background: rgba(236, 234, 228, 0.96);
+      border-bottom: 2px solid var(--bark);
+      backdrop-filter: blur(6px);
+    }
+
+    .search-wrap {
+      flex: 1 1 220px;
+      max-width: 440px;
+    }
+
+    .search-wrap input {
+      width: 100%;
+      padding: 0.62rem 0.85rem;
+      border: 2px solid var(--bark);
+      border-radius: 2px;
+      background: var(--stone-warm);
+      font: inherit;
+      font-weight: 500;
+      color: var(--ink);
+    }
+
+    .search-wrap input:focus {
+      outline: none;
+      border-color: var(--pine-mid);
+      box-shadow: 0 0 0 2px rgba(61, 92, 74, 0.25);
+    }
+
+    .search-wrap input::placeholder { color: var(--ink-soft); opacity: 0.7; }
+
+    .stats {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--bark);
+    }
+
+    .filter-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+    }
+
+    .chip {
+      padding: 0.38rem 0.8rem;
+      border: 2px solid var(--bark);
+      border-radius: 2px;
+      background: var(--stone-warm);
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .chip:hover { background: var(--canvas); color: var(--pine-deep); }
+    .chip.active {
+      background: var(--pine);
+      border-color: var(--pine-deep);
+      color: var(--stone-warm);
+    }
+
+    main {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 1.75rem 1.25rem 3rem;
+    }
+
+    .section-label {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.74rem;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--pine-deep);
+      margin-bottom: 1rem;
+      padding-bottom: 0.45rem;
+      border-bottom: 3px solid var(--campfire);
+      display: inline-block;
+    }
+
+    .collection-hero {
+      display: grid;
+      grid-template-columns: minmax(200px, 260px) 1fr;
+      gap: 1.5rem;
+      align-items: stretch;
+      background: var(--stone-warm);
+      border: 2px solid var(--bark);
+      border-radius: 2px;
+      padding: 1.25rem;
+      margin-bottom: 2rem;
+      box-shadow: 4px 4px 0 var(--shadow);
+    }
+
+    .cover-frame {
+      position: relative;
+      cursor: pointer;
+      border: 2px solid var(--bark-dark);
+      border-radius: 2px;
+      overflow: hidden;
+      min-height: 280px;
+      background: var(--pine-deep);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+    }
+
+    .cover-frame:focus-visible {
+      outline: 3px solid var(--campfire);
+      outline-offset: 2px;
+    }
+
+    .cover-stack {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 3 / 4;
+    }
+
+    .cover-layer {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      transition: opacity 0.45s ease;
+    }
+
+    .cover-layer.active { opacity: 1; }
+
+    .cover-layer.original {
+      filter: contrast(1.05) saturate(0.92);
+    }
+
+    .cover-badge {
+      position: absolute;
+      top: 0.55rem;
+      left: 0.55rem;
+      padding: 0.28rem 0.55rem;
+      background: rgba(30, 48, 40, 0.88);
+      border: 1px solid rgba(236, 234, 228, 0.35);
+      color: var(--stone-warm);
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      border-radius: 2px;
+      pointer-events: none;
+    }
+
+    .cover-frame[data-view="original"] .cover-badge {
+      background: rgba(122, 62, 62, 0.9);
+    }
+
+    .cover-hint {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 0.45rem 0.6rem;
+      background: linear-gradient(transparent, rgba(20, 30, 26, 0.92));
+      color: var(--stone);
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.6rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      text-align: center;
+      pointer-events: none;
+    }
+
+    .collection-hero h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.75rem, 4vw, 2.35rem);
+      font-weight: 700;
+      color: var(--pine-deep);
+      line-height: 1.1;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .collection-hero .tagline {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--flannel);
+      margin-top: 0.4rem;
+    }
+
+    .collection-hero p {
+      margin-top: 0.85rem;
+      font-size: 0.94rem;
+      color: var(--ink-soft);
+      max-width: 54ch;
+    }
+
+    .collection-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.25rem;
+      margin-top: 1rem;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--pine-mid);
+    }
+
+    .collection-filter-hint {
+      margin-top: 0.85rem;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.62rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--bark);
+      opacity: 0.75;
+    }
+
+    .recipe-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .recipe-card {
+      background: var(--stone-warm);
+      border: 2px solid var(--bark);
+      border-radius: 2px;
+      overflow: hidden;
+      box-shadow: 3px 3px 0 var(--shadow);
+      transition: transform 0.15s, box-shadow 0.15s;
+      border-left: 5px solid var(--campfire);
+    }
+
+    .recipe-card:hover {
+      transform: translate(-1px, -1px);
+      box-shadow: 5px 5px 0 var(--shadow);
+    }
+
+    .recipe-card.pending {
+      border-color: var(--canvas);
+      border-left-color: var(--canvas);
+      opacity: 0.88;
+    }
+
+    .recipe-card > summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 1rem 2rem 1rem 1.1rem;
+      background: linear-gradient(180deg, var(--stone) 0%, var(--stone-warm) 100%);
+      position: relative;
+    }
+
+    .recipe-card > summary::-webkit-details-marker { display: none; }
+
+    .recipe-card > summary::after {
+      content: '›';
+      position: absolute;
+      right: 0.85rem;
+      top: 50%;
+      transform: translateY(-50%) rotate(0deg);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--pine-mid);
+      transition: transform 0.2s;
+    }
+
+    .recipe-card[open] > summary::after {
+      transform: translateY(-50%) rotate(90deg);
+    }
+
+    .recipe-card > summary h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.32rem;
+      font-weight: 700;
+      color: var(--pine-deep);
+      line-height: 1.2;
+    }
+
+    .recipe-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem 0.85rem;
+      margin-top: 0.45rem;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--bark);
+    }
+
+    .recipe-card[open] > summary {
+      border-bottom: 3px solid var(--pine-mid);
+    }
+
+    .recipe-body {
+      padding: 1rem 1.1rem 1.25rem;
+      border-top: none;
+    }
+
+    .recipe-body h4 {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--pine-mid);
+      margin: 0.9rem 0 0.4rem;
+    }
+
+    .recipe-body h4:first-child { margin-top: 0; }
+
+    .recipe-body ul, .recipe-body ol {
+      padding-left: 1.2rem;
+      font-size: 0.9rem;
+      color: var(--ink-soft);
+    }
+
+    .recipe-body li { margin: 0.3rem 0; }
+    .recipe-body li::marker { color: var(--campfire); font-weight: 700; }
+
+    .recipe-photos {
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      margin-bottom: 1rem;
+    }
+
+    .recipe-photos img {
+      width: 100%;
+      border: 2px solid var(--bark);
+      border-radius: 2px;
+      display: block;
+      cursor: zoom-in;
+    }
+
+    .collection-cover-photo {
+      width: 100%;
+      height: 100%;
+      min-height: 280px;
+      object-fit: cover;
+      border: 2px solid var(--bark-dark);
+      border-radius: 2px;
+    }
+
+    .recipe-note {
+      margin-top: 0.8rem;
+      padding: 0.7rem 0.8rem;
+      background: var(--stone);
+      border-left: 4px solid var(--pine-mid);
+      font-size: 0.86rem;
+      color: var(--ink-soft);
+    }
+
+    .pending-msg {
+      font-size: 0.9rem;
+      color: var(--ink-soft);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.18rem 0.5rem;
+      border-radius: 2px;
+      background: var(--pine);
+      color: var(--stone-warm);
+      font-size: 0.6rem;
+      font-weight: 700;
+    }
+
+    .badge.pending-badge {
+      background: var(--bark);
+      color: var(--stone);
+    }
+
+    .tribute {
+      display: inline-block;
+      margin-left: 0.12em;
+      font-size: 0.92em;
+      line-height: 1;
+      vertical-align: middle;
+      opacity: 0.88;
+    }
+
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 2.5rem 1rem;
+      color: var(--ink-soft);
+      font-weight: 500;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1.25rem;
+      border-top: 3px solid var(--bark);
+      background: var(--pine-deep);
+      color: var(--mist);
+      font-size: 0.88rem;
+    }
+
+    footer strong { color: var(--stone-warm); font-weight: 600; }
+
+    @media (max-width: 700px) {
+      .collection-hero {
+        grid-template-columns: 1fr;
+        text-align: left;
+      }
+    }
+
+    @media print {
+      .toolbar, footer { display: none; }
+      .recipe-card { break-inside: avoid; box-shadow: none; }
+      body { background: white; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="opening-quote">
+  <div class="quote-body">
+    <p>Take a bunch of Idaho Potatoes</p>
+    <p>Add some Iowa Corn</p>
+    <p>Cook, in a little Washington Artesian Water</p>
+    <p>Then cool with Colorado snow</p>
+    <p>Stir in some South Dakota Hills</p>
+    <p>Add a little Oregon Sunset</p>
+    <p>Let sit awhile in the California Sunset</p>
+    <p>Blend in a little Nevada Gambling</p>
+    <p>and add a touch of Utah Salt</p>
+    <p>Throw in some Love and Fun</p>
+    <p class="quote-payoff">Mix All together thoroughly in Twin Falls, Idaho from June 14 through 17</p>
+    <p class="quote-payoff">The results will be a very Special Treat</p>
+    <p class="quote-payoff">Enough for the Whole Family.</p>
+  </div>
+  <cite>Anonymous</cite>
+</div>
+
+<header class="site-header">
+  <svg class="forest-scene" viewBox="0 0 720 72" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M0 72 L0 48 Q90 20 180 44 Q270 12 360 40 Q450 8 540 36 Q630 16 720 42 L720 72 Z" fill="rgba(200,210,200,0.12)"/>
+    <path d="M0 72 L60 50 L90 58 L120 42 L150 54 L180 38 L210 52 L240 36 L270 50 L300 34 L330 48 L360 32 L390 46 L420 30 L450 44 L480 28 L510 42 L540 26 L570 40 L600 24 L630 38 L660 22 L720 36 L720 72 Z" fill="#1E3028" opacity="0.55"/>
+    <path d="M0 72 L40 56 L80 64 L120 48 L160 60 L200 44 L240 58 L280 42 L320 56 L360 40 L400 54 L440 38 L480 52 L520 36 L560 50 L600 34 L640 48 L680 32 L720 46 L720 72 Z" fill="#2A4035" opacity="0.85"/>
+    <path d="M280 52 L300 28 L320 52 L310 40 L290 40 Z" fill="#4F7263"/>
+    <path d="M480 48 L500 24 L520 48 L510 36 L490 36 Z" fill="#4F7263"/>
+    <path d="M100 58 L115 42 L130 58 L122 50 L108 50 Z" fill="#3D5C4A"/>
+    <path d="M600 54 L618 34 L636 54 L626 44 L610 44 Z" fill="#3D5C4A"/>
+  </svg>
+  <h1>Family Recipes</h1>
+  <p class="sub">All Families · Starting with Prescott · More on the way</p>
+  <span class="stamp">One archive for every cookbook we scan — cousin binders, grandma's cards, the whole pile</span>
+</header>
+
+<div class="toolbar">
+  <div class="search-wrap">
+    <input type="search" id="search" placeholder="Search recipes, names, ingredients…" autocomplete="off">
+  </div>
+  <div class="filter-chips" id="filters"></div>
+  <div class="stats" id="stats"></div>
+</div>
+
+<main>
+  <div id="collections"></div>
+  <p class="section-label" id="recipe-label">All Recipes</p>
+  <div class="recipe-grid" id="recipe-grid"></div>
+</main>
+
+<footer>
+  <p><strong>Family Recipes</strong> &mdash; one spot for all of them. Open this file anytime.</p>
+</footer>
+
+<script src="data/recipes.js"></script>
+<script>
+let DATA = window.RECIPE_DATA || { collections: [], recipes: [] };
+let activeCollection = 'all';
+let searchQuery = '';
+let coverView = 'modern';
+
+const COVER_SETS = {
+  'prescott-cousins': {
+    modern: 'assets/prescott-cover-modern.png',
+    original: 'assets/prescott-cover.png'
+  }
+};
+
+const COLLECTION_ORDER = ['prescott-cousins', 'cabin', 'low-carb'];
+
+function collectionSortKey(id) {
+  const i = COLLECTION_ORDER.indexOf(id);
+  return i === -1 ? 50 : i;
+}
+
+function sortCollections(collections) {
+  return [...collections].sort((a, b) => collectionSortKey(a.id) - collectionSortKey(b.id));
+}
+
+function isLowCarb(recipe) {
+  return recipe.collection === 'low-carb';
+}
+
+function escapeHtml(text) {
+  return String(text)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function honorNames(text) {
+  if (!text) return '';
+  let s = escapeHtml(text);
+  s = s.replace(/Bonnie Prescott/gi, 'Bonnie Prescott <span class="tribute" title="Grandma Bonnie">💚</span>');
+  s = s.replace(/Ernie Prescott/gi, 'Ernie Prescott <span class="tribute" title="Grandpa Ernie">🫡</span>');
+  s = s.replace(/\bBonnie's\b/gi, (m) => `${m} <span class="tribute" title="Grandma Bonnie">💚</span>`);
+  s = s.replace(/\bErnie's\b/gi, (m) => `${m} <span class="tribute" title="Grandpa Ernie">🫡</span>`);
+  return s;
+}
+
+function slugMatch(recipe, q) {
+  const hay = [
+    recipe.title,
+    recipe.author,
+    recipe.category,
+    ...(recipe.ingredients || []),
+    ...(recipe.steps || []),
+    ...(recipe.notes || []),
+    ...(recipe.photos || [])
+  ].join(' ').toLowerCase();
+  return hay.includes(q);
+}
+
+const COLLECTION_COPY = {
+  'prescott-cousins': {
+    blurb: 'The Prescott cousin cookbook — scanned straight from the binder. Contributions from across the family.',
+    meta: (c) => [`${c.recipeCount} recipes on file`, `Source: ${c.source}`]
+  },
+  'cabin': {
+    blurb: 'Handwritten cabin recipes — photographed from the notebook.',
+    meta: (c) => [`${c.recipeCount} recipes photographed`]
+  },
+  'low-carb': {
+    blurb: 'Low-carb binder — nice to have. First cut if the archive gets too big.',
+    meta: (c) => [`${c.recipeCount} recipes`]
+  }
+};
+
+function filteredRecipes() {
+  return DATA.recipes.filter(r => {
+    if (activeCollection !== 'all' && r.collection !== activeCollection) return false;
+    if (searchQuery && !slugMatch(r, searchQuery)) return false;
+    return true;
+  });
+}
+
+function renderFilters() {
+  const el = document.getElementById('filters');
+  const chips = [
+    { id: 'all', label: 'All' },
+    ...sortCollections(DATA.collections).map(c => ({
+      id: c.id,
+      label: c.id === 'prescott-cousins' ? 'Prescotts' : c.title
+    }))
+  ];
+  el.innerHTML = chips.map(c => `
+    <button type="button" class="chip${activeCollection === c.id ? ' active' : ''}" data-collection="${c.id}">${c.label}</button>
+  `).join('');
+  el.querySelectorAll('.chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeCollection = btn.dataset.collection;
+      render();
+    });
+  });
+}
+
+function coverHtml(collectionId, title) {
+  const coll = DATA.collections.find(x => x.id === collectionId);
+  if (coll?.type === 'text' || (coll?.id === 'low-carb' && !coll?.cover)) {
+    return `<div class="collection-cover-photo" style="display:flex;align-items:center;justify-content:center;background:var(--pine-deep);color:var(--stone);font-family:'Josefin Sans',sans-serif;font-size:0.85rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;min-height:200px;">${escapeHtml(title)}</div>`;
+  }
+  if (coll?.type === 'photos') {
+    return `<img class="collection-cover-photo" src="${coll.cover}" alt="${escapeHtml(title)}">`;
+  }
+  const set = COVER_SETS[collectionId];
+  if (!set) {
+    return `<img class="collection-cover-photo" src="${coll?.cover || ''}" alt="${escapeHtml(title)} cover">`;
+  }
+  const badge = coverView === 'modern' ? 'Modern · 3D' : 'Original · Scanned';
+  const hint = coverView === 'modern' ? 'Click to see the original Word doc' : 'Click for the 3D cover';
+  return `
+    <div class="cover-frame" data-view="${coverView}" data-collection="${collectionId}" role="button" tabindex="0" aria-label="Toggle cookbook cover between modern and original">
+      <div class="cover-stack">
+        <img class="cover-layer modern${coverView === 'modern' ? ' active' : ''}" src="${set.modern}" alt="${escapeHtml(title)} — modern cover">
+        <img class="cover-layer original${coverView === 'original' ? ' active' : ''}" src="${set.original}" alt="${escapeHtml(title)} — original scanned cover">
+      </div>
+      <span class="cover-badge">${badge}</span>
+      <span class="cover-hint">${hint}</span>
+    </div>
+  `;
+}
+
+function bindCoverToggle(frame) {
+  const toggle = () => {
+    coverView = coverView === 'modern' ? 'original' : 'modern';
+    renderCollections();
+  };
+  frame.addEventListener('click', e => {
+    e.stopPropagation();
+    toggle();
+  });
+  frame.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      e.stopPropagation();
+      toggle();
+    }
+  });
+}
+
+function renderCollections() {
+  const el = document.getElementById('collections');
+  if (activeCollection !== 'all') {
+    el.innerHTML = '';
+    return;
+  }
+  el.innerHTML = sortCollections(DATA.collections).map(c => {
+    const copy = COLLECTION_COPY[c.id] || {
+      blurb: 'Family recipes on file.',
+      meta: (col) => [`${col.recipeCount} recipes`]
+    };
+    const meta = copy.meta(c).map(m => `<span>${escapeHtml(m)}</span>`).join('');
+    const tagline = c.subtitle ? `<p class="tagline">${escapeHtml(c.subtitle)}</p>` : '';
+    return `
+    <article class="collection-hero" data-collection-id="${c.id}">
+      ${coverHtml(c.id, c.title)}
+      <div class="collection-copy">
+        <h2>${honorNames(c.title)}</h2>
+        ${tagline}
+        <p>${copy.blurb}</p>
+        <div class="collection-meta">${meta}</div>
+        <p class="collection-filter-hint">Click here to filter recipes</p>
+      </div>
+    </article>`;
+  }).join('');
+
+  el.querySelectorAll('.cover-frame').forEach(bindCoverToggle);
+
+  el.querySelectorAll('.collection-hero').forEach(card => {
+    card.style.cursor = 'pointer';
+    card.addEventListener('click', (e) => {
+      if (e.target.closest('.cover-frame')) return;
+      activeCollection = card.dataset.collectionId;
+      render();
+      document.getElementById('recipe-label').scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+}
+
+function renderRecipeCard(r) {
+  const pending = r.pending || !r.steps?.length;
+  const textHtml = pending
+    ? `<p class="pending-msg">On the list — full write-up coming when we transcribe page ${r.sourcePage || '?' }.</p>`
+    : `
+      ${r.ingredients?.length ? `<h4>Ingredients</h4><ul>${r.ingredients.map(i => `<li>${honorNames(i)}</li>`).join('')}</ul>` : ''}
+      ${r.steps?.length ? `<h4>Directions</h4><ol>${r.steps.map(s => `<li>${honorNames(s)}</li>`).join('')}</ol>` : ''}
+      ${(r.notes || []).map(n => `<div class="recipe-note">${honorNames(n)}</div>`).join('')}
+    `;
+  const badge = pending ? 'On file' : 'Ready';
+
+  return `
+    <details class="recipe-card${pending ? ' pending' : ''}" data-recipe-id="${r.id}" id="recipe-${r.id}">
+      <summary>
+        <h3>${honorNames(r.title)}</h3>
+        <div class="recipe-meta">
+          ${r.author ? `<span>${honorNames(r.author)}</span>` : ''}
+          ${r.sourcePage ? `<span>Page ${r.sourcePage}</span>` : ''}
+          <span class="badge${pending ? ' pending-badge' : ''}">${badge}</span>
+        </div>
+      </summary>
+      <div class="recipe-body">${textHtml}</div>
+    </details>
+  `;
+}
+
+function renderRecipes() {
+  const list = filteredRecipes();
+  const complete = list.filter(r => !r.pending && r.steps?.length).length;
+  const grid = document.getElementById('recipe-grid');
+  const label = document.getElementById('recipe-label');
+  const coll = DATA.collections.find(c => c.id === activeCollection);
+
+  label.textContent = activeCollection === 'all' ? 'All Recipes' : (coll ? coll.title : 'Recipes');
+  document.getElementById('stats').textContent = `${list.length} shown · ${complete} ready`;
+
+  if (!list.length) {
+    grid.innerHTML = '<p class="empty-state">Nothing matched — try another search.</p>';
+    return;
+  }
+
+  const sorted = [...list].sort((a, b) => {
+    const aLow = isLowCarb(a);
+    const bLow = isLowCarb(b);
+    if (aLow !== bLow) return aLow ? 1 : -1;
+    if (activeCollection === 'all') {
+      const byCollection = collectionSortKey(a.collection) - collectionSortKey(b.collection);
+      if (byCollection) return byCollection;
+    }
+    const aDone = !(a.pending || !a.steps?.length);
+    const bDone = !(b.pending || !b.steps?.length);
+    if (aDone !== bDone) return bDone - aDone;
+    return a.title.localeCompare(b.title);
+  });
+
+  grid.innerHTML = sorted.map(renderRecipeCard).join('');
+}
+
+function render() {
+  renderFilters();
+  renderCollections();
+  renderRecipes();
+}
+
+document.getElementById('search').addEventListener('input', e => {
+  searchQuery = e.target.value.trim().toLowerCase();
+  renderRecipes();
+});
+
+if (!DATA.recipes.length) {
+  document.getElementById('recipe-grid').innerHTML =
+    '<p class="empty-state">Recipe data missing — run <code>scripts/build-data.py</code> to rebuild.</p>';
+} else {
+  render();
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+Family Recipes — deploy (GitHub Pages)
+========================================
+
+LIVE SITE (after Pages is on):
+  https://kelly-nwb.github.io/family-recipes/
+
+PIPE (same idea as NWB):
+  you chat → agent updates → git push main → family refreshes the link
+
+WHAT IS IN THE REPO (public, family-safe):
+  index.html
+  data/recipes.js          ← the cookbook data the site reads
+  data/batch-*.json        ← Prescott transcription batches (text only)
+  data/recipes.json        ← same data, for scripts
+  assets/prescott-cover.png
+  assets/prescott-cover-modern.png
+  scripts/*.py             ← rebuild tools (agent runs locally)
+
+NOT IN THE REPO (gitignored — keep on D:\GrokBuild\family-recipes):
+  PDFs, docx, scanned JPGs, Recipe Hole/, sources/
+
+WHEN ADDING RECIPES LATER:
+  1. Drop new sources in Recipe Hole/ or sources/ (local only)
+  2. Agent runs scripts (merge-batches, refresh-all, etc.)
+  3. Agent commits updated data/recipes.js (+ batches if needed)
+  4. git push main
+
+ONE-TIME (Kelly — if not done yet):
+  GitHub → Kelly-NWB/family-recipes → Settings → Pages
+  Source: Deploy from branch → main → / (root) → Save
+
+SHARE WITH FAMILY:
+  Text them the live URL. Bookmark on phones. No login needed.

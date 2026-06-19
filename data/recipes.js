@@ -1,0 +1,4191 @@
+window.RECIPE_DATA = {
+  "collections": [
+    {
+      "id": "prescott-cousins",
+      "title": "Prescott Cousin's Cookbook",
+      "subtitle": "Hi, ya'll",
+      "cover": "assets/prescott-cover.png",
+      "source": "Prescott Cusion's Cook Book.pdf",
+      "recipeCount": 131
+    },
+    {
+      "id": "low-carb",
+      "title": "Low Carb",
+      "subtitle": "Nice to have",
+      "type": "text",
+      "recipeCount": 22
+    },
+    {
+      "id": "cabin",
+      "title": "Cabin",
+      "subtitle": "",
+      "type": "text",
+      "recipeCount": 4
+    }
+  ],
+  "recipes": [
+    {
+      "id": "myrtles-sourdough-choc-cake",
+      "title": "Myrtle's Sourdough Choc. Cake",
+      "collection": "prescott-cousins",
+      "sourcePage": 1,
+      "author": "Jan Musser",
+      "category": "dessert",
+      "ingredients": [
+        "½ cup sourdough starter with ½ cup non-fat dry milk, 1½ cup flour and 1 cup water",
+        "½ cup shortening",
+        "1 cup sugar",
+        "1 tsp. vanilla",
+        "1 tsp. red vegetable coloring",
+        "½ tsp. salt",
+        "1½ tsp. soda",
+        "2 eggs",
+        "3 squares melted chocolate"
+      ],
+      "steps": [
+        "Mix starter, dry milk, flour and water. Mix well and let stand a couple hours in a warm place until yeasty.",
+        "Cream shortening and sugar. Add vanilla, coloring, salt, soda. Add eggs one at a time and mix well. Add melted chocolate.",
+        "Stir creamed mixture into sourdough mix. Gently blend.",
+        "Pour into a cake tin about 7×11. Bake at 350° for 30–45 min.",
+        "Frost with cream cheese chocolate frosting if you like. Freezes well — often make a double batch."
+      ],
+      "notes": [
+        "Like all sourdough products, improves when frozen for a while."
+      ],
+      "pending": false
+    },
+    {
+      "id": "nellies-work-dessert",
+      "title": "Nellie's Work Dessert",
+      "collection": "prescott-cousins",
+      "sourcePage": 1,
+      "author": "Nellie Baugh",
+      "category": "dessert",
+      "ingredients": [
+        "1 can fruit cocktail",
+        "1 can pineapple (crushed or chunky)",
+        "1 can mandarin oranges (drained)",
+        "2 boxes instant vanilla pudding"
+      ],
+      "steps": [
+        "Combine fruit cocktail, pineapple and drained oranges.",
+        "Add pudding mixes. Mix well and refrigerate.",
+        "Top with Cool Whip when serving if you like."
+      ],
+      "notes": [
+        "Naida: I have tried this with no-sugar items. Works great for diabetics."
+      ],
+      "pending": false
+    },
+    {
+      "id": "salted-nut-roll-bars",
+      "title": "Salted Nut Roll Bars",
+      "collection": "prescott-cousins",
+      "sourcePage": 1,
+      "author": "Naida Snyder",
+      "category": "dessert",
+      "ingredients": [
+        "1 yellow cake mix",
+        "1 egg",
+        "¼ cup soft oleo",
+        "4 cups mini marshmallows",
+        "TOPPING: 1 (12 oz) pkg. Reese's peanut butter chips",
+        "⅔ cup light Karo syrup",
+        "⅓ cup oleo",
+        "2 tsp. vanilla",
+        "2 cups Rice Krispies",
+        "2 cups salted peanuts"
+      ],
+      "steps": [
+        "Mix cake mix, egg and oleo until crumbly. Press into cookie sheet.",
+        "Bake 10 min at 350°. Do not over bake.",
+        "Sprinkle marshmallows over cake. Return to oven 1–2 min. Cool.",
+        "Combine topping ingredients and melt. Add Rice Krispies and peanuts.",
+        "Pour over base and refrigerate. Cut in squares."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "baked-beans",
+      "title": "Baked beans",
+      "collection": "prescott-cousins",
+      "sourcePage": 2,
+      "author": "Linda Kimble",
+      "category": "side",
+      "ingredients": [
+        "1 lrg. can pork & beans",
+        "½ cup brown sugar",
+        "2 Tbs. Worcestershire",
+        "1 onion chopped",
+        "bacon - optional",
+        "½ cup catsup"
+      ],
+      "steps": [
+        "Combine ingredients.",
+        "Bake at 350° for 2–3 hrs.",
+        "Stir every ½ hr."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "broccoli-rice-casserole",
+      "title": "Broccoli rice casserole",
+      "collection": "prescott-cousins",
+      "sourcePage": 2,
+      "author": "Oran and Nancy Prescott",
+      "category": "main",
+      "ingredients": [
+        "1 pkg frozen chopped broccoli",
+        "1½ cups cooked rice",
+        "½ cup celery chopped",
+        "½ cup onion chopped",
+        "1 can mushroom soup",
+        "1 can chicken soup",
+        "1 cup grated cheese"
+      ],
+      "steps": [
+        "Cook broccoli according to directions.",
+        "Saute onions and celery in oil.",
+        "Make sauce of the soups and cheese. Add saute, then drained broccoli.",
+        "Stir in cooked rice, season to taste.",
+        "Pour into casserole. Bake 30 min at 350°."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "e-z-baked-beans",
+      "title": "E Z baked beans",
+      "collection": "prescott-cousins",
+      "sourcePage": 2,
+      "author": "Bonnie Prescott",
+      "category": "side",
+      "ingredients": [
+        "1 med. size can of Pork and Beans",
+        "1 large onion diced",
+        "brown sugar (approximately ½–¾ cup)"
+      ],
+      "steps": [
+        "Stir ingredients together.",
+        "Cover with foil and bake at 350° for 2 to 3 hours or until thickened."
+      ],
+      "notes": [
+        "Starting in microwave shortens cooking time."
+      ],
+      "pending": false
+    },
+    {
+      "id": "favorite-beans",
+      "title": "Favorite beans",
+      "collection": "prescott-cousins",
+      "sourcePage": 2,
+      "author": "Sally Caboth",
+      "category": "side",
+      "ingredients": [
+        "6 pieces bacon fried crisp",
+        "1 lb. hamburger",
+        "1 onion",
+        "⅓ c. brown sugar",
+        "⅓ c. white sugar",
+        "½ c. catsup",
+        "½ c. barbeque sauce",
+        "1 can kidney beans",
+        "1 can red beans",
+        "1 can pork & beans"
+      ],
+      "steps": [
+        "Brown hamburger with onion.",
+        "Mix with bacon, sugars, catsup, barbeque sauce and beans.",
+        "Bake 45 min or until hot & bubbly."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "good-supper",
+      "title": "Good supper",
+      "collection": "prescott-cousins",
+      "sourcePage": 2,
+      "author": "Sally Caboth",
+      "category": "main",
+      "ingredients": [
+        "1 lb. hamburger",
+        "½ sliced onion",
+        "1 can tomato soup",
+        "1 can green beans",
+        "sliced potatoes",
+        "1 can water"
+      ],
+      "steps": [
+        "Press hamburger in greased casserole.",
+        "Add drained beans and onion.",
+        "Cover with potatoes, pour over soup and water.",
+        "Bake at 350° for 1½ hrs."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "lasagna",
+      "title": "Lasagna",
+      "collection": "prescott-cousins",
+      "sourcePage": 2,
+      "author": "Sally Caboth",
+      "category": "main",
+      "ingredients": [
+        "1 lb. hamburger",
+        "1 lrg. (31½ oz) Prego spaghetti sauce",
+        "2 cups water",
+        "2 C. mozzarella cheese shredded",
+        "1 can pineapple tidbits (optional)",
+        "8 oz. uncooked lasagna noodles"
+      ],
+      "steps": [
+        "Brown hamburger.",
+        "Add spaghetti sauce, water, mozzarella and optional pineapple.",
+        "Layer mixture with uncooked lasagna noodles in deep 9×12 pan.",
+        "Cover with waxed paper, then with foil (tight).",
+        "Bake 1 hr 15 min at 350°. Let stand 15 min. Serve."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "lasagne",
+      "title": "Lasagne",
+      "collection": "prescott-cousins",
+      "sourcePage": 2,
+      "author": "Tesa Heldenbrand",
+      "category": "main",
+      "ingredients": [
+        "1 lb. Italian sausage",
+        "1 (16 oz.) can tomatoes, cut up",
+        "2 (6 oz.) cans tomato paste",
+        "1 cup water",
+        "1 Tbsp dried basil (crushed)",
+        "1 clove garlic (minced)",
+        "10 oz. lasagne noodles",
+        "2 beaten eggs",
+        "3 cups ricotta or cream-style cottage cheese",
+        "½ cup grated Romano or Parmesan cheese",
+        "2 Tbsp. dried parsley flakes",
+        "1 (16 oz.) pkg. sliced mozzarella cheese",
+        "1½ tsp. salt",
+        "½ tsp. pepper"
+      ],
+      "steps": [
+        "Brown sausage and drain.",
+        "Add undrained tomatoes, tomato paste, water, basil, garlic and 1½ tsp. salt. Simmer covered 15 min, stir occasionally.",
+        "Cook noodles and drain.",
+        "Combine eggs, ricotta, Romano, parsley, 1 tsp. salt and ½ tsp. pepper.",
+        "In 13×9×2 baking pan layer half each of noodles, ricotta mixture, mozzarella and meat mixture. Repeat layers.",
+        "Bake at 375° for 30 min. Let stand 10 min. Serves 8 to 10."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "onion-apple-bake",
+      "title": "Onion apple bake",
+      "collection": "prescott-cousins",
+      "sourcePage": 2,
+      "author": "Susan Friedrich",
+      "category": "side",
+      "ingredients": [
+        "3 lrg. onions - sliced",
+        "½ cup brown sugar",
+        "salt & pepper to taste",
+        "¼ cup butter",
+        "4–6 apples peeled & sliced",
+        "buttered bread crumbs"
+      ],
+      "steps": [
+        "Grease pan.",
+        "Layer onions, sprinkle ½ of brown sugar, salt & pepper, ½ of butter.",
+        "Layer apples, the rest of the brown sugar & butter.",
+        "Top with bread crumbs.",
+        "Bake at 300° for 2 hrs."
+      ],
+      "notes": [
+        "This is very good with wild game.",
+        "Another strange one, but very good."
+      ],
+      "pending": false
+    },
+    {
+      "id": "sausage-and-brown-rice",
+      "title": "Sausage and brown rice",
+      "collection": "prescott-cousins",
+      "sourcePage": 2,
+      "author": "Nellie Baugh",
+      "category": "main",
+      "ingredients": [
+        "1 lb. bulk sausage or ground pork",
+        "2 cups cooked brown rice",
+        "¾ cup milk",
+        "1 large stalk celery",
+        "⅓ cup chopped green pepper",
+        "1 small onion chopped",
+        "1 can cream of mushroom soup",
+        "1 can (4 oz.) sliced mushrooms drained",
+        "½ cup shredded American cheese (2 oz.)"
+      ],
+      "steps": [
+        "Cook and stir pork sausage or ground pork in Dutch skillet until brown. Drain.",
+        "Stir in rice, milk, celery, green pepper, onion, mushrooms and soup.",
+        "Pour into ungreased 2 quart casserole. Sprinkle with cheese.",
+        "Cook uncovered in 350° oven until center is bubbly, about 45 min."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "scallopedvegetables",
+      "title": "ScallopedVegetables",
+      "collection": "prescott-cousins",
+      "sourcePage": 2,
+      "author": "Peggy Kamstra",
+      "category": "side",
+      "ingredients": [
+        "1 small onion",
+        "1 lb. pkg. frozen vegetables",
+        "½ can cream of mushroom soup",
+        "1 egg",
+        "3 Tbsp. mayonnaise",
+        "1 tsp. salt",
+        "½ cup grated cheddar cheese"
+      ],
+      "steps": [
+        "Chop up a small onion and add to frozen vegetables.",
+        "Cook in the microwave for 5 min on high temp.",
+        "Combine soup, egg, mayonnaise and salt.",
+        "Pour mixture over vegetables and stir to combine.",
+        "Put grated cheddar cheese on top. Bake 45 min at 325°."
+      ],
+      "notes": [
+        "I use this recipe together with Peggy's Creamed Pheasant many times and they are together in the oven once people arrive. These are done and it takes another 15 min to get the biscuits done. Really all the meal needs then is an easy dessert that you made earlier in the A.M. — No slaving in the kitchen for hours.",
+        "This dish should have sort of a custard like set when done."
+      ],
+      "pending": false
+    },
+    {
+      "id": "4-layer-dessert",
+      "title": "4 Layer dessert",
+      "collection": "prescott-cousins",
+      "sourcePage": 3,
+      "author": "Marguerite's daughter",
+      "category": "dessert",
+      "ingredients": [
+        "1st layer: 1 C flour",
+        "1st layer: ½ C chopped nuts",
+        "1st layer: ½ C margarine (melted)",
+        "2nd layer: 8 oz. cream cheese",
+        "2nd layer: 1 C powdered sugar",
+        "2nd layer: 1 C Cool Whip",
+        "3rd layer: 2 pkg chocolate instant pudding",
+        "3rd layer: 3 C milk",
+        "3rd layer: 1 T vanilla",
+        "4th layer: remaining Cool Whip",
+        "4th layer: chopped nuts"
+      ],
+      "steps": [
+        "1st layer: Mix flour, nuts and melted margarine. Pat in 9×13 pan. Bake 15 min or until slightly browned in 350° oven.",
+        "2nd layer: Blend cream cheese, powdered sugar and Cool Whip. Spread on 1st layer and chill.",
+        "3rd layer: Mix pudding, milk and vanilla until thick. Spread over 2nd layer.",
+        "4th layer: Spread remaining Cool Whip on top. Top with chopped nuts."
+      ],
+      "notes": [
+        "Marguerite's daughter's recipe."
+      ],
+      "pending": false
+    },
+    {
+      "id": "caramel-pecan-pie",
+      "title": "Caramel pecan pie",
+      "collection": "prescott-cousins",
+      "sourcePage": 3,
+      "author": "Christine Stevenson",
+      "category": "dessert",
+      "ingredients": [
+        "36 Kraft caramels",
+        "½ cup water",
+        "¼ cup oleo",
+        "½ tsp. vanilla",
+        "¼ tsp. salt",
+        "1 cup pecan halves",
+        "¾ cup sugar",
+        "3 eggs well beaten",
+        "1 (9 in.) unbaked pie shell"
+      ],
+      "steps": [
+        "Melt caramels with water and sugar. Stir frequently until sauce is smooth.",
+        "Combine sugar, eggs, vanilla and salt. Gradually add caramel sauce.",
+        "Mix well. Stir in nuts and pour into pastry shell.",
+        "Bake at 350° for 40–45 min.",
+        "Pie filling will appear soft but becomes firm as it cools."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "death-by-chocolate",
+      "title": "Death by chocolate",
+      "collection": "prescott-cousins",
+      "sourcePage": 3,
+      "author": "Julie Crowe",
+      "category": "dessert",
+      "ingredients": [
+        "1 brownie mix",
+        "2 boxes chocolate mousse pie mix",
+        "1 lrg. tub Cool Whip",
+        "6 Heath candy bars (crushed)"
+      ],
+      "steps": [
+        "Make and bake brownie mix according to directions. Cool.",
+        "Make pie filling and combine with Cool Whip. Fold together.",
+        "Layer: crumbled brownies, crushed candy bars, pie filling, Cool Whip mix.",
+        "Top with shaved chocolate.",
+        "Let set 2 days."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "dump-dessert",
+      "title": "Dump dessert",
+      "collection": "prescott-cousins",
+      "sourcePage": 3,
+      "author": "Christy Colucci",
+      "category": "dessert",
+      "ingredients": [
+        "1 can cherry pie filling",
+        "1 can crushed pineapple",
+        "white or yellow cake mix",
+        "butter"
+      ],
+      "steps": [
+        "Layer cherry pie filling and crushed pineapple in cake pan.",
+        "Sprinkle dry cake mix on top.",
+        "Dot with butter.",
+        "Bake at 370° for 45 min."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "frosted-creams",
+      "title": "Frosted creams",
+      "collection": "prescott-cousins",
+      "sourcePage": 3,
+      "author": "Sally Caboth",
+      "category": "dessert",
+      "ingredients": [
+        "1½ cup sugar",
+        "2 eggs",
+        "1 cup shortening",
+        "1 t. cinnamon",
+        "1 cup raisins",
+        "1 t. soda",
+        "1 c raisin liquid",
+        "2½ cup flour"
+      ],
+      "steps": [
+        "Beat sugar and shortening well.",
+        "Add remaining ingredients, beat well.",
+        "Bake in 11×15 pan at 350° for 20 min."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "jelly-roll",
+      "title": "Jelly roll",
+      "collection": "prescott-cousins",
+      "sourcePage": 3,
+      "author": "Sally Caboth",
+      "category": "dessert",
+      "ingredients": [
+        "5 eggs",
+        "3 T. water",
+        "1 cup sugar",
+        "1 cup flour",
+        "1 t. vanilla",
+        "1 t. baking powder",
+        "jelly or pudding",
+        "powdered sugar"
+      ],
+      "steps": [
+        "Beat eggs and water until frothy. Add sugar slowly, beat until thick.",
+        "Mix in flour, vanilla and baking powder.",
+        "Bake in 11×15 greased wax paper lined pan at 350° for 20 min.",
+        "Dump on towel covered with powdered sugar.",
+        "Cover with jelly or pudding, roll up and serve."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "moms-marvel-metrick-orange-cake",
+      "title": "Moms marvel metrick orange cake",
+      "collection": "prescott-cousins",
+      "sourcePage": 3,
+      "author": "Susan Friedrich",
+      "category": "dessert",
+      "ingredients": [
+        "1 cup sugar",
+        "½ cup oleo",
+        "2 eggs",
+        "¾ cup sour milk or buttermilk",
+        "1 tsp. soda",
+        "1 cup ground raisins",
+        "1 orange rind ground",
+        "GLAZE: juice of one orange",
+        "GLAZE: 1 cup sugar"
+      ],
+      "steps": [
+        "Mix together and bake until done (about 25–30 min at 350°).",
+        "After cake is baked, pour over hot cake the juice of the orange (the rind you ground) mixed with 1 cup sugar."
+      ],
+      "notes": [
+        "Mom's (Marvel Hetrick) Orange Cake"
+      ],
+      "pending": false
+    },
+    {
+      "id": "no-sugar-fruit-nut-bars",
+      "title": "No sugar fruit & nut bars",
+      "collection": "prescott-cousins",
+      "sourcePage": 3,
+      "author": "Naida Snyder",
+      "category": "dessert",
+      "ingredients": [
+        "1 cup flour",
+        "1 tsp. baking soda",
+        "½ tsp. cinnamon",
+        "½ cup margarine",
+        "½ cup chopped nuts",
+        "1 tsp. vanilla",
+        "1 cup water",
+        "½ cup chopped prunes",
+        "½ cup chopped dates",
+        "½ cup raisins",
+        "2 eggs"
+      ],
+      "steps": [
+        "Sift dry ingredients together and set aside.",
+        "In a 3 qt. saucepan put prunes, dates and raisins in 1 cup water. Bring to a boil, simmer 4 min.",
+        "Remove from heat and add margarine. Stir until melted. Cool completely.",
+        "Stir in beaten eggs, vanilla and chopped nuts.",
+        "Add dry ingredients and stir until blended.",
+        "Pour in greased 9×9 pan. Bake at 350° for 30 min. Needs no frosting."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "oatmeal-cake",
+      "title": "Oatmeal cake",
+      "collection": "prescott-cousins",
+      "sourcePage": 3,
+      "author": "Susan Friedrich",
+      "category": "dessert",
+      "ingredients": [
+        "1½ cup hot water",
+        "1 cup oatmeal",
+        "½ cup oleo",
+        "1 cup brown sugar",
+        "1 cup sugar",
+        "1 tsp. cinnamon",
+        "1 tsp. vanilla",
+        "½ tsp. salt",
+        "1 tsp. soda",
+        "1½ cup flour",
+        "½ cup dates (chopped)",
+        "2 eggs",
+        "TOPPING: 6 Tbs. oleo",
+        "TOPPING: ½ cup brown sugar",
+        "TOPPING: ½ cup coconut",
+        "TOPPING: ½ tsp. vanilla"
+      ],
+      "steps": [
+        "Mix cake ingredients and bake at 350° for 25–35 min.",
+        "Put topping on hot cake and return to oven 10 min more."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "raisin-bars",
+      "title": "Raisin bars",
+      "collection": "prescott-cousins",
+      "sourcePage": 3,
+      "author": "Susan Friedrich",
+      "category": "dessert",
+      "ingredients": [
+        "3 cup flour",
+        "2½ cup oatmeal",
+        "1⅓ tsp. soda",
+        "1½ cup brown sugar",
+        "1⅓ cup oleo",
+        "FILLING: 2 cups raisins",
+        "FILLING: 1⅓ cup water",
+        "FILLING: 1⅓ cup sugar",
+        "FILLING: 1½ tsp. vanilla",
+        "FILLING: 1½ Tbs. butter",
+        "FILLING: 2½ Tbs. lemon juice",
+        "FILLING: 2 Tbs. cornstarch"
+      ],
+      "steps": [
+        "Mix crust ingredients until crumbly. Pat half in 13×15 pan.",
+        "Cook filling ingredients until thick.",
+        "Firmly cover crust with filling. Add rest of crust mixture on top."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "raisin-cream-pie",
+      "title": "Raisin cream pie",
+      "collection": "prescott-cousins",
+      "sourcePage": 3,
+      "author": "Sally Caboth",
+      "category": "dessert",
+      "ingredients": [
+        "⅔ cup brown sugar",
+        "⅓ cup white sugar",
+        "3 egg yolks",
+        "2½ cup milk",
+        "3 T. corn starch",
+        "1 cup raisins",
+        "baked pie shell",
+        "meringue"
+      ],
+      "steps": [
+        "Beat ingredients together well.",
+        "Microwave on high 6 min, mix, microwave 4 min.",
+        "Put in baked pie shell. Top with meringue."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "rhubarb-crunch",
+      "title": "Rhubarb crunch",
+      "collection": "prescott-cousins",
+      "sourcePage": 3,
+      "author": "Susan Friedrich",
+      "category": "dessert",
+      "ingredients": [
+        "CRUST: 1¾ cup flour",
+        "CRUST: ½ cup powdered sugar",
+        "CRUST: ¾ cup oleo",
+        "FILLING: 2 cups sugar",
+        "FILLING: ½ cup flour",
+        "FILLING: 1 tsp. baking powder",
+        "FILLING: salt to taste",
+        "FILLING: 3–4 cup fine cut rhubarb"
+      ],
+      "steps": [
+        "Mix crust ingredients until crumbly. Press in bottom of 9×13 pan. Bake at 350° for 15 min.",
+        "Pour filling over hot crust. Bake at 350° for 35 min."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "250-00-cookies",
+      "title": "$250.00 cookies",
+      "collection": "prescott-cousins",
+      "sourcePage": 4,
+      "author": "Shirley Prescott",
+      "category": "dessert",
+      "ingredients": [
+        "2 cups butter",
+        "2 cups sugar",
+        "2 cups brown sugar",
+        "4 eggs",
+        "2 tsp. vanilla",
+        "4 cups flour",
+        "5 cups oatmeal",
+        "1 tsp. salt",
+        "2 tsp. baking powder",
+        "2 tsp. baking soda",
+        "24 oz. chocolate chips",
+        "1 (8 oz.) Hershey bar grated (freeze bar before grating)",
+        "3 cups chopped nuts"
+      ],
+      "steps": [
+        "Cream butter, sugar and add eggs, vanilla.",
+        "Mix together with flour, oatmeal, salt, baking powder and baking soda.",
+        "Add chips, candy and nuts.",
+        "Roll into balls. Place on cookie sheet 2 in. apart.",
+        "Bake 6 min. at 375°. Makes about 112 cookies."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "apple-pizza",
+      "title": "Apple pizza",
+      "collection": "prescott-cousins",
+      "sourcePage": 4,
+      "author": "Lesa Veith",
+      "category": "dessert",
+      "ingredients": [
+        "1 loaf frozen bread dough (thawed)",
+        "4–6 sliced apples",
+        "TOPPING: ⅔ cup sugar",
+        "TOPPING: ⅓ cup flour",
+        "TOPPING: ¼ cup butter",
+        "TOPPING: 2 tsp. cinnamon",
+        "powdered sugar icing"
+      ],
+      "steps": [
+        "Mix topping ingredients together.",
+        "Press thawed bread dough out in pizza pan and cover with apple slices.",
+        "Sprinkle topping mixture over apples.",
+        "Bake at 350° for 35–40 minutes.",
+        "Drizzle powdered sugar icing over the top when cool."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "better-than-tom-selleck-dessert-or-robert-redford-for-that",
+      "title": "Better than Tom Selleck Dessert or Robert Redford, for that matter",
+      "collection": "prescott-cousins",
+      "sourcePage": 4,
+      "author": "Shirley Prescott",
+      "category": "dessert",
+      "ingredients": [
+        "LAYER I: ½ cup chopped pecans",
+        "LAYER I: 1 cup flour",
+        "LAYER I: ½ cup margarine or butter",
+        "LAYER II: ⅓ cup peanut butter",
+        "LAYER II: 8 oz. pkg cream cheese",
+        "LAYER II: 1 cup powdered sugar",
+        "LAYER II: 1 cup Cool Whip",
+        "LAYER III: 1 pkg. chocolate instant pudding",
+        "LAYER III: 1 pkg. vanilla instant pudding",
+        "LAYER III: 2½ cup milk",
+        "mini chocolate chips"
+      ],
+      "steps": [
+        "Layer I: Blend pecans, flour and margarine. Bake 20 min at 350°. Cool.",
+        "Layer II: Blend peanut butter, cream cheese and powdered sugar. Add Cool Whip.",
+        "Layer III: Make puddings with milk.",
+        "Cover with Cool Whip, sprinkle mini chocolate chips and refrigerate."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "cranberry-salad",
+      "title": "Cranberry salad",
+      "collection": "prescott-cousins",
+      "sourcePage": 4,
+      "author": "Naida Snyder",
+      "category": "salad",
+      "ingredients": [
+        "1 pkg. raw cranberries (12–15 oz.) ground",
+        "1½ cup sugar",
+        "1 can crushed pineapple (drained)",
+        "2 pkgs. (sm box) cherry jello",
+        "3 cups water",
+        "½ cup chopped nuts",
+        "1 small pkg miniature marshmallows",
+        "1 small tub Cool Whip"
+      ],
+      "steps": [
+        "Combine ground cranberries, sugar and drained pineapple. Set aside. Freeze cranberries first.",
+        "Make jello in 2 cups boiling water, add 1 cup cold water.",
+        "Mix both together and refrigerate.",
+        "When almost set, mix in nuts, marshmallows and Cool Whip.",
+        "Refrigerate and let set."
+      ],
+      "notes": [
+        "Also contributed by Tesa Heldenbrand."
+      ],
+      "pending": false
+    },
+    {
+      "id": "fat-salad",
+      "title": "Fat salad",
+      "collection": "prescott-cousins",
+      "sourcePage": 4,
+      "author": "Kelly Colucci",
+      "category": "salad",
+      "ingredients": [
+        "1 can cherry pie filling",
+        "1 can crushed pineapple (drained)",
+        "1 can sweetened condensed milk",
+        "1 container Cool Whip",
+        "nuts (optional)"
+      ],
+      "steps": [
+        "Mix and chill until served."
+      ],
+      "notes": [
+        "Size of cans depends on amount of servings you need.",
+        "Nuts are optional."
+      ],
+      "pending": false
+    },
+    {
+      "id": "freezer-coleslaw",
+      "title": "Freezer coleslaw",
+      "collection": "prescott-cousins",
+      "sourcePage": 4,
+      "author": "Nellie Baugh",
+      "category": "salad",
+      "ingredients": [
+        "1 med. head of cabbage shredded",
+        "2 cups sugar",
+        "½ cup vinegar",
+        "1 med. onion chopped",
+        "1 red or green pepper chopped",
+        "½ tsp. mustard seed",
+        "½ tsp. celery seed"
+      ],
+      "steps": [
+        "Mix sugar, vinegar, onion, pepper, mustard seed and celery seed.",
+        "Pour mixture over shredded cabbage and freeze."
+      ],
+      "notes": [
+        "Heat the mixture to dissolve the sugar and let it cool before pouring over the cabbage."
+      ],
+      "pending": false
+    },
+    {
+      "id": "mississippi-mud-cake-and-frosting",
+      "title": "Mississippi mud cake and frosting",
+      "collection": "prescott-cousins",
+      "sourcePage": 4,
+      "author": "Shirley Prescott",
+      "category": "dessert",
+      "ingredients": [
+        "2 cubes oleo melted",
+        "2 T. cocoa",
+        "2 cups sugar",
+        "4 eggs",
+        "1 tsp. vanilla",
+        "1½ cup flour",
+        "2 cup chopped nuts",
+        "1 cup coconut",
+        "1 (7 oz.) jar marshmallow cream or 2 cup mini marshmallows",
+        "FROSTING: 1 cube oleo",
+        "FROSTING: 2 T. milk",
+        "FROSTING: 2 T. cocoa",
+        "FROSTING: 1 box powdered sugar"
+      ],
+      "steps": [
+        "Cream oleo, cocoa and sugar. Add eggs one at a time and mix well. Add vanilla, flour, nuts and coconut.",
+        "Pour into greased and floured 9×13 pan. Bake at 350° for 40–45 min.",
+        "Spread marshmallow cream on hot cake.",
+        "Frosting: Mix oleo, milk and cocoa. Boil 1 min. Remove from heat and add 2 to 2½ cup powdered sugar. Beat. Add more milk if needed. Spread on cake."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "no-sugar-jello",
+      "title": "No sugar jello",
+      "collection": "prescott-cousins",
+      "sourcePage": 4,
+      "author": "Naida Snyder",
+      "category": "dessert",
+      "ingredients": [
+        "2 cups unsweetened applesauce",
+        "1 large no-sugar red jello",
+        "1 lrg. can crushed pineapple (do not drain)",
+        "12 oz. diet 7-Up"
+      ],
+      "steps": [
+        "Heat applesauce. Add jello, stir until dissolved.",
+        "Add crushed pineapple.",
+        "Add diet 7-Up. Chill."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "orange-fruit-whip",
+      "title": "Orange fruit whip",
+      "collection": "prescott-cousins",
+      "sourcePage": 4,
+      "author": "Dale L. Baugh",
+      "category": "dessert",
+      "ingredients": [
+        "1 pkg. orange jello",
+        "1 box tapioca pudding (not instant)",
+        "1 box vanilla pudding (not instant)",
+        "3 cups water",
+        "1 package Cool Whip",
+        "1 small can drained mandarin oranges"
+      ],
+      "steps": [
+        "Add 3 cups water to all puddings and jello. Boil till thickened.",
+        "Let cool. Fold in Cool Whip and mandarin oranges."
+      ],
+      "notes": [
+        "Can also add coconut."
+      ],
+      "pending": false
+    },
+    {
+      "id": "real-simple-and-good",
+      "title": "Real simple and good",
+      "collection": "prescott-cousins",
+      "sourcePage": 4,
+      "author": "Susan Friedrich",
+      "category": "salad",
+      "ingredients": [
+        "cucumbers sliced",
+        "tomatoes sliced in wedges",
+        "salt & pepper",
+        "salad dressing"
+      ],
+      "steps": [
+        "Use about equal parts cucumbers and tomatoes.",
+        "Salt & pepper until black.",
+        "Mix together with salad dressing straight from the jar."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "snicker-cake",
+      "title": "Snicker cake",
+      "collection": "prescott-cousins",
+      "sourcePage": 4,
+      "author": "Shirley Prescott",
+      "category": "dessert",
+      "ingredients": [
+        "1 box German chocolate cake mix",
+        "½ cup evaporated milk",
+        "1 cup chocolate chips",
+        "1 (14 oz.) bag caramels",
+        "2 cup nuts",
+        "¾ cup melted butter"
+      ],
+      "steps": [
+        "Prepare cake mix using pkg. directions.",
+        "Pour ½ the batter into greased 9×13 pan. Bake at 350° for 15 min.",
+        "Melt caramels with milk and butter. Pour over cake.",
+        "Sprinkle with 1 cup nuts and chocolate chips.",
+        "Pour remaining batter over filling. Bake 20 min."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "strawberry-salad",
+      "title": "Strawberry salad",
+      "collection": "prescott-cousins",
+      "sourcePage": 4,
+      "author": "Susan Friedrich",
+      "category": "salad",
+      "ingredients": [
+        "1 (20 oz.) can crushed pineapple",
+        "1 pkg. strawberry Kool-Aid",
+        "1 (10 oz.) pkg. frozen strawberries (slightly thawed)",
+        "1 (12 oz.) Cool Whip",
+        "1 cup mini marshmallows"
+      ],
+      "steps": [
+        "Combine pineapple and Kool-Aid. Set for 5 min.",
+        "Add strawberries, Cool Whip and marshmallows."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "beer-bread",
+      "title": "Beer bread",
+      "collection": "prescott-cousins",
+      "sourcePage": 15,
+      "author": "Marla Reynolds",
+      "category": "bread",
+      "ingredients": [
+        "1 can room temp. beer",
+        "3 tab. sugar",
+        "3 cups self-rising flour"
+      ],
+      "steps": [
+        "Mix all together. Let rise for 30 min. or until high in warm spot, in greased loaf pan.",
+        "Bake at 350° for 1 hr.",
+        "May put water and wet finger on top to smooth the last 10 min. Take out of oven and brush with butter."
+      ],
+      "notes": [
+        "m-m-m- m-m-m- good."
+      ],
+      "pending": false
+    },
+    {
+      "id": "magic-cookie-bars",
+      "title": "Magic cookie bars",
+      "collection": "prescott-cousins",
+      "sourcePage": 15,
+      "author": "Jeanne Prescott Farnworth",
+      "category": "dessert",
+      "ingredients": [
+        "½ cup margarine",
+        "1½ cup graham cracker crumbs",
+        "1 (14 oz.) can sweetened condensed milk",
+        "1 package chocolate chips",
+        "1 package flaked coconut",
+        "1 cup chopped nuts"
+      ],
+      "steps": [
+        "Preheat oven to 350°.",
+        "In 13 by 9 cake pan melt margarine in oven.",
+        "Sprinkle graham cracker crumbs over margarine.",
+        "Pour sweetened condensed milk over crumbs.",
+        "Top with remaining ingredients. Press down.",
+        "Bake 25–30 min. Cool. Cut into bars."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "monster-cookies",
+      "title": "Monster cookies",
+      "collection": "prescott-cousins",
+      "sourcePage": 15,
+      "author": "Marla Reynolds",
+      "category": "dessert",
+      "ingredients": [
+        "12 eggs",
+        "2 lbs. brn. sugar",
+        "4 cups white sugar",
+        "1 Tab. vanilla",
+        "1 Tab. syrup",
+        "8 tsp. soda",
+        "1 lb. butter",
+        "3 lbs. peanut butter",
+        "18 cups oatmeal",
+        "1 lb. choc. chips",
+        "1 lb. nuts"
+      ],
+      "steps": [
+        "Mix in order. Drop by ice cream scoop onto greased cookie sheet, and flatten with fork. 6 scoops to a sheet.",
+        "Bake 12 mins. at 350°. Yield 20 doz."
+      ],
+      "notes": [
+        "I make regular size cookies and I sometimes freeze ½ of the dough and bake later."
+      ],
+      "pending": false
+    },
+    {
+      "id": "no-bake-cookies",
+      "title": "No bake cookies",
+      "collection": "prescott-cousins",
+      "sourcePage": 15,
+      "author": "Kelly J. Colucci",
+      "category": "dessert",
+      "ingredients": [
+        "3 cups oatmeal",
+        "1 cup coconut",
+        "5 T. cocoa",
+        "1 teas. vanilla",
+        "2 cups sugar",
+        "1 cube margarine",
+        "½ cup milk"
+      ],
+      "steps": [
+        "Combine oatmeal, coconut, cocoa and vanilla. Set aside.",
+        "Mix sugar, margarine and milk. Bring to boil, but don't cook.",
+        "Add oatmeal mixture and mix well.",
+        "Drop by teaspoon onto waxed paper."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "unbaked-oatmeal-cookies",
+      "title": "Unbaked oatmeal cookies",
+      "collection": "prescott-cousins",
+      "sourcePage": 15,
+      "author": "Marla Reynolds",
+      "category": "dessert",
+      "ingredients": [
+        "1 stick oleo melted",
+        "2 cups sugar",
+        "½ cup milk",
+        "2 Tab. Dutch Choc.",
+        "3 cups quick oatmeal",
+        "1 tsp. vanilla",
+        "½ cup nuts (optional)"
+      ],
+      "steps": [
+        "Add sugar to melted oleo or butter. Add milk and Dutch chocolate.",
+        "Bring to boil (boil 1 min.). Test to soft ball stage.",
+        "Add oatmeal and vanilla. Can add ½ cup nuts if you want.",
+        "Spoon out onto wax paper. Makes about 18 cookies."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "cabbage-salad",
+      "title": "Cabbage salad",
+      "collection": "prescott-cousins",
+      "sourcePage": 16,
+      "author": "Sally Caboth",
+      "category": "salad",
+      "ingredients": [
+        "1 head cabbage shredded",
+        "2 carrots",
+        "4 stalks celery (chopped)",
+        "1 green pepper",
+        "1 onion",
+        "1 cup sugar",
+        "½ cup vinegar",
+        "½ cup oil",
+        "salt & pepper"
+      ],
+      "steps": [
+        "Bring sugar, vinegar and oil to boil with salt and pepper.",
+        "Pour over vegetables while hot. Chill.",
+        "Will keep in frig. a long time."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "frozen-fruit-salad",
+      "title": "Frozen fruit salad",
+      "collection": "prescott-cousins",
+      "sourcePage": 16,
+      "author": "Ethel Wagner",
+      "category": "salad",
+      "ingredients": [
+        "1½ cup sugar",
+        "1 cup water",
+        "#2 can crushed pineapple (drained)",
+        "#2½ can apricots (drained and chunked)",
+        "4 diced bananas",
+        "2 pkgs. frozen strawberries"
+      ],
+      "steps": [
+        "Boil together the sugar and water.",
+        "Add the fruits.",
+        "Place in baking cups in muffin tins and freeze for individual servings."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "hamburger-salad",
+      "title": "Hamburger salad",
+      "collection": "prescott-cousins",
+      "sourcePage": 16,
+      "author": "Tesa Heldenbrand",
+      "category": "salad",
+      "ingredients": [
+        "1 lb. hamburger",
+        "1 lb. Italian sausage",
+        "1 med. onion (chopped)",
+        "1 can kidney beans",
+        "1 head lettuce",
+        "3 med. tomatoes",
+        "10 oz. cheddar cheese",
+        "1 bottle French dressing (clear)",
+        "1 pkg. crushed taco chips"
+      ],
+      "steps": [
+        "Cook hamburger, sausage and onion. Add beans and mix well. Drain and let cool.",
+        "In a lrg. bowl chop lettuce and tomatoes in small pieces.",
+        "Add cooled meat mixture and shredded cheese. Add crushed taco chips.",
+        "Pour French dressing on and mix. Can use taco sauce at the table."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "macaroni-salad",
+      "title": "Macaroni salad",
+      "collection": "prescott-cousins",
+      "sourcePage": 16,
+      "author": "Sally Caboth",
+      "category": "salad",
+      "ingredients": [
+        "1 pkg. macaroni & cheese",
+        "1 cup chopped tomatoes",
+        "1 cup chopped cucumber",
+        "½ cup chopped onion",
+        "½ cup chopped green pepper",
+        "½ cup salad dressing",
+        "salt & pepper"
+      ],
+      "steps": [
+        "Prepare macaroni & cheese as directed.",
+        "Add tomatoes, cucumber, onion, green pepper, salad dressing, salt and pepper."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "pickled-mastaccoli",
+      "title": "Pickled Mastaccoli",
+      "collection": "prescott-cousins",
+      "sourcePage": 16,
+      "author": "Nancy Yori",
+      "category": "salad",
+      "ingredients": [
+        "1 lb. mestaccioli",
+        "1½ cup white vinegar",
+        "1½ cup sugar",
+        "1 med. onion",
+        "1 tea. garlic powder",
+        "1 tea. pepper",
+        "1 tea. accent",
+        "2 Tab. dry parsley",
+        "1 can black olives chopped"
+      ],
+      "steps": [
+        "Prepare pasta according to directions. Drain and cool.",
+        "Place remaining ingredients in the blender. Pour over pasta.",
+        "Refrigerate for 2–3 days. Stir frequently."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "vegetable-salad",
+      "title": "Vegetable salad",
+      "collection": "prescott-cousins",
+      "sourcePage": 16,
+      "author": "Nancy Yori",
+      "category": "salad",
+      "ingredients": [
+        "1 head lettuce",
+        "1 small head cauliflower",
+        "1 med. onion diced",
+        "3–4 oz. Parmesan cheese",
+        "¼ cup imitation bacon bits",
+        "1½–2 cup Miracle Whip light",
+        "pepper to taste"
+      ],
+      "steps": [
+        "Mix all together and let set overnight."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "beef-summer-sausage",
+      "title": "Beef summer sausage",
+      "collection": "prescott-cousins",
+      "sourcePage": 17,
+      "author": "Dale L. Baugh",
+      "category": "main",
+      "ingredients": [
+        "4 lb. cheap hamburger",
+        "4 Tabl. Morton Tender curing salt",
+        "2 tsp. seasoning pepper",
+        "1 Tab. garlic powder",
+        "1 Tab. onion powder",
+        "1 Tab. brown sugar",
+        "1 Tab. liquid smoke",
+        "1 tea. whole mustard seed",
+        "2 cups water"
+      ],
+      "steps": [
+        "Mix well and form into rolls. Wrap in foil and refrigerate for 24 hrs. to cure.",
+        "Bake in roaster pan with rolls covered with water for 1½ hrs.",
+        "Unwrap sausage and drain. Cool and re-wrap.",
+        "Keep sausage frozen; thaw before serving. Slice and serve with crackers."
+      ],
+      "notes": [
+        "Leave rolls wrapped while baking."
+      ],
+      "pending": false
+    },
+    {
+      "id": "mushroom-steak",
+      "title": "Mushroom steak",
+      "collection": "prescott-cousins",
+      "sourcePage": 17,
+      "author": "Linda Kimble",
+      "category": "main",
+      "ingredients": [
+        "round steak or cheap roast",
+        "flour",
+        "1 can mushroom soup",
+        "¼ cup water"
+      ],
+      "steps": [
+        "Dice steak or roast. Flour and brown fry.",
+        "In baking dish put browned meat. Cover with mushroom soup diluted with ¼ cup water.",
+        "Cover and bake at 350° 45 min. to 1 hr."
+      ],
+      "notes": [
+        "Our mother use to do this. — Naida Snyder"
+      ],
+      "pending": false
+    },
+    {
+      "id": "pheasant-breast",
+      "title": "Pheasant breast",
+      "collection": "prescott-cousins",
+      "sourcePage": 17,
+      "author": "Linda Kimble",
+      "category": "main",
+      "ingredients": [
+        "pheasant breast",
+        "spices to taste",
+        "1 can undiluted mushroom soup",
+        "¼ can water"
+      ],
+      "steps": [
+        "In baking dish layer pheasant breast, spices, mushroom soup and water.",
+        "Cover and bake at 350° about 1½ hrs."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "swiss-steak",
+      "title": "Swiss steak",
+      "collection": "prescott-cousins",
+      "sourcePage": 17,
+      "author": "Christy Colucci",
+      "category": "main",
+      "ingredients": [
+        "1 round steak",
+        "tomato sauce",
+        "sliced onions",
+        "green pepper",
+        "2 cloves garlic (crushed or sliced)",
+        "salt & pepper"
+      ],
+      "steps": [
+        "Put round steak in a baking pan. Cover with tomato sauce.",
+        "Add sliced onions, green pepper and garlic.",
+        "Salt and pepper to taste. Cover.",
+        "Bake at 350° 2 hours or till tender."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "apple-dip",
+      "title": "Apple dip",
+      "collection": "prescott-cousins",
+      "sourcePage": 18,
+      "author": "Susan Friedrich",
+      "category": "appetizer",
+      "ingredients": [
+        "2 (8 oz.) cream cheese",
+        "1½ cup brown sugar",
+        "2 tsp. vanilla",
+        "¼ cup chopped pecans"
+      ],
+      "steps": [
+        "Mix cream cheese, brown sugar and vanilla well. Add pecans.",
+        "Dip apple wedges in. Tastes like carmeled apples.",
+        "If you aren't going to use it all, leave the nuts out — they will get soft."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "mex-tex-dip",
+      "title": "Mex tex dip",
+      "collection": "prescott-cousins",
+      "sourcePage": 18,
+      "author": "Rae Ann Prescott",
+      "category": "appetizer",
+      "ingredients": [
+        "2 cans refried beans",
+        "3 very ripe avocados",
+        "1 Tbsp. lemon juice",
+        "salt and pepper",
+        "1 quart sour cream",
+        "½ cup mayonnaise",
+        "1 pack taco mix",
+        "6–7 fresh green onions",
+        "3 tomatoes",
+        "1 can (7 oz.) ripe olives (sliced)",
+        "cheddar cheese"
+      ],
+      "steps": [
+        "Spread refried beans on bottom of 9 by 13 pan.",
+        "Mash avocados with lemon juice, salt and pepper. Spread on bean mixture.",
+        "Mix sour cream, mayonnaise and taco mix. Spread on.",
+        "Chop green onions and layer next.",
+        "Dice tomatoes and layer next.",
+        "Put sliced olives on top.",
+        "Grate cheddar cheese and spread on top.",
+        "Refrigerate 3 hours before serving. Serve with 1 or 2 bags of Tostitos."
+      ],
+      "notes": [
+        "Feeds a crowd. Good!"
+      ],
+      "pending": false
+    },
+    {
+      "id": "shrimp-dip",
+      "title": "Shrimp dip",
+      "collection": "prescott-cousins",
+      "sourcePage": 18,
+      "author": "Tina Prescott Colucci",
+      "category": "appetizer",
+      "ingredients": [
+        "1 pint whipping cream",
+        "8 oz. cream cheese (softened)",
+        "1 can shrimp (drained)",
+        "sliced green onions",
+        "dash of garlic"
+      ],
+      "steps": [
+        "Whip cream until it starts to thicken.",
+        "Add cream cheese and mix well.",
+        "Stir in drained shrimp, sliced green onions and a dash of garlic.",
+        "Serve with chips or fresh vegetables."
+      ],
+      "notes": [
+        "Delicious!!!!!"
+      ],
+      "pending": false
+    },
+    {
+      "id": "snack-crackers",
+      "title": "Snack crackers",
+      "collection": "prescott-cousins",
+      "sourcePage": 18,
+      "author": "Dale L. Baugh",
+      "category": "appetizer",
+      "ingredients": [
+        "1 cup Mazola oil",
+        "½ tsp. lemon pepper",
+        "1 tsp. dill weed",
+        "½ tsp. garlic powder",
+        "1 pkg. Hidden Valley Ranch dressing",
+        "2 packages small oyster crackers"
+      ],
+      "steps": [
+        "Mix oil, lemon pepper, dill weed, garlic powder and ranch dressing together.",
+        "In a double large brown bag, put oyster crackers and shake well.",
+        "Let stand and shake every 15–20 mins. for at least 4 hrs.",
+        "Best when made ahead a day."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "carmels",
+      "title": "Carmels",
+      "collection": "prescott-cousins",
+      "sourcePage": 19,
+      "author": "Randy Prescott",
+      "category": "candy",
+      "ingredients": [
+        "1 cup sugar",
+        "¾ cup corn syrup",
+        "1 cup milk",
+        "butter",
+        "½ teaspoon vanilla"
+      ],
+      "steps": [
+        "Butter sauce pan. Combine sugar, corn syrup, butter and ½ cup milk.",
+        "Bring to boil over low heat. Add remaining milk.",
+        "Cook to medium ball stage. Remove from heat.",
+        "Add vanilla. Pour in a buttered cake pan. Cool.",
+        "Cut. Pick up with fingers, put in mouth, chew awhile, swallow."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "chocolate-covered-cherries",
+      "title": "Chocolate covered cherries",
+      "collection": "prescott-cousins",
+      "sourcePage": 19,
+      "author": "Fern Fitz",
+      "category": "candy",
+      "ingredients": [
+        "1 box powdered sugar",
+        "⅓ cup oleo",
+        "⅓ cup white sugar",
+        "cherries",
+        "1 lrg. pkg. chocolate chips",
+        "⅓ bar paraffin",
+        "almond bark"
+      ],
+      "steps": [
+        "Mix powdered sugar, oleo and white sugar with hand till forms a ball.",
+        "Roll small amount in hand, flatten and wrap around a cherry. Refrigerate overnight.",
+        "In double boiler melt chocolate chips and paraffin, or melt almond bark.",
+        "Dip balls in bark and place on wax paper."
+      ],
+      "notes": [
+        "This is my Mother's Fern Fitz. From Naida Snyder."
+      ],
+      "pending": false
+    },
+    {
+      "id": "chocolate-sauce",
+      "title": "Chocolate sauce",
+      "collection": "prescott-cousins",
+      "sourcePage": 19,
+      "author": "Marla Reynolds",
+      "category": "sauce",
+      "ingredients": [
+        "3 cups water",
+        "¾ cup sugar",
+        "2 Tab. flour",
+        "2 Tab. cocoa",
+        "1 Tab. butter",
+        "dash salt"
+      ],
+      "steps": [
+        "Mix all together and boil until it thickens."
+      ],
+      "notes": [
+        "Good on biscuits."
+      ],
+      "pending": false
+    },
+    {
+      "id": "coconut-candies",
+      "title": "Coconut candies",
+      "collection": "prescott-cousins",
+      "sourcePage": 19,
+      "author": "Oran and Nancy Prescott",
+      "category": "candy",
+      "ingredients": [
+        "1 can Eagle Brand milk",
+        "1 stick oleo",
+        "1 lrg. pkg. flaked coconut",
+        "1 cup chopped nuts"
+      ],
+      "steps": [
+        "Mix together and refrigerate overnight.",
+        "Form into balls and refrigerate overnight.",
+        "Dip in melted almond bark."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "pink-divinity",
+      "title": "Pink divinity",
+      "collection": "prescott-cousins",
+      "sourcePage": 19,
+      "author": "Jani Musser",
+      "category": "candy",
+      "ingredients": [
+        "3 cups sugar",
+        "¾ c. light corn syrup",
+        "¾ c. water",
+        "1 tsp. vanilla",
+        "dash of salt",
+        "1 pkg. red gelatin (jello)",
+        "1 c. chopped nuts",
+        "2 egg whites"
+      ],
+      "steps": [
+        "Mix sugar, corn syrup, water and salt in saucepan. Stir until sugar is dissolved.",
+        "Cover, bring to a boil, and cook for a minute or two to wash down the crystals.",
+        "Remove cover. Cook without stirring until syrup reaches hard ball stage (260°) or until mixture is slightly brittle when dropped into cold water.",
+        "Beat egg whites until frothy. Add gelatin gradually. Continue beating until stiff peaks form.",
+        "Slowly add hot syrup, continue beating until candy becomes creamy.",
+        "Stir in nuts and vanilla. As quickly as possible drop by teaspoonfuls onto waxed paper."
+      ],
+      "notes": [
+        "Yield about 5 doz.",
+        "The Pink Divinity is almost a no-fail receipe. And gives a different flavor to the divinity. And makes it a pretty pink."
+      ],
+      "pending": false
+    },
+    {
+      "id": "cinnamon-candy",
+      "title": "Cinnamon candy",
+      "collection": "prescott-cousins",
+      "sourcePage": 20,
+      "author": "Shirley Prescott",
+      "category": "candy",
+      "ingredients": [
+        "2 cup sugar",
+        "1 cup Karo syrup",
+        "½ cup water",
+        "¼ tsp. food coloring",
+        "¼ tsp. cinnamon"
+      ],
+      "steps": [
+        "Boil sugar, Karo syrup and water to 280 degrees — hard crack.",
+        "Let cool slightly 3–5 min.",
+        "Stir in food coloring and cinnamon.",
+        "Pour in 8″ greased pan. When slightly cool, score.",
+        "Let cool completely and break."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "microwave-fudge",
+      "title": "Microwave fudge",
+      "collection": "prescott-cousins",
+      "sourcePage": 20,
+      "author": "Jan Musser",
+      "category": "candy",
+      "ingredients": [
+        "1 # powdered sugar",
+        "¼ tsp. salt",
+        "2 tsp. vanilla",
+        "¼ tsp. pistachio flavoring (optional)",
+        "⅔ c. cocoa",
+        "¼ c. milk",
+        "½ c. chopped pistachios",
+        "¼ c. butter or margarine"
+      ],
+      "steps": [
+        "In large microwave-proof bowl, combine powdered sugar, cocoa and salt.",
+        "Stir in milk and flavoring. Mix well. Place butter on top.",
+        "Microwave at high for 2 min. Beat until smooth. Stir in pistachios.",
+        "Spread in buttered 8×8×2 inch baking dish.",
+        "Chill about 1 hour or until firm. Cut into 36 pieces."
+      ],
+      "notes": [
+        "Can substitute other nuts."
+      ],
+      "pending": false
+    },
+    {
+      "id": "turkey-taco-dip",
+      "title": "Turkey taco dip",
+      "collection": "prescott-cousins",
+      "sourcePage": 21,
+      "author": "Nancy Yori",
+      "category": "appetizer",
+      "ingredients": [
+        "2 cans refried beans",
+        "2 cups sour cream",
+        "1 lb. ground turkey",
+        "8 oz. mild taco sauce",
+        "1 (4 oz.) can green chili peppers chopped",
+        "2 cup grated American cheese",
+        "shredded lettuce",
+        "chopped tomato and onions",
+        "½ tea. garlic powder",
+        "½ tea. chili powder"
+      ],
+      "steps": [
+        "Spread beans on a large platter. Cover beans with one cup of sour cream.",
+        "Brown turkey with onion and garlic powder. Drain and cool.",
+        "When cool add taco sauce and spread over sour cream.",
+        "Add another cup of sour cream on top of turkey mixture.",
+        "Layer with chopped chili peppers, grated cheese, shredded lettuce and chopped tomatoes.",
+        "Serve with large taco chips."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "ham-balls-or-ham-loaf",
+      "title": "Ham balls or ham loaf",
+      "collection": "prescott-cousins",
+      "sourcePage": 22,
+      "author": "Jean Prescott (Mrs. Elmer)",
+      "category": "main",
+      "ingredients": [
+        "1 lb. ground ham",
+        "1 lb. ground lean pork",
+        "½ lb. ground beef",
+        "(or use ham loaf mixture from the supermarket)",
+        "1½ cups graham cracker crumbs",
+        "1 cup milk",
+        "2 eggs, beaten well",
+        "SAUCE: 1 can tomato soup",
+        "⅓ cup brown sugar",
+        "1 tsp. dry mustard"
+      ],
+      "steps": [
+        "Combine all meat, crumbs, milk and eggs. Shape into balls using ⅓ cup for each ham ball, or shape into two meat loaves in a 9×9 pan.",
+        "Cover with sauce made from tomato soup, brown sugar and dry mustard.",
+        "Bake 45 min. to 1 hour at 350°. Makes 12–15 balls or 2 loaves."
+      ],
+      "pending": false
+    },
+    {
+      "id": "peggies-creamed-pheasant",
+      "title": "Peggies creamed pheasant",
+      "collection": "prescott-cousins",
+      "sourcePage": 22,
+      "author": "Peggy Kamstra",
+      "category": "main",
+      "ingredients": [
+        "1 pheasant, cut into 4 breast pieces, 2 thighs and legs",
+        "Flour, salt, pepper and paprika for dredging",
+        "1 can cream of chicken or mushroom soup",
+        "1 can water or milk"
+      ],
+      "steps": [
+        "Flour pheasant pieces in a mix of flour, salt, pepper and paprika. Brown on top of the stove.",
+        "Put browned meat in an oven-proof casserole. Clean out the skillet by mixing the can of cream soup with 1 can of water or milk. Pour over the meat.",
+        "Bake 2 hours at 350°. Cover until the last half hour to deter evaporation of moisture.",
+        "Serve over baking powder biscuits, mashed potatoes or rice."
+      ],
+      "notes": [
+        "Proportion is 1 bird — 1 can soup/moisture.",
+        "Can use any of the cream soups — celery, chicken, or mushroom — or mix them for a different taste.",
+        "Milk makes more of a sauce while water creates a thinner gravy-like liquid."
+      ],
+      "pending": false
+    },
+    {
+      "id": "attitude-adjuster",
+      "title": "Attitude adjuster",
+      "collection": "prescott-cousins",
+      "sourcePage": 23,
+      "author": "Randy Prescott",
+      "category": "beverage",
+      "ingredients": [
+        "3 oz. Jack Daniels whiskey",
+        "3 ice cubes",
+        "3 drops of water"
+      ],
+      "steps": [
+        "Mix well. Apply liberally to tongue until entire glass is empty.",
+        "Additional servings may be taken as required to combat daily tension."
+      ],
+      "notes": [
+        "CAUTION: Keep out of the reach of children and do not operate heavy equipment while using the above ointment."
+      ],
+      "pending": false
+    },
+    {
+      "id": "frozen-strawberry-daiquiri-mix",
+      "title": "Frozen strawberry daiquiri mix",
+      "collection": "prescott-cousins",
+      "sourcePage": 23,
+      "author": "Jan Musser",
+      "category": "beverage",
+      "ingredients": [
+        "2 cups sugar",
+        "⅓ cup lime juice (2 med. limes)",
+        "1 cup water",
+        "1 quart fresh strawberries, washed & hulled",
+        "Per drink: 3 T. rum",
+        "Per drink: ¼ cup frozen daiquiri mix",
+        "Per drink: about ¾ cup ice cubes (7–8)"
+      ],
+      "steps": [
+        "Combine sugar, lime juice and water. Stir to mix, then let stand until sugar is almost completely dissolved, about 15 min. (mixture will be thick).",
+        "In blender, combine the mixture with the berries. Blend until smooth. Pack into freezer containers and freeze.",
+        "The mixture will become solid but will have the consistency of a firm sherbet, so you can scoop portions from the main batch and re-seal. Yields about 4⅔ cups mix.",
+        "For each strawberry daiquiri: in blender, combine 3 T. rum, ¼ cup frozen daiquiri mix and about ¾ cup ice cubes. Blend until smooth."
+      ],
+      "notes": [
+        "Most blender containers will handle up to 4 servings.",
+        "This mixture also makes a delicious sorbet or sherbet. For a finer textured product, freeze in an ice cream freezer.",
+        "For an after-school drink, combine a generous dollop of the mixture in a blender with milk or cream, soda water and ice cubes.",
+        "Substitute fresh peaches sometimes. Also very good with raspberries — run berries through a sieve to remove seeds."
+      ],
+      "pending": false
+    },
+    {
+      "id": "fuzzy-navel-slush",
+      "title": "Fuzzy navel slush",
+      "collection": "prescott-cousins",
+      "sourcePage": 23,
+      "author": "Sally Caboth",
+      "category": "beverage",
+      "ingredients": [
+        "7 cups water",
+        "2 cups sugar",
+        "2 lrg. frozen orange juice",
+        "1 small can pineapple juice",
+        "2 cups peach schnapps"
+      ],
+      "steps": [
+        "Boil water and sugar, then cool.",
+        "Add frozen orange juice, pineapple juice and peach schnapps. Mix well.",
+        "Freeze in container. Serve with 7-Up or Squirt."
+      ],
+      "pending": false
+    },
+    {
+      "id": "huckleberry-wine",
+      "title": "Huckleberry wine",
+      "collection": "prescott-cousins",
+      "sourcePage": 23,
+      "author": "Marla Reynolds",
+      "category": "beverage",
+      "ingredients": [
+        "16 qts. huckleberries",
+        "6 gal. water",
+        "3 lbs. sugar per gal. juice",
+        "¼ cake yeast per gal. juice",
+        "1 lb. chopped raisins",
+        "1 pint good brandy (or fifth of whiskey)"
+      ],
+      "steps": [
+        "Heat huckleberries and water to the boiling point. Simmer 10 min., then cool and strain off the juice. Press the berries to extract the juice.",
+        "Put liquid in a large crock or keg. Measure and add 3 lbs. sugar for each gal. juice. Mix till sugar is dissolved and cool to lukewarm.",
+        "Add ¼ cake yeast for each gal. of juice and 1 lb. chopped raisins. Mix well.",
+        "Cover the crock and allow the mixture to ferment for 5 days or until bubbling has ceased.",
+        "Stir well and add 1 pint of good brandy (or fifth of whiskey). Keep covered.",
+        "At the end of 3 months, filter the wine and bottle."
+      ],
+      "notes": [
+        "Approximately 8 gal. juice, 24 lbs. sugar, 4 cakes yeast, and 1 lb. chopped raisins.",
+        "From Henry Lewis — by M. Arla (handwritten note)."
+      ],
+      "pending": false
+    },
+    {
+      "id": "banana-nut-cake",
+      "title": "Banana nut cake",
+      "collection": "prescott-cousins",
+      "sourcePage": 24,
+      "author": "Jan Musser",
+      "category": "dessert",
+      "ingredients": [
+        "1½ cups sugar",
+        "½ cup butter",
+        "1 cup walnuts or pecans",
+        "1 cup mashed bananas",
+        "1 tsp. vanilla",
+        "3 eggs",
+        "1 tsp. buttermilk",
+        "1 tsp. soda",
+        "1½ cups flour"
+      ],
+      "steps": [
+        "Cream butter and sugar. Beat yolks of eggs and add to butter mixture. Add milk and mashed bananas.",
+        "Add stiffly beaten egg whites and nuts. Mix soda with flour and stir; fold into other mixture. Add vanilla.",
+        "Bake in a moderate oven, 350°, about 55 minutes."
+      ],
+      "notes": [
+        "Usually bake this in loaf pans. When bananas are on sale, double the batch and freeze the extra cakes.",
+        "Mom (Betty Lewis) loved to slice while warm, then butter the slices and eat."
+      ],
+      "pending": false
+    },
+    {
+      "id": "baskins-robbins-desert",
+      "title": "Baskins robbins desert",
+      "collection": "prescott-cousins",
+      "sourcePage": 24,
+      "author": "Marla Reynolds",
+      "category": "dessert",
+      "ingredients": [
+        "BOTTOM: 1 cup flour",
+        "1 stick oleo",
+        "½ cup nuts",
+        "TOPPING: 1 (8 oz.) pkg. very soft cream cheese",
+        "1–2 cups Cool Whip",
+        "1 cup powdered sugar",
+        "1 large pkg. instant chocolate pudding",
+        "2 cups milk",
+        "1 large pkg. instant vanilla pudding"
+      ],
+      "steps": [
+        "Mix flour, oleo and nuts. Pat into greased pan and bake about 15 minutes at 375° till brown.",
+        "Top with mixture of cream cheese, Cool Whip and powdered sugar.",
+        "Prepare chocolate pudding with milk and spread as next layer.",
+        "Prepare vanilla pudding and spread as next layer.",
+        "Top with Cool Whip and sprinkle with nuts."
+      ],
+      "pending": false
+    },
+    {
+      "id": "fruit-cocktail-cake",
+      "title": "Fruit cocktail cake",
+      "collection": "prescott-cousins",
+      "sourcePage": 24,
+      "author": "Jani Musser",
+      "category": "dessert",
+      "ingredients": [
+        "1 egg",
+        "1 cup sugar",
+        "½ tsp. salt",
+        "1 tsp. soda",
+        "1 cup flour",
+        "2 cups fruit cocktail with juice",
+        "1 tsp. vanilla",
+        "TOPPING: ½ cup brown sugar",
+        "½ cup walnut meats, broken"
+      ],
+      "steps": [
+        "Beat the egg slightly; add the fruit cocktail, juice and vanilla.",
+        "Mix flour, sugar, salt and soda. Fold wet mixture into dry ingredients.",
+        "Pour into a greased glass baking dish, 8×12.",
+        "Mix brown sugar and walnut meats and sprinkle over the top.",
+        "Bake at 300° for 50 minutes. Serve with whipped cream."
+      ],
+      "notes": [
+        "Makes a nice moist cake with no shortening.",
+        "You can use 2 egg whites in place of the whole egg for a no-cholesterol cake, and skip the whipped cream topping."
+      ],
+      "pending": false
+    },
+    {
+      "id": "old-fashioned-rocks",
+      "title": "Old fashioned rocks",
+      "collection": "prescott-cousins",
+      "sourcePage": 24,
+      "author": "Peggy Kamstra",
+      "category": "dessert",
+      "ingredients": [
+        "½ cup boiling water",
+        "2 cups seeded raisins",
+        "1 cup butter",
+        "2 cups brown sugar",
+        "2 eggs",
+        "½ cup chopped walnuts",
+        "2½ cups flour",
+        "1 tsp. baking powder",
+        "1 tsp. salt",
+        "1 tsp. cinnamon"
+      ],
+      "steps": [
+        "Pour boiling water over raisins and cool.",
+        "Cream butter and sugar. Add eggs one at a time, beating until light after each addition.",
+        "Add nuts with sifted dry ingredients and soaked raisins and water.",
+        "Mix well and drop by teaspoonfuls on greased cookie sheet.",
+        "Bake in preheated oven at 350° about 15 minutes. Makes 3 dozen cookies."
+      ],
+      "pending": false
+    },
+    {
+      "id": "salad-dressing-cake",
+      "title": "Salad dressing cake",
+      "collection": "prescott-cousins",
+      "sourcePage": 24,
+      "author": "Jani Musser",
+      "category": "dessert",
+      "ingredients": [
+        "1 cup sugar",
+        "3 Tbs. cocoa",
+        "2 cups flour",
+        "1 tsp. soda",
+        "1 cup salad dressing",
+        "1 cup water"
+      ],
+      "steps": [
+        "Mix in order given and bake in greased cake pan 30–35 minutes at 375°."
+      ],
+      "pending": false
+    },
+    {
+      "id": "angle-bars",
+      "title": "Angle bars",
+      "collection": "prescott-cousins",
+      "sourcePage": 25,
+      "author": "Nancy Yori",
+      "category": "dessert",
+      "ingredients": [
+        "1 (16 oz.) pkg. angel food cake mix",
+        "1 (21 oz.) can cherry pie filling"
+      ],
+      "steps": [
+        "Combine pie filling with dry cake mix.",
+        "Pour into a 15×10×1 jelly roll pan coated with non-stick spray.",
+        "Bake at 350° for 20 minutes.",
+        "Dust with powdered sugar."
+      ],
+      "notes": [
+        "No cholesterol dessert."
+      ],
+      "pending": false
+    },
+    {
+      "id": "cherry-berries-on-a-cloud",
+      "title": "Cherry berries on a cloud",
+      "collection": "prescott-cousins",
+      "sourcePage": 25,
+      "author": "Jean Prescott (Mrs. Elmer)",
+      "category": "dessert",
+      "ingredients": [
+        "STEP 1: 6 egg whites",
+        "¼ tsp. cream of tartar",
+        "¼ tsp. salt",
+        "1¾ cups granulated sugar",
+        "STEP 2: 6 oz. cream cheese (or soft cream cheese)",
+        "1 cup granulated sugar",
+        "1 tsp. vanilla",
+        "2 cups small marshmallows",
+        "Whipped cream",
+        "STEP 3: 1 (10–16 oz.) pkg. frozen strawberries",
+        "1 can cherry pie filling",
+        "1 tsp. lemon juice"
+      ],
+      "steps": [
+        "Start this dessert 2 days before serving.",
+        "STEP 1: Beat egg whites, cream of tartar and salt until frothy. Gradually beat in sugar until stiff and glossy, at least 15 minutes on high. Spread into a greased 9×13 pan. Bake 60 minutes at 275°. Turn off oven and leave in oven at least 12 hours — overnight is best to set up.",
+        "STEP 2: Mix cream cheese with 1 cup sugar and vanilla. Gently fold in whipped cream and marshmallows. Spread over meringue from step 1. Refrigerate at least 12 hours or overnight.",
+        "STEP 3: Thaw frozen strawberries and combine with cherry pie filling and lemon juice. Refrigerate.",
+        "When ready to serve, cut the cloud into squares and spoon berry mixture over each piece. May need to drain a little juice from the berries first."
+      ],
+      "pending": false
+    },
+    {
+      "id": "pumpkin-bread",
+      "title": "Pumpkin bread",
+      "collection": "prescott-cousins",
+      "sourcePage": 25,
+      "author": "Shirley Prescott",
+      "category": "dessert",
+      "ingredients": [
+        "3½ cups flour",
+        "2 tsp. soda",
+        "1½ tsp. salt",
+        "1 tsp. cinnamon",
+        "1 tsp. nutmeg",
+        "3 cups sugar",
+        "1 cup oil",
+        "4 eggs",
+        "⅔ cup water",
+        "2 cups pumpkin"
+      ],
+      "steps": [
+        "Sift dry ingredients including sugar.",
+        "Make a well in dry ingredients and add all remaining ingredients. Mix until smooth.",
+        "Pour into 3 bread pans greased and floured.",
+        "Bake at 350° for about 1 hour. Cool slightly in pans, then turn onto rack to finish cooling."
+      ],
+      "pending": false
+    },
+    {
+      "id": "broccoli-salade",
+      "title": "Broccoli salade",
+      "collection": "prescott-cousins",
+      "sourcePage": 26,
+      "author": "Susan Friedrich",
+      "category": "salad",
+      "ingredients": [
+        "1 bunch broccoli, chopped fine",
+        "4 oz. sunflower nuts",
+        "½ lb. bacon, fried crisp & crumbled",
+        "½ cup raisins",
+        "4 T. chopped onions",
+        "DRESSING: ½ cup mayo or salad dressing",
+        "½ cup sugar",
+        "5 T. vinegar",
+        "4 T. milk"
+      ],
+      "steps": [
+        "Mix dressing ingredients together and pour over broccoli, nuts, bacon, raisins and onions."
+      ],
+      "notes": [
+        "Susan said this sounds strange, but try it — it's great.",
+        "Skinny cooks can't be trusted!"
+      ],
+      "pending": false
+    },
+    {
+      "id": "cornbread-salad",
+      "title": "Cornbread salad",
+      "collection": "prescott-cousins",
+      "sourcePage": 26,
+      "author": "Naida Snyder",
+      "category": "salad",
+      "ingredients": [
+        "Already baked cornbread, cooled",
+        "Cornbread, crumbled",
+        "Chopped onion",
+        "Chopped green pepper",
+        "1 can red beans, drained",
+        "Bacos (or cooked bacon, crumbled)",
+        "1 cup salad dressing",
+        "½ cup vinegar",
+        "½ cup sugar",
+        "Bacos and grated cheese for topping"
+      ],
+      "steps": [
+        "In dish or pan, layer crumbled cornbread, onion, green pepper, red beans and bacon.",
+        "Mix salad dressing, vinegar and sugar. Pour over layers.",
+        "Top with Bacos and grated cheese. Chill 2 hours and serve."
+      ],
+      "pending": false
+    },
+    {
+      "id": "green-tomato-relish",
+      "title": "Green tomato relish",
+      "collection": "prescott-cousins",
+      "sourcePage": 26,
+      "author": "Dale L. Baugh",
+      "category": "condiment",
+      "ingredients": [
+        "24 med. sized green tomatoes",
+        "2 red & 2 green peppers",
+        "8 med. sized onions",
+        "Salt",
+        "2½ cups vinegar",
+        "3 cups sugar",
+        "2 Tbs. mustard seed",
+        "2 Tbs. celery seed"
+      ],
+      "steps": [
+        "Grind tomatoes, peppers and onions together. Sprinkle with salt and let stand a few minutes after mixing.",
+        "Drain well. Add vinegar, sugar, mustard seed and celery seed.",
+        "Bring to a boil and simmer 25 minutes.",
+        "Place in sterilized jars and seal."
+      ],
+      "pending": false
+    },
+    {
+      "id": "shrimp-salad",
+      "title": "Shrimp salad",
+      "collection": "prescott-cousins",
+      "sourcePage": 26,
+      "author": "Susan Friedrich",
+      "category": "salad",
+      "ingredients": [
+        "1 can chicken noodle soup, warm undiluted",
+        "8 oz. cream cheese",
+        "1 pkg. lemon Jell-O",
+        "½ cup hot water",
+        "½ cup mayo in 1 cup measure, filled to rounding with pimiento, onion, green peppers & celery",
+        "1 can small shrimp"
+      ],
+      "steps": [
+        "Blend cream cheese into warm undiluted soup.",
+        "Dissolve lemon Jell-O in hot water. Add to soup and cheese mixture. Cool.",
+        "Add mayo mixture and shrimp. Mix all together and cool."
+      ],
+      "notes": [
+        "This one sounds strange but it's one of the favorites of my customers here at the restaurant."
+      ],
+      "pending": false
+    },
+    {
+      "id": "sweet-and-sour-macaroni",
+      "title": "Sweet and sour macaroni",
+      "collection": "prescott-cousins",
+      "sourcePage": 26,
+      "author": "Naida Snyder",
+      "category": "side",
+      "ingredients": [
+        "1 pkg. large mostaccioli noodles, cooked, rinsed with cold water and drained",
+        "1 med. cucumber, seeded & diced",
+        "1 med. onion, diced",
+        "Pimento, drained",
+        "1 tsp. garlic powder",
+        "2 tsp. parsley",
+        "1 tsp. each: mustard seed, celery seed",
+        "Dash salt & pepper",
+        "SAUCE: 1 cup sugar",
+        "½ cup oil",
+        "¾ cup cider vinegar"
+      ],
+      "steps": [
+        "In saucepan, bring sugar, oil and vinegar to a boil. Let cool.",
+        "Pour sauce over noodles, cucumber, onion, pimento and seasonings.",
+        "Keeps in refrigerator for a long time."
+      ],
+      "pending": false
+    },
+    {
+      "id": "angle-food-cake",
+      "title": "Angle food cake",
+      "collection": "prescott-cousins",
+      "sourcePage": 27,
+      "author": "Nellie Baugh",
+      "category": "dessert",
+      "ingredients": [
+        "1 cup cake flour",
+        "1 cup powdered sugar",
+        "1½ cups egg whites",
+        "1 tsp. cream of tartar",
+        "1 cup granulated sugar"
+      ],
+      "steps": [
+        "Pre-heat oven to 425°. Put cake pan in the oven at this time.",
+        "Sift together cake flour and powdered sugar; set aside.",
+        "Beat egg whites till stiff. Add cream of tartar and beat. Gradually add granulated sugar and beat.",
+        "Fold in flour and powdered sugar. Pour into hot cake pan.",
+        "Bake at 425° for 23–28 minutes. Remove and invert."
+      ],
+      "notes": [
+        "Easy and fast and good."
+      ],
+      "pending": false
+    },
+    {
+      "id": "chocolate-sheet-cake",
+      "title": "Chocolate sheet cake",
+      "collection": "prescott-cousins",
+      "sourcePage": 27,
+      "author": "Sally Caboth",
+      "category": "dessert",
+      "ingredients": [
+        "CAKE — bring to boil: 1 stick oleo",
+        "½ cup oil",
+        "4 T. cocoa",
+        "1 cup hot water",
+        "Pour over: 2 cups flour",
+        "2 cups sugar",
+        "½ cup buttermilk",
+        "½ tsp. cinnamon",
+        "1 tsp. soda",
+        "2 eggs",
+        "1 tsp. vanilla",
+        "½ tsp. salt",
+        "FROSTING: ½ stick oleo",
+        "4 T. cocoa",
+        "6 T. milk",
+        "About 3 cups powdered sugar",
+        "1 tsp. vanilla"
+      ],
+      "steps": [
+        "Bring oleo, oil, cocoa and hot water to a boil. Pour over flour and sugar.",
+        "Mix well. Add buttermilk, cinnamon, soda, eggs, vanilla and salt.",
+        "Pour into 11×15 greased pan. Bake at 350° about 25 minutes.",
+        "For frosting: bring oleo, cocoa and milk to a boil. Add enough powdered sugar to spread, about 3 cups. Add vanilla.",
+        "Frost cake while warm."
+      ],
+      "pending": false
+    },
+    {
+      "id": "oatmeal-cookies",
+      "title": "Oatmeal cookies",
+      "collection": "prescott-cousins",
+      "sourcePage": 27,
+      "author": "Jean Prescott",
+      "category": "dessert",
+      "ingredients": [
+        "1 egg",
+        "1 cup sugar",
+        "1 cup oil (Puritan)",
+        "1 Tbs. molasses",
+        "½ cup milk",
+        "1½ cups flour",
+        "½ tsp. soda",
+        "1 tsp. cinnamon",
+        "½ tsp. salt",
+        "2 cups oatmeal",
+        "1 cup chocolate chips"
+      ],
+      "steps": [
+        "Mix ingredients in order given.",
+        "Drop on cookie sheet. Bake at 350° 12–15 minutes.",
+        "Or double recipe, use 1 cup milk or a little more, pour into a cookie sheet cake pan and bake like a brownie."
+      ],
+      "pending": false
+    },
+    {
+      "id": "peanut-butter-bars",
+      "title": "Peanut butter bars",
+      "collection": "prescott-cousins",
+      "sourcePage": 27,
+      "author": "Nellie Baugh",
+      "category": "dessert",
+      "ingredients": [
+        "1 cup soft oleo",
+        "1 cup peanut butter",
+        "2½ cups powdered sugar",
+        "2 cups crushed graham crackers",
+        "1 (12 oz.) package chocolate chips"
+      ],
+      "steps": [
+        "Mix oleo, peanut butter, powdered sugar and graham crackers. Pat into a 9×13 pan.",
+        "Soften chocolate chips and spread over mixture.",
+        "Refrigerate until chocolate sets. Cut into desired-size squares."
+      ],
+      "pending": false
+    },
+    {
+      "id": "wesson-oil-cake",
+      "title": "Wesson oil cake",
+      "collection": "prescott-cousins",
+      "sourcePage": 27,
+      "author": "Jean Prescott",
+      "category": "dessert",
+      "ingredients": [
+        "2 cups sugar",
+        "1 cup oil (Puritan)",
+        "2 eggs",
+        "¼ cup vinegar, fill cup with milk to make 1 cup",
+        "1 tsp. vanilla (add last)",
+        "2½ cups flour",
+        "2 tsp. soda",
+        "1 tsp. salt",
+        "⅓ cup cocoa",
+        "1 cup boiling hot water"
+      ],
+      "steps": [
+        "Mix sugar and oil. Add eggs and mix.",
+        "Stir in vinegar and milk. Add flour, soda and salt; mix together.",
+        "Mix cocoa and boiling hot water; add to batter.",
+        "Pour into round cake pans or 9×13 cake pan.",
+        "Bake at 350° for 35–45 minutes."
+      ],
+      "notes": [
+        "I use 7-minute frosting on the cake."
+      ],
+      "pending": false
+    },
+    {
+      "id": "grandma-lenore-s-coffee-bars",
+      "title": "Grandma Lenore's coffee bars",
+      "collection": "prescott-cousins",
+      "sourcePage": 28,
+      "author": "Tina Prescott Colucci",
+      "category": "dessert",
+      "ingredients": [
+        "1 lb. brown sugar",
+        "2 eggs",
+        "1 cup vegetable oil",
+        "1 cup warm instant coffee (1 tsp. coffee)",
+        "1 tsp. vanilla",
+        "3 cups flour",
+        "1 tsp. soda",
+        "1 tsp. salt",
+        "1 small package chocolate chips",
+        "½ cup chopped nuts"
+      ],
+      "steps": [
+        "In mixing bowl, pour warm coffee over brown sugar.",
+        "Add other ingredients and mix well.",
+        "Put in 9×13 cake pan.",
+        "Bake at 350° for 30–35 minutes."
+      ],
+      "pending": false
+    },
+    {
+      "id": "nuttin-honey-cookies",
+      "title": "Nuttin honey cookies",
+      "collection": "prescott-cousins",
+      "sourcePage": 28,
+      "author": "Erica Lee Prescott",
+      "category": "dessert",
+      "ingredients": [
+        "½ cup shortening (half butter or softened shortening)",
+        "¾ cup chunky peanut butter",
+        "⅔ cup honey",
+        "½ cup granulated sugar",
+        "1 egg",
+        "1¼ cups flour",
+        "¾ tsp. soda",
+        "½ tsp. baking powder",
+        "¼ tsp. salt"
+      ],
+      "steps": [
+        "In a small bowl, mix flour, soda, baking powder and salt. Set aside.",
+        "Mix thoroughly shortening, peanut butter, honey, granulated sugar, brown sugar and egg.",
+        "Blend in flour mixture.",
+        "Heat oven to 375°. Place rounded teaspoonfuls of dough 3 inches apart on a lightly greased baking sheet.",
+        "Bake 10–12 minutes or until set but not hard."
+      ],
+      "pending": false
+    },
+    {
+      "id": "sesame-street-cookies",
+      "title": "Sesame street cookies",
+      "collection": "prescott-cousins",
+      "sourcePage": 28,
+      "author": "Brian R. Prescott",
+      "category": "dessert",
+      "ingredients": [
+        "¾ cup butter or margarine, softened",
+        "1 cup granulated sugar",
+        "1 tsp. vanilla",
+        "2 eggs",
+        "2½ cups all-purpose flour",
+        "1 tsp. salt",
+        "1 tsp. baking powder",
+        "Jam or jelly for filling"
+      ],
+      "steps": [
+        "Cream butter and sugar in medium bowl. Add eggs and vanilla; blend.",
+        "Add flour, salt and baking powder. Mix well. Chill 1 hour.",
+        "Roll dough on floured cloth and cut into shapes.",
+        "Put ½ tsp. jam or jelly between 2 shaped cookies.",
+        "Place on ungreased cookie sheet. Bake 6–8 minutes at 400°."
+      ],
+      "pending": false
+    },
+    {
+      "id": "sunflower-seed-cookies",
+      "title": "Sunflower seed cookies",
+      "collection": "prescott-cousins",
+      "sourcePage": 28,
+      "author": "Jan Musser",
+      "category": "dessert",
+      "ingredients": [
+        "1 cup margarine",
+        "1 cup brown sugar",
+        "1 cup granulated sugar",
+        "2 eggs",
+        "1 tsp. vanilla",
+        "1½ cups all-purpose flour",
+        "¾ tsp. salt",
+        "¾ tsp. baking soda",
+        "3 cups quick oats",
+        "1 cup sunflower seeds"
+      ],
+      "steps": [
+        "Cream margarine and sugars. Add eggs and vanilla; beat to blend well.",
+        "Add flour, salt and baking soda. Mix thoroughly. Blend in sunflower seeds.",
+        "Form in long rolls about 1½ inches in diameter. Wrap in plastic film and chill thoroughly.",
+        "Slice ¼ inch thick. Bake on ungreased cookie sheet at 350° about 10 minutes.",
+        "Makes 9 dozen cookies."
+      ],
+      "notes": [
+        "These freeze well.",
+        "Dough will keep well in the refrigerator for a couple of weeks — bake just a few whenever you want fresh cookies."
+      ],
+      "pending": false
+    },
+    {
+      "id": "chicken-broccoli-casserole",
+      "title": "Chicken & broccoli casserole",
+      "collection": "prescott-cousins",
+      "sourcePage": 29,
+      "author": "Nellie Baugh",
+      "category": "main",
+      "ingredients": [
+        "3 large chicken breasts, par-boiled and shredded",
+        "2 cans cream of chicken soup",
+        "1 cup mayonnaise",
+        "1 Tbsp. lemon juice",
+        "¾ to 1 cup grated cheddar cheese",
+        "2 packages broccoli, par-boiled",
+        "3–4 slices bread",
+        "1 Tbsp. oleo"
+      ],
+      "steps": [
+        "Mix together soup, mayonnaise, lemon juice and cheese.",
+        "Layer in casserole dish, starting with broccoli, then chicken, then sauce, until all is used.",
+        "Toast 3–4 slices bread or put in oven to dry. Melt 1 Tbsp. oleo in pan; add cut up bread crumbs.",
+        "Sprinkle on top of casserole. Bake at 350° for 40–45 mins.",
+        "Serve with hot rice or noodles and salad."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "e-z-scalloped-potatoes",
+      "title": "E Z Scalloped potatoes",
+      "collection": "prescott-cousins",
+      "sourcePage": 29,
+      "author": "Bonnie Prescott",
+      "category": "side",
+      "ingredients": [
+        "Potatoes (amount according to servings needed)",
+        "Onions",
+        "Campbell's Cream of Mushroom soup",
+        "Salt and pepper to taste"
+      ],
+      "steps": [
+        "Peel potatoes. Clean onions. Slice or dice and put in baking dish.",
+        "Cover with Campbell's Cream of Mushroom soup. Salt and pepper to taste.",
+        "Cover and bake until tender at 350°."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "garden-supper",
+      "title": "Garden Supper",
+      "collection": "prescott-cousins",
+      "sourcePage": 29,
+      "author": "Marguerite Jacobs",
+      "category": "main",
+      "ingredients": [
+        "1 lb. ground beef",
+        "1 can beef broth",
+        "1 can green beans (drained)",
+        "2 T. tapioca",
+        "4 or 5 potatoes",
+        "2 onions"
+      ],
+      "steps": [
+        "Make ground beef into meatballs (Bud likes onions in his). Brown in a large Dutch oven.",
+        "Heat the beef broth. While it is heating, prepare potatoes (if large, cut in quarters). Same with onions.",
+        "Put potatoes, onions, and green beans in with meatballs that have browned.",
+        "Put the 2 T. tapioca in the heated broth, then pour over vegetables and meatballs.",
+        "Cover and cook till tender."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "stuffed-zucchini",
+      "title": "Stuffed zucchini",
+      "collection": "prescott-cousins",
+      "sourcePage": 29,
+      "author": "Marla Reynolds",
+      "category": "main",
+      "ingredients": [
+        "2–3 lbs. zucchini",
+        "½ lb. hamburger",
+        "¾ cup Best Foods Real Mayonnaise",
+        "2 tsp. parsley flakes",
+        "1 tsp. oregano",
+        "2 tsp. minced onion",
+        "1 tsp. salt",
+        "¼ tsp. lemon juice",
+        "¼ tsp. pepper",
+        "1 pkg. dry spaghetti sauce mix"
+      ],
+      "steps": [
+        "Cut long ways and spoon out the meat and seed part. Leave ¼–½ in. of skin and meat. Put in a pan.",
+        "In a bowl cut all the other stuff and chop up the center of zucchini in it. Mix well.",
+        "Put mixture in the shell on meat of zucchini.",
+        "Sauce: Take a pkg. of dry spaghetti sauce mix and make it and pour over stuffed zucchini.",
+        "Bake at 350° 30–45 mins."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "supreme-beef-or-lazy-lasagna",
+      "title": "Supreme beef or lazy lasagna",
+      "collection": "prescott-cousins",
+      "sourcePage": 29,
+      "author": "Naida Snyder",
+      "category": "main",
+      "ingredients": [
+        "1 lb. ground beef",
+        "1 can (16 oz.) tomatoes",
+        "1 can (8 oz.) tomato sauce",
+        "2 garlic cloves (crushed)",
+        "2 tsp. salt",
+        "2 tsp. sugar",
+        "1 (10 oz.) pkg. noodles",
+        "1 cup sour cream",
+        "1 (3 oz.) pkg. cream cheese",
+        "diced onion",
+        "grated cheese"
+      ],
+      "steps": [
+        "Make sauce of first 6 items.",
+        "Cook noodles & drain. Add the sour cream, onion & cream cheese; mix together.",
+        "In baking dish make alternate layers of sauce & noodles, ending with sauce.",
+        "Top with grated cheese. Bake 350° 35 min."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "elephant-casserole",
+      "title": "Elephant casserole",
+      "collection": "prescott-cousins",
+      "sourcePage": 30,
+      "author": "Sally Caboth",
+      "category": "main",
+      "ingredients": [
+        "1 elephant (medium size)",
+        "2 rabbits (optional)",
+        "salt & pepper to taste"
+      ],
+      "steps": [
+        "Cut elephant into bite sized pieces. This should take about 2 months.",
+        "Add enough brown gravy to cover.",
+        "Cook over kerosene fire for about 4 weeks at about 465 degrees.",
+        "This will serve about 38 hundred people.",
+        "If more are expected, 2 rabbits may be added, but only if necessary, as most people do not like to find hare in their stew."
+      ],
+      "notes": [
+        "THIS ONE YOU MUST TRY"
+      ],
+      "pending": false
+    },
+    {
+      "id": "anonymous-special-treat",
+      "title": "Special Treat",
+      "collection": "prescott-cousins",
+      "sourcePage": 30,
+      "author": "Anonymous",
+      "category": "main",
+      "ingredients": [],
+      "steps": [
+        "Take a bunch of Idaho Potatoes",
+        "Add some Iowa Corn",
+        "Cook, in a little Washington Artesian Water",
+        "Then cool with Colorado snow",
+        "Stir in some South Dakota Hills",
+        "Add a little Oregon Sunset",
+        "Let sit awhile in the California Sunset",
+        "Blend in a little Nevada Gambling",
+        "and add a touch of Utah Salt",
+        "Throw in some Love and Fun",
+        "Mix All together thoroughly in Twin Falls, Idaho from June 14 through 17",
+        "The results will be a very Special Treat",
+        "Enough for the Whole Family."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "beth-s-bbq-sauce",
+      "title": "Beth's BBQ sauce",
+      "collection": "prescott-cousins",
+      "sourcePage": 31,
+      "author": "Anna Mae",
+      "category": "condiment",
+      "ingredients": [
+        "4 cups catsup",
+        "3 Tbsp. chili powder",
+        "2 Tbsp. Worcestershire sauce",
+        "2 tsp. garlic powder",
+        "¼ cup vinegar",
+        "1 med. onion",
+        "½ tsp. cayenne pepper",
+        "2 Tbsp. mayonnaise",
+        "2 cups sugar"
+      ],
+      "steps": [
+        "Put all ingredients together except sugar. Simmer 1½ hrs.",
+        "Add sugar and cook 15 min.",
+        "If too sweet add a little more vinegar."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "myrtle-s-applesauce-doughnuts",
+      "title": "Myrtle's applesauce doughnuts",
+      "collection": "prescott-cousins",
+      "sourcePage": 31,
+      "author": "Jan Musser",
+      "category": "dessert",
+      "ingredients": [
+        "2⅔ cups flour",
+        "1¼ tsp. baking powder",
+        "½ tsp. baking soda",
+        "1 tsp. salt",
+        "½ tsp. nutmeg",
+        "½ tsp. cinnamon",
+        "½ cup starter",
+        "2 Tbsp. shortening",
+        "½ cup sugar",
+        "2 egg yolks",
+        "½ tsp. vanilla",
+        "½ cup applesauce",
+        "½ cup buttermilk (or could sub 1 Tbsp. sour cream for part)",
+        "1 Tbsp. sour cream"
+      ],
+      "steps": [
+        "Mix together, knead well. Roll out and cut into doughnuts. Let stand.",
+        "Heat cooking oil to 390°. These take slightly longer to cook.",
+        "Makes about 2 dozen."
+      ],
+      "notes": [
+        "Myrtle says for a variation you can use 1 whole egg instead of 2 egg yolks, no vanilla, instead add ½ tsp. of mace."
+      ],
+      "pending": false
+    },
+    {
+      "id": "peanut-butter-fudge",
+      "title": "Peanut butter fudge",
+      "collection": "prescott-cousins",
+      "sourcePage": 31,
+      "author": "Brenda Draper",
+      "category": "dessert",
+      "ingredients": [
+        "2 cups sugar",
+        "¾ cup Carnation milk",
+        "½ tsp. salt",
+        "1 tsp. vanilla",
+        "4 big Tbsp. peanut butter"
+      ],
+      "steps": [
+        "Boil sugar, milk and salt until soft ball stage.",
+        "Take off stove and add vanilla and peanut butter.",
+        "BEAT until creamy.",
+        "Pour on wax paper and put outside in cold air."
+      ],
+      "notes": [
+        "DON'T — put in fridge until set.",
+        "DON'T — double recipe.",
+        "DON'T — make when humid out."
+      ],
+      "pending": false
+    },
+    {
+      "id": "sourdough-starter",
+      "title": "Sourdough starter",
+      "collection": "prescott-cousins",
+      "sourcePage": 31,
+      "author": "Jan Musser",
+      "category": "condiment",
+      "ingredients": [
+        "2 cups flour",
+        "1 tsp. dry yeast",
+        "2½ cups warm water",
+        "FEEDING: 1½ cups flour",
+        "FEEDING: 1 cup warm water"
+      ],
+      "steps": [
+        "Mix together 2 cups flour and 1 tsp. dry yeast. Add 2½ cups warm water. Stir, cover with a cloth.",
+        "Wait till it works for 2 or 3 days.",
+        "When you use sourdough from your starter, don't forget to feed it.",
+        "To feed your starter: mix 1½ cup flour and 1 cup warm water together, then add to your starter.",
+        "If you don't use your sourdough every week — store it in the fridge.",
+        "Remove from fridge and allow to come to room temp. before using.",
+        "I usually feed it after removing it from the fridge, then wait a couple days to use it."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "stuffed-green-peppers",
+      "title": "Stuffed green peppers",
+      "collection": "prescott-cousins",
+      "sourcePage": 31,
+      "author": "Anna Mae",
+      "category": "main",
+      "ingredients": [
+        "10 to 12 peppers",
+        "2 lbs. lean hamburger",
+        "1 lb. sausage",
+        "1 large onion",
+        "salt and pepper",
+        "1 can small tomato sauce",
+        "1 cup rice (cooked)",
+        "1 can tomato soup"
+      ],
+      "steps": [
+        "Mix hamburger, sausage, onion, salt, pepper, tomato sauce and cooked rice together.",
+        "If going to freeze — do not blanch.",
+        "If cooking right away, blanch peppers in boiling water 3 min. Put in cold water, drain, and dry good.",
+        "Stuff peppers and pour 1 can tomato soup over peppers.",
+        "Bake 350° for 35 to 40 min."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "dad-s-easy-homemade-chocolates",
+      "title": "Dad's easy homemade chocolates",
+      "collection": "prescott-cousins",
+      "sourcePage": 32,
+      "author": "Henry Lewis",
+      "category": "dessert",
+      "ingredients": [
+        "2 C. coconut (angel flake is best)",
+        "2 C. walnuts",
+        "½ lb. butter",
+        "2 lb. powdered sugar",
+        "1 can Eagle brand condensed milk",
+        "1 tsp. vanilla",
+        "¾ bar paraffin wax",
+        "1 (12 oz.) package chocolate chips"
+      ],
+      "steps": [
+        "Mix coconut, walnuts and butter with hands. Add powdered sugar, condensed milk and vanilla. Mix well, and chill.",
+        "Roll into small balls.",
+        "Melt ¾ bar of paraffin wax in top of double boiler. Add chocolate chips to paraffin. When melted, stir until blended.",
+        "After it has cooled somewhat, dip candy balls into chocolate mixture. Put on waxed paper to set up.",
+        "Use a toothpick to hold the chocolates to dip, then remove the toothpick after the candy has cooled. Cover the small hole with a little melted chocolate.",
+        "You can put the candy balls in the freezer for a short time to chill them for dipping."
+      ],
+      "notes": [
+        "We vary the flavorings.... Also add chopped nuts to some, and chopped maraschino cherries to others.",
+        "Crushed peppermint sticks make another good flavor. Butter rum, etc.",
+        "The main problem we've had with these is leaving them alone.",
+        "A box of these makes a much appreciated Christmas gift. Any other time, too!"
+      ],
+      "pending": false
+    },
+    {
+      "id": "rain-cookie-mit-beer",
+      "title": "Raisin cookie mit beer",
+      "collection": "prescott-cousins",
+      "sourcePage": 32,
+      "author": "Jan",
+      "category": "dessert",
+      "ingredients": [
+        "1 C. raisins",
+        "1 C. beer",
+        "1 C. brown sugar",
+        "1 C. shortening",
+        "2 eggs",
+        "2 C. flour",
+        "1 tsp. soda",
+        "½ tsp. salt",
+        "1 C. walnuts (pecans are good, too)",
+        "½ C. shredded coconut",
+        "1 tsp. vanilla"
+      ],
+      "steps": [
+        "Combine raisins and beer in a saucepan. Simmer 5 minutes. Cool. Drain. Save ½ C. liquid.",
+        "Cream shortening and sugar. Add eggs. Beat well.",
+        "Sift flour, soda, salt. Add to creamed mixture alternately with reserved liquid.",
+        "Stir in walnuts, raisins, coconut, and vanilla.",
+        "Drop onto greased cookie sheet (teaspoonful). Bake 10–12 minutes in 350° oven.",
+        "Makes about 4 dozen cookies."
+      ],
+      "notes": [
+        "The \"Made In Oregon Stores\" sell a very good beer cookie. I've been trying to find a similar recipe for a long time. Found this one, and it's great.",
+        "Only problem is, I have to double the batch in order to have enough to put in the freezer. (I have my own Cookie-Monster.....his name is Bud.)",
+        "These cookies are good, and freezing them seems to improve their flavor, even more. (Bud says he just samples the cookies, to let me know if they are good!)",
+        "Chilling the dough for about an hour makes it easier to handle and seems to improve the texture."
+      ],
+      "pending": false
+    },
+    {
+      "id": "big-old-fashioned-sugar-cookies",
+      "title": "Big old fashioned sugar cookies",
+      "collection": "prescott-cousins",
+      "sourcePage": 33,
+      "author": "Jan",
+      "category": "dessert",
+      "ingredients": [
+        "2 tsp. soda",
+        "2 tsp. baking powder",
+        "4 lb. flour",
+        "3 lb. sugar (7½ C.)",
+        "½ quart eggs",
+        "1 Tbsp. vanilla",
+        "1½ lb. lard (or shortening, or margarine)",
+        "½ pint milk",
+        "½ tsp. salt"
+      ],
+      "steps": [
+        "Cream sugar and lard. Add eggs mixed with vanilla, alternately with dry ingredients (which have been mixed together).",
+        "Roll out on floured board. Cut.",
+        "Bake 350° to 375° for 6–8 minutes.",
+        "Can sprinkle tops with sugar before baking."
+      ],
+      "notes": [
+        "Sounds like a mouthful. This does make a large, soft sugar cookie. They can be decorated for any holiday....",
+        "This is an old recipe from a dear friend who cooked in camps, etc. in Idaho. Her name was Mary."
+      ],
+      "pending": false
+    },
+    {
+      "id": "mom-s-applesauce-cake",
+      "title": "Mom's applesauce cake",
+      "collection": "prescott-cousins",
+      "sourcePage": 33,
+      "author": "Betty Lewis",
+      "category": "dessert",
+      "ingredients": [
+        "2½ c. flour",
+        "1 tsp. soda",
+        "½ tsp. cinnamon",
+        "1 tsp. vanilla",
+        "1½ c. applesauce",
+        "½ c. chopped dates",
+        "¾ tsp. baking powder",
+        "½ tsp. salt",
+        "½ tsp. cloves",
+        "1 c. sugar",
+        "1 egg",
+        "½ c. currants",
+        "1 c. chopped walnuts",
+        "½ c. shortening"
+      ],
+      "steps": [
+        "Sift all dry ingredients together.",
+        "Cream shortening & sugar; add vanilla and egg, beat well.",
+        "Stir in applesauce, currants, dates, and nuts.",
+        "Fold in flour mixture thoroughly.",
+        "Turn into loaf pan lined with wax paper.",
+        "Bake in moderate oven (350°) about 1½ hours."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "norman-s-batter-for-fish",
+      "title": "Norman's batter for fish",
+      "collection": "prescott-cousins",
+      "sourcePage": 33,
+      "author": "Norman Lewis",
+      "category": "main",
+      "ingredients": [
+        "1 C. flour",
+        "½ C. corn starch",
+        "¾ tsp. salt",
+        "¾ tsp. soda",
+        "water to taste"
+      ],
+      "steps": [
+        "Mix flour, corn starch, salt and soda. Add water to taste.",
+        "Use HOT, hot oil. Cook till brown. Drain."
+      ],
+      "notes": [
+        "Norman was Dad Lewis's and Anna Mae's brother.",
+        "This recipe is also good for batter frying vegetables and fruits.",
+        "Thinner batter makes thinner crust on fish, veggie, or fruit.",
+        "This batter is quite similar to the one used in Japanese deep-fried cooking."
+      ],
+      "pending": false
+    },
+    {
+      "id": "tex-mix-tostada-grande",
+      "title": "Tex mix tostada grande",
+      "collection": "prescott-cousins",
+      "sourcePage": 33,
+      "author": "Jan",
+      "category": "main",
+      "ingredients": [
+        "1 lb. ground beef or pork (or mixture of half of each)",
+        "1 (16 oz.) can of tomatoes (drained & chopped)",
+        "¾ C. picante or salsa sauce",
+        "½ tsp. salt",
+        "1 tsp. ground cumin",
+        "12 (6-inch) corn or flour tortillas",
+        "2 C. shredded cheddar or monterey jack cheese, divided",
+        "2 C. shredded lettuce",
+        "1 medium tomato, chopped",
+        "1 ripe avocado, peeled, seeded, and sliced"
+      ],
+      "steps": [
+        "Brown meat; drain. Stir in tomatoes, picante or salsa sauce, cumin, and salt; simmer 5 to 10 minutes or until most of liquid is evaporated.",
+        "Cover bottom and sides of 14-inch pizza pan with tortillas; spread with meat mixture.",
+        "Bake at 350° for 20 minutes.",
+        "Sprinkle with 1 cup of the cheese; return to the oven until cheese is melted.",
+        "Arrange lettuce, remaining cheese, tomato and avocado over top.",
+        "Cut into wedges; serve with additional picante or salsa sauce."
+      ],
+      "notes": [
+        "Yields 6 servings."
+      ],
+      "pending": false
+    },
+    {
+      "id": "bonnie-s-jello-dessert",
+      "title": "Bonnie's jello dessert",
+      "collection": "prescott-cousins",
+      "sourcePage": 34,
+      "category": "dessert",
+      "ingredients": [
+        "1 cup milk",
+        "4 beaten egg yolks",
+        "¾ cup sugar",
+        "1 package lemon or orange jello (small)",
+        "1 small can crushed pineapple",
+        "4 whipped egg whites",
+        "Graham cracker crumbs"
+      ],
+      "steps": [
+        "Add beaten egg yolks and sugar to milk. Bring to boil.",
+        "Add one package of lemon or orange jello. Cool.",
+        "Add crushed pineapple and whipped egg whites.",
+        "Pour over graham cracker crumbs in medium size cake pan.",
+        "Sprinkle more crumbs on top.",
+        "Refrigerate until set."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "ernie-s-favorite-recipe",
+      "title": "Ernie's favorite recipe",
+      "collection": "prescott-cousins",
+      "sourcePage": 34,
+      "category": "beverage",
+      "ingredients": [
+        "1 bottle Miller's Beer",
+        "tomato juice"
+      ],
+      "steps": [
+        "Open fridge.",
+        "Take out one bottle of Miller's Beer.",
+        "Pour in large glass.",
+        "Fill with tomato juice.",
+        "Drink and enjoy!"
+      ],
+      "notes": [
+        "Very easy and delicious."
+      ],
+      "pending": false
+    },
+    {
+      "id": "klinkers",
+      "title": "Klinkers",
+      "collection": "prescott-cousins",
+      "sourcePage": 34,
+      "author": "Jeni Lyn Farnworth",
+      "category": "uncategorized",
+      "ingredients": [
+        "4 Tbsp. soda",
+        "4 Tbsp. water",
+        "4 Tbsp. bluing liquid",
+        "4 Tbsp. salt",
+        "couple drops of methiolate"
+      ],
+      "steps": [
+        "Mix until smooth.",
+        "Pour over cinders or klinkers from furnace.",
+        "Add a couple drops of methiolate. (Hopefully it grows.)"
+      ],
+      "notes": [
+        "GOOD GIRL SCOUT PROJECT — not edible."
+      ],
+      "pending": false
+    },
+    {
+      "id": "pumpkin-muffins",
+      "title": "Pumpkin muffins",
+      "collection": "prescott-cousins",
+      "sourcePage": 34,
+      "category": "dessert",
+      "ingredients": [
+        "2 eggs (beat till fluffy)",
+        "1 cup pumpkin",
+        "½ cup grated carrots",
+        "⅔ cup dry milk",
+        "2 tsp. pumpkin pie spice",
+        "1 tsp. cinnamon",
+        "6 Tbsp. flour",
+        "4 Tbsp. raisins",
+        "1 tsp. soda",
+        "8 packets artificial sweetener",
+        "1 tsp. vanilla"
+      ],
+      "steps": [
+        "Combine all ingredients.",
+        "Bake in muffin pans at 350°."
+      ],
+      "notes": [
+        "Patties recipe"
+      ],
+      "pending": false
+    },
+    {
+      "id": "refrigerator-muffins",
+      "title": "Refrigerator muffins",
+      "collection": "prescott-cousins",
+      "sourcePage": 34,
+      "category": "dessert",
+      "ingredients": [
+        "3 qts flour",
+        "⅞ cup sugar",
+        "3¾ Tbsp. cinnamon",
+        "1 Tbsp. salt (optional)",
+        "3 qts grated carrots (about 6)",
+        "3 cups raisins",
+        "3 cups nut meats",
+        "3 cups coconut",
+        "6 apples grated unpeeled",
+        "18 eggs (or egg beaters)",
+        "1¾ qts oil",
+        "3¾ Tbsp. vanilla"
+      ],
+      "steps": [
+        "Combine all ingredients. Keep in refrigerator, covered.",
+        "Use as needed. Bake 350°."
+      ],
+      "notes": [
+        "Patties recipe"
+      ],
+      "pending": false
+    },
+    {
+      "id": "vinegar-taffy",
+      "title": "Vinegar taffy",
+      "collection": "prescott-cousins",
+      "sourcePage": 34,
+      "author": "Melissa Sue Nelson",
+      "category": "dessert",
+      "ingredients": [
+        "2 cups sugar",
+        "½ tsp. cream of tartar",
+        "2 Tbsp. butter",
+        "½ cup vinegar",
+        "pinch of salt"
+      ],
+      "steps": [
+        "Combine all ingredients. Boil to hard ball stage.",
+        "Cool and pull until white.",
+        "Twist and cut into pieces."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "biscuits",
+      "title": "Biscuits",
+      "collection": "prescott-cousins",
+      "sourcePage": 35,
+      "author": "Marie Stout",
+      "category": "side",
+      "ingredients": [
+        "2 cups flour",
+        "1 Tbsp. baking powder",
+        "1 tsp. salt",
+        "¼ cup tub margarine",
+        "¾ cup skim milk"
+      ],
+      "steps": [
+        "Combine dry ingredients and cut in margarine till it resembles coarse meal.",
+        "Add milk and mix well.",
+        "Roll out on lightly floured board. Cut and place on ungreased sheet.",
+        "Bake 400° 10 to 12 min."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "cake-mix-cookies",
+      "title": "Cake mix cookies",
+      "collection": "prescott-cousins",
+      "sourcePage": 35,
+      "author": "Naida Snyder",
+      "category": "dessert",
+      "ingredients": [
+        "1 box cake mix (any kind)",
+        "½ cup oil",
+        "2 eggs"
+      ],
+      "steps": [
+        "Mix and drop by spoonfuls on a cookie sheet.",
+        "Bake 350° for 8 to 10 minutes.",
+        "Frost when cool."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "corn-bread",
+      "title": "Corn bread",
+      "collection": "prescott-cousins",
+      "sourcePage": 35,
+      "author": "Marie Stout",
+      "category": "side",
+      "ingredients": [
+        "1 cup yellow corn meal",
+        "1 cup flour",
+        "3 Tbsp. baking powder",
+        "1 tsp. salt",
+        "¼ cup oil",
+        "1 cup skim milk",
+        "egg substitute"
+      ],
+      "steps": [
+        "Combine ingredients.",
+        "Bake 350° 25 min."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "fondant-balls",
+      "title": "Fondant balls",
+      "collection": "prescott-cousins",
+      "sourcePage": 35,
+      "author": "Lenore Prescott & Jean Prescott",
+      "category": "dessert",
+      "ingredients": [
+        "2 boxes powdered sugar",
+        "2 sticks butter, melted",
+        "1 can sweetened condensed milk",
+        "4 cups chopped pecans or walnuts",
+        "½ lb. flaked coconut",
+        "12 oz. dipping chocolate",
+        "1 cake of paraffin"
+      ],
+      "steps": [
+        "Combine sugar, butter, milk, pecans and coconut. Roll into small balls. Chill.",
+        "MELT chocolate and paraffin in double boiler.",
+        "Dip balls into mixture. Place on waxed paper to cool."
+      ],
+      "notes": [
+        "Yields 100 servings."
+      ],
+      "pending": false
+    },
+    {
+      "id": "jalapeno-cornbread",
+      "title": "Jalapeno cornbread",
+      "collection": "prescott-cousins",
+      "sourcePage": 35,
+      "author": "Marie Stout",
+      "category": "side",
+      "ingredients": [
+        "1 cup cream corn",
+        "1 cup cornbread mix",
+        "½ cup oil",
+        "egg substitute",
+        "2 cups skim milk",
+        "1½ cups low fat cheese",
+        "1 cup jalapeno peppers, seeded and chopped"
+      ],
+      "steps": [
+        "Combine all ingredients.",
+        "Bake at 350° until done."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "soda-cracker-cookies",
+      "title": "Soda cracker cookies",
+      "collection": "prescott-cousins",
+      "sourcePage": 35,
+      "author": "Fern Fitz & Jean Prescott",
+      "category": "dessert",
+      "ingredients": [
+        "27 soda crackers (rolled fine)",
+        "6 Tbsp. peanut butter",
+        "1 pkg. butterscotch chips (6 oz.)",
+        "2 cups white sugar",
+        "⅔ cup milk"
+      ],
+      "steps": [
+        "Boil milk and sugar 4 min, starting timing when it comes to a good boil.",
+        "Pour over the crackers, peanut butter and chips.",
+        "Mix and spoon onto waxed paper."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "tangy-italian-mushrooms",
+      "title": "Tangy italian mushrooms",
+      "collection": "prescott-cousins",
+      "sourcePage": 35,
+      "author": "Marie Stout",
+      "category": "side",
+      "ingredients": [
+        "½ lb. fresh mushrooms sliced",
+        "¾ cup low sodium Italian dressing",
+        "2 Tbsp. low sodium corn oil margarine"
+      ],
+      "steps": [
+        "Marinate mushrooms in dressing at least 1 hour or overnight.",
+        "Cook mushrooms 5 min in skillet or chafing dish in margarine."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "chicken-enchilada-pie",
+      "title": "Chicken enchilada pie",
+      "collection": "prescott-cousins",
+      "sourcePage": 36,
+      "author": "Jan",
+      "category": "main",
+      "ingredients": [
+        "2 Tbsp. vegetable oil",
+        "⅔ C. diced green pepper",
+        "¼ C. chopped green onion",
+        "¾ lb. boned chicken breast",
+        "salt to taste",
+        "¾ tsp. chili powder",
+        "4 (8-inch) flour tortillas",
+        "1¼ C. chunky-style salsa",
+        "½ C. black olives, quartered",
+        "12 oz. (about 5 C.) shredded cheese, half cheddar and half monterey jack",
+        "¼ C. halved cherry tomatoes"
+      ],
+      "steps": [
+        "Sauté green pepper in ½ of the oil over medium heat until it begins to soften.",
+        "Add green onions and the chicken and continue cooking until the meat is just done.",
+        "Stir in the chili powder and salt; remove from heat.",
+        "Use the remaining oil to grease a 9-inch glass pie pan.",
+        "Place 1 tortilla in the bottom of the pan. Spoon on ⅓ of the salsa, ⅓ of the chicken mixture, ⅓ of the olives and ⅓ of the shredded cheese.",
+        "Repeat this process for 2 more layers.",
+        "Put the 4th tortilla on the top. Sprinkle the remaining cheese on top.",
+        "Arrange the cherry tomatoes, cut-side down, around the edge of the dish.",
+        "Bake at 350° for 24 to 30 minutes, until heated & bubbly."
+      ],
+      "notes": [
+        "I used some leftover chicken, cooked, and it turned out great.",
+        "Makes 6 servings. Also, this re-heats well.",
+        "This makes a great main dish."
+      ],
+      "pending": false
+    },
+    {
+      "id": "apple-butter",
+      "title": "Apple butter",
+      "collection": "prescott-cousins",
+      "sourcePage": 37,
+      "author": "Farice Brandenburg",
+      "category": "condiment",
+      "ingredients": [
+        "2 quart pulp",
+        "¾ cup vinegar",
+        "⅓ to ½ cup sugar",
+        "⅓ to ½ cup red hots"
+      ],
+      "steps": [
+        "Mix all together. Boil 15 min. after rolling boil.",
+        "Pour in glasses."
+      ],
+      "notes": [
+        "I use canned pre-sweetened applesauce and just 2½ cups sugar."
+      ],
+      "pending": false
+    },
+    {
+      "id": "cobbler-cherries-peaches-etc",
+      "title": "Cobbler cherries, peaches, etc",
+      "collection": "prescott-cousins",
+      "sourcePage": 37,
+      "author": "Farice Brandenburg",
+      "category": "dessert",
+      "ingredients": [
+        "½ cup soft butter",
+        "½ cup sugar",
+        "1 cup flour",
+        "2 tsp. baking powder",
+        "½ tsp. salt",
+        "½ cup milk",
+        "fruit",
+        "½ to ¾ cup sugar (for topping)",
+        "1 cup fruit syrup"
+      ],
+      "steps": [
+        "Make batter of butter, sugar, flour, baking powder, salt and milk.",
+        "Spoon fruit over batter.",
+        "Sprinkle with ½ to ¾ cup sugar.",
+        "Pour 1 cup fruit syrup over all.",
+        "Bake 350° 45 min."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "goofballs",
+      "title": "Goofballs",
+      "collection": "prescott-cousins",
+      "sourcePage": 37,
+      "author": "Farice Brandenburg",
+      "category": "dessert",
+      "ingredients": [
+        "1 can Eagle Brand Milk",
+        "14 oz. coconut",
+        "1 lb. powdered sugar",
+        "chopped nuts",
+        "chocolate or white almond bark"
+      ],
+      "steps": [
+        "Combine well and form into balls.",
+        "Melt chocolate or white almond bark and dip each one.",
+        "Place on wax paper till set."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "meat-loaf",
+      "title": "Meat loaf",
+      "collection": "prescott-cousins",
+      "sourcePage": 37,
+      "author": "Farice Brandenburg",
+      "category": "main",
+      "ingredients": [
+        "2 lb. ground chuck",
+        "1 cup oatmeal",
+        "1 dry onion soup mix",
+        "½ tsp. pepper",
+        "2 eggs",
+        "1 tsp. sage",
+        "1½ cup tomato sauce"
+      ],
+      "steps": [
+        "Combine all ingredients.",
+        "May add 1 tsp. oregano or thyme in place of the sage.",
+        "Bake 350° 1½ hrs."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "pickled-eggs",
+      "title": "Pickled eggs",
+      "collection": "prescott-cousins",
+      "sourcePage": 37,
+      "author": "Farice Brandenburg",
+      "category": "condiment",
+      "ingredients": [
+        "2 cans small whole beets",
+        "1½ dozen boiled eggs",
+        "½ cup vinegar",
+        "½ cup sugar",
+        "2 tsp. salt",
+        "1 cinnamon stick",
+        "6 or 8 whole cloves"
+      ],
+      "steps": [
+        "Place beets, juice, and all ingredients except eggs. Bring to boil; set aside to cool.",
+        "Pour over boiled eggs and cover tightly."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "rice-casserole",
+      "title": "Rice casserole",
+      "collection": "prescott-cousins",
+      "sourcePage": 37,
+      "author": "Farice Brandenburg",
+      "category": "dessert",
+      "ingredients": [
+        "½ cup rice",
+        "4 cups milk",
+        "½ tsp. cinnamon",
+        "½ cup sugar",
+        "1 tsp. vanilla",
+        "½ tsp. salt"
+      ],
+      "steps": [
+        "Combine all ingredients. Stir occasionally.",
+        "May add raisins.",
+        "Bake 300° 2 hrs."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "nifty-microwave-tricks",
+      "title": "Nifty microwave tricks",
+      "collection": "prescott-cousins",
+      "sourcePage": 38,
+      "author": "Judith Knorr & Susan A. Roth",
+      "category": "uncategorized",
+      "ingredients": [],
+      "steps": [
+        "Soften raisins — Combine 1 cup hard, dried-out raisins and 2 tablespoons water in a small glass dish. Microwave on high 2 to 3 minutes. Let stand 2 minutes before using.",
+        "Melt chocolate — Microwave 1 ounce semi-sweet chocolate squares or chips on medium-low 2 to 3 minutes. Stir chocolate to see if it's soft since it will retain its shape even when melted.",
+        "Toast sesame seeds — Place ¼ cup seeds in a small glass bowl. Microwave on high 2 to 3 minutes, stirring twice.",
+        "Take chill off catsup — Make catsup and bottled salad dressings pourable by removing metal cap and microwaving on high 15 seconds. To get the small amounts of catsup, mustard or syrup from the bottom of the bottle, remove lid and microwave on high 15 seconds.",
+        "Lemon juice — You can get more juice from fresh citrus if you warm the fruit first. Microwave lemons, limes and oranges 30 to 60 seconds on medium before squeezing.",
+        "Soften ice cream — Before serving very hard ice cream, microwave on low 2 to 4 minutes in ½-gallon container.",
+        "Blanch nuts — To remove skins from almonds, walnuts and peanuts, bring 1½ cups water for every 1 cup of nuts to a boil in a 5-cup bowl in microwave. Add nuts and microwave on high 30 to 50 seconds. Drain. Remove skins by rubbing nuts between paper towels.",
+        "Soften cream cheese — Remove 3-ounce package from foil wrapping and microwave on high 30 to 60 seconds.",
+        "Liquefy honey — To make crystallized honey pourable, remove lid from jar and microwave on high 15 seconds.",
+        "Brown ground beef — Crumble 1 pound beef into a dishwasher-safe plastic colander, place over a glass bowl and microwave on high 4 to 5 minutes, stirring once. Fat will drip into the bowl.",
+        "Chicken for salads, casseroles and sandwiches — Place a whole fryer breast in a glass baking dish and cover with waxed paper. Microwave on high 7 to 9 minutes. Let stand 5 minutes. Each breast yields 1½ to 2 cups cooked chicken.",
+        "Soften tortillas — For easy folding or rolling, wrap 12 tortillas in a clean, damp dish towel and microwave on high 45 seconds.",
+        "Make croutons — Place 2 cups bread cubes in shallow glass dish. Microwave on high 3 to 4 minutes, stirring twice. Season with 1 teaspoon onion or garlic powder.",
+        "Freshen stale rolls — Wrap in a paper napkin and microwave on high 10 to 15 seconds.",
+        "Heat frozen croissants — Wrap in a paper napkin and microwave on medium 45 to 60 seconds.",
+        "Like-fresh coffee — Refrigerate unused perked coffee from breakfast and reheat 1 cup on high 1 to 1½ minutes for a freshly-brewed taste anytime during the day.",
+        "Like-fresh hamburgers — Cook extra hamburgers on the grill and refrigerate. For a quick \"freshly grilled\" lunch, microwave each burger on high for 1 minute.",
+        "Quick pancakes — Wrap and freeze leftovers. Microwave 2 stacked pancakes on paper towel on medium-low 45 to 60 seconds.",
+        "Flaming desserts — Microwave ½ cup liqueur or brandy in a glass measuring cup on high 15 to 30 seconds. Pour over dessert and ignite with a match.",
+        "Shuck clams or oysters — Microwave 3 to 4 at a time on high 10 to 15 seconds. Remove when they open a crack.",
+        "Dry herbs — Place ½ cup fresh parsley, basil, mint or other herb leaves on a paper towel. Microwave on high 1 to 3 minutes.",
+        "Separate bacon — Microwave a 1-pound package on high 15 to 30 seconds. Remove needed slices and refrigerate remainder.",
+        "Dry citrus peel — Grate lemon or orange peel into small glass bowl. Microwave on high 1 to 3 minutes, stirring once.",
+        "Toast coconut — Place ½ cup flaked or shredded coconut in small glass bowl. Microwave on high 1 to 1½ minutes until lightly golden brown, stirring twice.",
+        "Warm finger towels — Dampen small terry towels, roll and place in basket. Microwave on high 30 to 45 seconds. Offer to guests after serving finger foods.",
+        "Roast nuts — Spread 1 cup of shelled nuts on a plate. Microwave on high 2 to 3 minutes.",
+        "Hard-cook eggs — Crack an egg into small glass dish, prick yolk and cover. Microwave on medium 1 minute or until yolk is solid. Let stand until white sets. Chop and use for egg salad or as garnish.",
+        "Quick-barbecue chicken — To avoid burning before it's fully cooked on the barbecue, precook chicken pieces in the microwave. Place 3 pounds in baking dish, cover with waxed paper and microwave on high 8 to 10 minutes. Finish on the grill.",
+        "Clarify butter — Place ½ cup butter in glass measuring cup, microwave on high 1 to 2 minutes, until melted. Let stand until solids collect on bottom. Pour off liquid for use in recipe.",
+        "Room-temperature cheese — Place ½ pound cheese on serving plate. Microwave uncovered 30 to 45 seconds for firm cheese, such as Cheddar. 15 to 45 seconds for soft cheese such as Brie.",
+        "Soften brown sugar — Place 1 apple slice in a plastic food bag with hard brown sugar. Close bag with yarn or string and microwave on high 30 to 45 seconds. Let stand 5 minutes before opening.",
+        "Pie a la mode — Top a slice of room-temperature apple pie with scoop of vanilla ice cream, microwave on high 15 to 20 seconds. The pie will be warm but the ice cream will still be firm.",
+        "Freshen stale crackers — Place 10 to 20 in a paper-towel-lined serving bowl. Microwave on high 30 to 60 seconds. Let stand 2 to 3 minutes. Crackers will crisp as they cool.",
+        "Soften gelatin — If the gelatin sets before you add fruit or other ingredients, resoften by microwaving on medium 1 to 1½ minutes for a 3-ounce package. Stir and add fruit.",
+        "Serving-temperature wine — To bring refrigerated red wine to serving temperature, microwave a glass on low 30 to 60 seconds.",
+        "Blanch vegetables for freezing — Place 2 cups of washed, sliced vegetables in casserole dish with ¼ cup water. Cover tightly and microwave on high 3 to 6 minutes. Drain, plunge into ice water, remove and freeze.",
+        "Low-fat meat loaf — Shape meat loaf ring in round glass baking dish, leaving center open. Place 2 crumpled paper towels in the center. Cook according to recipe. The paper towels will absorb the excess fat.",
+        "Emergency meat rack — To elevate a roast without a microwave meat rack, place whole carrots or ribs of celery underneath. Vegetables will flavor the drippings and allow good microwave circulation."
+      ],
+      "notes": [
+        "You can do all sorts of things you may not have thought of—in no time flat!",
+        "Cooking times are for 600- to 700-watt microwave ovens. Higher-wattage ovens will use the shorter cooking time and lower wattage ovens the longer time. If your oven wattage differs, adjust time accordingly.",
+        "Phyllis from Prescott"
+      ],
+      "pending": false
+    },
+    {
+      "id": "low-carb-big-mac-sauce",
+      "title": "Big Mac Sauce",
+      "collection": "low-carb",
+      "category": "other",
+      "ingredients": [
+        "15 oz jar of mayonnaise",
+        "⅔ cup Kraft creamy French dressing",
+        "⅓ cup dill relish",
+        "1 Tbsp onion powder",
+        "1 Tbsp white vinegar",
+        "1 Tbsp ketchup"
+      ],
+      "steps": [
+        "Combine ingredients in a small bowl. Refrigerate before serving."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-lchf-dark-chocolate-brownies",
+      "title": "LCHF Dark Chocolate Brownies",
+      "collection": "low-carb",
+      "category": "dessert",
+      "ingredients": [
+        "1 cup finely ground almond meal",
+        "1/2 teaspoon baking powder",
+        "1/2 teaspoon salt",
+        "¾ cups granulated erythritol",
+        "¾ tsp pure stevia powder",
+        "1 cup unsalted butter, melted",
+        "4 ounces unsweetened baking chocolate squares",
+        "1 tsp vanilla extract",
+        "4 extra large eggs, beaten",
+        "(optional) ½ cup sugar free chocolate chips"
+      ],
+      "steps": [
+        "Preheat oven to 325 F.",
+        "Lightly grease a 9” x 13” cake pan.",
+        "In a blender or food processor, grind the erythritol to a powdered sugar consistency.",
+        "Stir together dry ingredients in a large bowl.",
+        "Add the eggs and vanilla to the dry ingredients and blend until smooth.",
+        "Melt butter and unsweetened chocolate in microwave or double boiler. Stir frequently, being careful not to burn the chocolate.",
+        "Pour in the chocolate mixture and stir until well combined. (Optional) Fold in the chocolate chips at this step as well.",
+        "Pour the batter into the greased pan and spread evenly.",
+        "Bake for 15-20 minutes, checking every 5 minutes for desired consistency. The brownies will have a lava cake consistency in the middle at around 15 minutes, and at 20 minutes they will be completely cooked throughout. Do not overbake.",
+        "Cool for 10 minutes before cutting and serving."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-bulgogi",
+      "title": "Bulgogi",
+      "collection": "low-carb",
+      "category": "main",
+      "ingredients": [],
+      "steps": [
+        "1 pound of beef tenderloin, sliced thinly into pieces ½ inch x 2 inches and ⅛ inch thick",
+        "or",
+        "10-12 large dried shiitake mushrooms",
+        "6 large white mushrooms",
+        "Marinade (for 1 pound of beef):",
+        "½ cup of crushed pear",
+        "¼ cup onion purée",
+        "4 cloves of minced garlic",
+        "1 teaspoon minced ginger",
+        "1 chopped green onion",
+        "2 tbs soy sauce",
+        "2 tbs erythritol",
+        "½ teaspoon molasses",
+        "a pinch of ground black pepper",
+        "1 tbs toasted sesame oil",
+        "several thin slices of carrot",
+        "Mix all the marinade ingredients in a bowl.",
+        "Add the sliced beef and mix well.",
+        "You can grill, pan-fry, or BBQ right after marinating, but it’s best to keep it in the fridge and let it marinate for at least 30 minutes, or overnight for a tougher cut of beef."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-low-carb-biscuits",
+      "title": "Low Carb Biscuits",
+      "collection": "low-carb",
+      "category": "main",
+      "ingredients": [
+        "1 ½ cups almond flour",
+        "¼ tsp salt",
+        "2 Tbsp baking powder",
+        "1 Tbsp arrowroot starch",
+        "2 eggs",
+        "⅓ cup sour cream",
+        "4 Tbsp melted butter",
+        "⅓ cup shredded cheddar cheese (optional)",
+        "½ tsp garlic powder (optional)"
+      ],
+      "steps": [
+        "Preheat oven to 400 degrees.",
+        "Spray a cupcake pan with non-stick cooking spray.",
+        "Mix all dry ingredients in a large bowl.",
+        "In a small bowl, mix wet ingredients until creamy.",
+        "Pour the wet mixture into the dry mixture, and combine thoroughly.",
+        "Drop about 2 heaping tablespoons in each well of the pan.",
+        "Bake 10-12 minutes, until golden brown."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-lchf-cheesecake",
+      "title": "LCHF Cheesecake",
+      "collection": "low-carb",
+      "category": "dessert",
+      "ingredients": [
+        "1 cup blanched almond meal",
+        "2 tablespoons coconut flour",
+        "¼ cup granulated erythritol",
+        "¼ tsp stevia",
+        "3 tablespoons butter, melted",
+        "(optional) ¼ cup cocoa powder",
+        "Filling:",
+        "4 (8 ounce) packages cream cheese, room temperature",
+        "¾ cup granulated erythritol",
+        "¾ tsp stevia powder",
+        "4 eggs, room temperature",
+        "1 cup sour cream, room temperature",
+        "1 tablespoon vanilla extract",
+        "(optional) ½ cup semi-sweet sugar free chocolate chips"
+      ],
+      "steps": [
+        "Fill a large bowl with approximately ¾ inch of water, then set aside.",
+        "Preheat oven to 325 degrees F, and set the bowl of water on the bottom row of the oven.",
+        "Grease the bottom of the springform pan. In a medium bowl, mix the dry ingredients with a fork until smooth. Pour melted butter over the top and mix. Press the mix into the bottom of the springform pan. Set aside.",
+        "In a small bowl, gently whisk together the eggs until the yolks are well blended. Set aside.",
+        "In a large bowl, mix cream cheese, sweeteners, and sour cream together with a hand mixer on low speed until smooth. Be sure to scrape the bowl periodically, as cream cheese will get stuck to the bottom and sides.",
+        "Pour in the vanilla extract and egg mixture into the cream cheese mixture, and use the whisk to gently blend the ingredients until smooth, trying to avoid creating air bubbles. Pour the filling onto the prepared crust in the springform pan. Gently shake the pan to remove air bubbles. Place the cake on a rack above the water bowl. Bake in preheated oven for 50 minutes.",
+        "Remove the cake from the oven and place on a wire rack to cool for another 30 minutes, or until cool enough to handle with bare hands. Chill in refrigerator for a minimum 6 hours. Serve cold.",
+        "If using the optional chocolate ingredients:",
+        "Melt the chocolate chips in a small bowl before putting the cheesecake in the oven. Pour the melted chocolate over the top of the cake, and then use a butter knife to create a swirl pattern with the chocolate. Bake according to original instructions."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-low-carb-coconut-pudding",
+      "title": "Low Carb Coconut Pudding",
+      "collection": "low-carb",
+      "category": "dessert",
+      "ingredients": [
+        "13.5 oz can coconut milk (full fat)",
+        "2 Tbsp Truvia (or 4 Tbsp sugar equivalent)",
+        "¼ tsp vanilla extract",
+        "1 Tbsp (or 1 pouch) gelatin",
+        "2 Tbsp water",
+        "2 Tbsp cocoa powder (optional)"
+      ],
+      "steps": [
+        "Mix coconut milk, sweetener, and vanilla in a medium saucepan.",
+        "In a separate bowl, mix the gelatin and water.",
+        "Pour gelatin mix into the saucepan, then heat the mixture until the gelatin has dissolved completely.",
+        "Pour into two small bowls and refrigerate until set, usually an hour or two."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-cream-cheese-pudding",
+      "title": "Cream Cheese Pudding",
+      "collection": "low-carb",
+      "category": "dessert",
+      "ingredients": [
+        "1 cup heavy cream, whipped",
+        "8 ounces cream cheese, softened",
+        "8 ounces sour cream",
+        "¾ cup granulated erythritol",
+        "¾ tsp stevia powder",
+        "2 teaspoons vanilla",
+        "Additional flavorings, if desired"
+      ],
+      "steps": [
+        "Grind the erythritol and stevia powder until it reaches the consistency of powdered sugar.",
+        "Transfer to a bowl, and beat the sweetener, cream cheese, sour cream, and vanilla until smooth.",
+        "Fold in the whipped cream and serve.",
+        "Makes 4 cups or 6 servings",
+        "Do not freeze!"
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-lchf-cupcakes",
+      "title": "LCHF Cupcakes",
+      "collection": "low-carb",
+      "category": "dessert",
+      "ingredients": [],
+      "steps": [
+        "Preheat oven to 350 degrees.",
+        "Grease cupcake pan and set aside.",
+        "In a large bowl, combine the almond flour, salt, and baking powder.",
+        "Blend the erythritol and stevia powder in a food processor until they are the consistency of powdered sugar, then add to the dry ingredients.",
+        "In a separate bowl, blend the eggs and sour cream until smooth.",
+        "Combine the egg mixture and dry ingredients in the large bowl.",
+        "Pour the melted butter over the top and mix until smooth.",
+        "Pour the batter into the cupcake pan, then bake for 10-15 minutes, or until the tops of the cupcakes have a hint of golden brown.",
+        "Remove cupcakes from the pan and set on a wire rack to cool.",
+        "In a separate bowl, blend the butter and cream cheese until soft and creamy.",
+        "Again, blend the erythritol and stevia to the consistency of powdered sugar.",
+        "Add the powdered sweetener to the frosting, and gently combine with a whisk.",
+        "Transfer the frosting to a decorating bag and apply generously to the tops of the cupcakes. Store any unused frosting in an airtight container in the refrigerator for up to 3 days.",
+        "Makes 12 cupcakes",
+        "Vanilla cake base\n\n1 ½ cups almond flour\n½ tsp salt\n1 Tbsp baking powder\n½ cup granulated erythritol*\n¾ tsp stevia powder*\n½ cup butter, melted\n4 eggs\n⅓ cup sour cream\n1 Tbsp vanilla**",
+        "Cream cheese frosting\n\n2 8oz packages cream cheese, room temperature\n½ cup butter, softened\n½ cup granulated erythritol*\n½ tsp stevia powder*"
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-sour-cream-drop-cookies",
+      "title": "Sour Cream Drop Cookies",
+      "collection": "low-carb",
+      "category": "dessert",
+      "ingredients": [
+        "1 ½ cup almond flour, sifted",
+        "1 Tbsp coconut flour, sifted",
+        "½ cup granulated erythritol",
+        "½ tsp stevia powder",
+        "4 Tbsp lard",
+        "½ cup sour cream",
+        "1 egg",
+        "3/4 tsp vanilla extract",
+        "1/2 tsp baking soda",
+        "1/2 tsp baking powder",
+        "1/2 tsp salt",
+        "Pinch of nutmeg"
+      ],
+      "steps": [
+        "Preheat oven to 350 degrees and grease a baking sheet or line one with parchment paper.",
+        "In a large bowl, cream together the butter and shortening. Add in sweetener and vanilla extract and cream until smooth.",
+        "Add in egg and sour cream and beat until well incorporated.",
+        "Add in xanthan gum, baking soda, baking powder, salt and nutmeg (just a tiny pinch!). Beat again until incorporated.",
+        "Add in sifted flours and mix again until a smooth dough is formed.",
+        "Let the dough sit at room temperature for about ten minutes. It will slightly thicken.",
+        "Drop by heaping tablespoonfuls onto greased baking sheet about two inches apart.",
+        "Bake for approximately 10-12 minutes or until the cookies turn an ever-so-slight golden brown around the edges. Careful: you don't want these to brown too much!",
+        "Leave cookies on baking sheet for five minutes, then remove to a cooling rack.",
+        "Allow cookies to cool, then ice with sugar free cookie icing (recipe follows) and sprinkles, if desired. Sugar Free Cookie Icing In a small bowl, melt two tablespoons of butter or non-hydrogenated palm shortening. Add in a tiny pinch of salt (about 1/8 tsp.) and a teaspoon of vanilla extract and whisk well. Sift 2/3 C of powdered sweetener (xylitol or erythritol, such as Swerve, are good choices, and powdered maltitol will do in a pinch). Whisk the sweetener and fat together until a smooth consistency is reached, then add in food coloring (if desired) and one tablespoon of warm water. Continue to whisk and whisk until it's smooth and icing consistency. Use a spatula to spread icing and top cookies with sprinkles, if desired. Icing will harden at room temperature in about 45 minutes and will keep at room temperature for about one week. NUTRITION (1/20th of recipe, iced): 97 calories, 2.5 g carbs, 1 g fiber (1.5 g net carbs), 9 g fat, 2 g protein"
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-low-carb-meatloaf",
+      "title": "Low Carb Meatloaf",
+      "collection": "low-carb",
+      "category": "main",
+      "ingredients": [
+        "1 lb ground turkey",
+        "1 lb ground country sausage",
+        "3 eggs",
+        "2 tablespoons dried onion flakes",
+        "1 ½ teaspoon bacon salt",
+        "8 oz low carb barbecue sauce",
+        "¾ cup crushed pork rinds"
+      ],
+      "steps": [
+        "Preheat oven to 325 degrees.",
+        "Mix ingredients in a large bowl until loosely combined.",
+        "Spread into a meatloaf pan and bake for 45 minutes to an hour.",
+        "Let cool for 15 minutes before cutting and serving."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-palak-paneer",
+      "title": "Palak paneer",
+      "collection": "low-carb",
+      "category": "main",
+      "ingredients": [
+        "1 bunch fresh spinach/palak",
+        "1 or 2 green chilies, chopped",
+        "1 garlic, roughly chopped (optional)",
+        "½ inch ginger, roughly chopped",
+        "1 small or medium sized onion, finely chopped",
+        "1 small or medium sized tomato, chopped",
+        "4-5 garlic/lahsun, finely chopped",
+        "½ or ¾ tsp cumin seeds/jeera",
+        "¼ tsp turmeric powder/haldi",
+        "½ tsp red chili powder (optional)",
+        "a pinch of asafoetida/hing (optional)",
+        "½ tsp garam masala powder (add more if required)",
+        "1 bay leaf/tej patta",
+        "200 gms paneer or tofu",
+        "1 or 2 tbsp cream, low fat 25% to 35% (i used amul cream)",
+        "2 tbsp oil or ghee or unsalted butter",
+        "1 tsp kasuri methi leaves/dry fenugreek leaves (optional)",
+        "salt as required",
+        "water as required",
+        "a few teaspoons of cream or butter for topping the palak paneer (optional)"
+      ],
+      "steps": [
+        "making the spinach puree:",
+        "rinse the spinach very well in water.",
+        "boil water in a pan with some salt.",
+        "switch off the fire and add the spinach leaves in the hot water.",
+        "close with a lid and let the spinach leaves sit in the water for 2-3 mins.",
+        "drain and immediately add the leaves in a pan or bowl containing ice cold water.",
+        "this method helps in preserving the green color of the spinach.",
+        "drain and then puree the spinach in a blender or hand held blender with ginger, garlic and green chilies.",
+        "make a smooth puree.",
+        "making the palak curry:",
+        "heat oil or ghee in a pan or kadai.",
+        "fry the cumin first.",
+        "then add the bay leaves and onions.",
+        "saute till the onions become browned.",
+        "now add the garlic and saute till the raw aroma goes away.",
+        "add the tomatoes. saute till the tomatoes become soft.",
+        "add the turmeric powder, red chili powder and asafoetida.",
+        "stir and saute for some seconds.",
+        "add the spinach puree. add some water if required.",
+        "simmer for 6-7 minutes or more till the spinach is cooked.",
+        "lastly add salt and garam masala.",
+        "stir and add the paneer cubes.",
+        "cook the gravy till the paneer cubes become soft and succulent. about 1 to 2 minutes.",
+        "add cream and stir.",
+        "simmer for 30 seconds or a minute.",
+        "at this stage you can also add some crushed kasuri methi leaves.",
+        "stir and serve the palak paneer hot with some rotis, naan or jeera rice.",
+        "you can top the palak paneer with some butter or cream also while serving.",
+        "Notes",
+        "the paneer of tofu cubes can be also be lightly fried and then added to the curry. i this case, you don't need to cook the paneer or tofu in the gravy as when frying they are already cooked."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-low-carb-peanut-butter-cookies",
+      "title": "Low Carb Peanut Butter Cookies",
+      "collection": "low-carb",
+      "category": "dessert",
+      "ingredients": [
+        "1 cup almond flour",
+        "3/4 cup sugar equivalent",
+        "3 Tbsp Truvia blend",
+        "9 Tbsp erythritol",
+        "1 tsp baking soda",
+        "1/4 tsp salt",
+        "2 eggs",
+        "2/3 cup peanut butter",
+        "1 tsp vanilla extract"
+      ],
+      "steps": [
+        "Preheat oven to 375 degrees.",
+        "Mix the dry ingredients in a large bowl.",
+        "In a separate bowl, beat together the eggs, peanut butter, and vanilla.",
+        "Pour the wet ingredients into the dry ingredients, and combine gently.",
+        "Separate the mixture into 16-24 small balls of dough.",
+        "Place onto greased cookie sheets, and flatten with a fork.",
+        "Bake for 11 minutes. Cookies are done when lightly browned on the edges.",
+        "Place on a rack to cool, then serve."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-peanut-butter-frosting",
+      "title": "Peanut butter frosting",
+      "collection": "low-carb",
+      "category": "dessert",
+      "ingredients": [
+        "½ cup butter, softened",
+        "1 cup creamy peanut butter",
+        "⅓ cup heavy cream",
+        "1 cup granulated erythritol",
+        "1 tsp stevia powder"
+      ],
+      "steps": [
+        "Place the butter and peanut butter into a medium bowl, and beat with an electric mixer.",
+        "Grind sweeteners together in a food processor until they are the consistency of powdered sugar.",
+        "Slowly mix in the sweetener blend into the butter mixture.",
+        "When the mixture starts to thicken, incorporate heavy cream one tablespoon at a time until well incorporated.",
+        "Beat for at least 3 minutes until the frosting is light and fluffy.",
+        "Spoon into a frosting bag or spread onto your cake."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-low-carb-pizza-crust",
+      "title": "Low carb pizza crust",
+      "collection": "low-carb",
+      "category": "main",
+      "ingredients": [
+        "8 oz. of cream cheese",
+        "4 large egg whites",
+        "1 bag crushed pork rinds (or bread crumbs)",
+        "1 tsp. baking powder",
+        "2 9” round cake pans"
+      ],
+      "steps": [
+        "Bring egg whites and cream cheese to room temperature. Preheat oven to 425°. Blend whites, baking powder, and cream cheese on high speed until smooth and fluffy. Fold in pork rinds until the batter becomes a thick paste, similar to cookie dough. Lightly grease the cake pans, then press the batter into the bottom of the cake pans. The batter should form a crust about ¼” thick. Bake at 425° for 10-12 min, or until the edges are brown. Flip the finished crust face down onto a cooling rack and let cool completely.",
+        "When ready to make the pizza, add pizza toppings as you normally would. Bake pizza at 425° for another 10-12 min.",
+        "Serves 4",
+        "Prep time 20 min",
+        "Cooking time 20-30 min"
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-low-carb-poppy-seed-muffins",
+      "title": "Low Carb Poppy Seed Muffins",
+      "collection": "low-carb",
+      "category": "dessert",
+      "ingredients": [],
+      "steps": [
+        "Preheat oven to 350 degrees.",
+        "Grease cupcake pan and set aside.",
+        "In a large bowl, combine dry ingredients first.",
+        "Add eggs, and then pour melted butter over the top and mix until smooth.",
+        "Pour the batter into the cupcake pan, then bake for 15 minutes.",
+        "Remove muffins from the pan and set on a wire rack to cool.",
+        "While the muffins are still warm, transfer them to a covered container to prevent moisture from further escaping.",
+        "Store at room temperature until ready to serve.",
+        "2 muffins\n\n4 Tbsp almond flour\n1/12 tsp salt\n1/12 tsp baking soda\n2 tsp Truvia blend\n2 Tbsp granulated erythritol\n1 Tbsp, 1 tsp butter, melted\n1 egg\n1/12 tsp lemon flavor\n1 tsp poppy seeds",
+        "4 muffins\n\n½ cup almond flour\n⅙ tsp salt\n⅙ tsp baking soda\n1 Tbsp, 1 tsp Truvia blend\n¼ cup granulated erythritol\n2 Tbsp, 2 tsp butter, melted\n2 eggs\n⅙ tsp lemon flavor\n2 tsp poppy seeds",
+        "12 muffins\n\n1 ½ cups almond flour\n½ tsp salt\n½ tsp baking soda\n¼ cup Truvia blend\n¾ cup granulated erythritol\n½ cup butter, melted\n6 eggs\n½ tsp lemon flavor\n2 Tbsp poppy seeds"
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-lchf-psyllium-pasta",
+      "title": "LCHF Psyllium Pasta",
+      "collection": "low-carb",
+      "category": "main",
+      "ingredients": [
+        "4 eggs, room temperature",
+        "½ cup cream cheese, room temperature",
+        "3 Tbsp psyllium husk powder",
+        "Oven: 325 degrees F"
+      ],
+      "steps": [
+        "Preheat oven to 325 degrees.",
+        "In a large bowl, whisk the eggs until fluffy.",
+        "Add the cream cheese and psyllium husk powder, then whisk until smooth.",
+        "Let the dough rest for 15 minutes to thicken.",
+        "Lay out two sheets of parchment paper, approximately the same size as a baking sheet. Spray the nonstick side of the parchment paper with oil.",
+        "Scoop the ball of dough onto a greased parchment paper, then place the other paper on top with the greased side down on the dough to prevent sticking.",
+        "Use a rolling pin to roll the dough into a thin sheet. Leave both layers of parchment on the dough, then slide the paper onto a baking sheet.",
+        "Bake for 10 minutes, or until edges are golden brown.",
+        "Remove from oven and let it cool for another 10 minutes. Cut into desired shape*, and then serve with your favorite pasta sauce.",
+        "*Notes about cutting:",
+        "If using a pasta roller, cut the noodle sheet lengthwise first such that the width of the sheets do not exceed the width of the roller. If you don’t have a pasta roller, roll the noodle sheet lengthwise and use a sharp knife to cut thin strips off the roll to the desired thickness.",
+        "Be careful not to pull or stress the noodle dough too much while cutting, as it is more fragile than wheat flour noodles."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-low-carb-sesame-chicken-sauce",
+      "title": "Low carb sesame chicken sauce",
+      "collection": "low-carb",
+      "category": "other",
+      "ingredients": [],
+      "steps": [
+        "Blend erythritol in a food processor until it achieves a powder-like consistency. In a saucepan, mix together powdered erythritol and arrowroot starch. Stir in chicken broth, water, vinegar, soy sauce, sesame oil, chile paste, and garlic. Bring to a boil over medium heat, stirring constantly. Reduce heat, and simmer 5 minutes. Serve hot over fried chicken, or chill in the refrigerator and reheat before serving.",
+        "3/4 cup granulated erythritol\n1/8 cup arrowroot starch\n1 cup chicken broth\n1/2 cup water\n1/8 cup white vinegar",
+        "2 tablespoons dark soy sauce\n2 tablespoons sesame oil\n1 teaspoon chile paste\n1 clove garlic, minced"
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-shortbread-cookies",
+      "title": "Shortbread cookies",
+      "collection": "low-carb",
+      "category": "dessert",
+      "ingredients": [
+        "6 Tbsp salted butter",
+        "2 cups almond flour",
+        "1/3 cup granulated erythritol",
+        "⅓ tsp powdered stevia",
+        "1 tsp freshly grated lemon zest"
+      ],
+      "steps": [
+        "To make the dough:",
+        "Grind the erythritol to a powdered sugar consistency.",
+        "Melt the butter in the microwave or a small saucepan.",
+        "Add the almond flour, sweetener, and lemon zest, stirring until fully combined.",
+        "To make a tart or pie crust:",
+        "No need to pre-chill, just press dough into tart or pie tins.",
+        "Bake in a preheated oven at 350 degrees (F) for 15 mins until firm and golden brown.",
+        "To make the cookies:",
+        "Form dough (it will be crumbly, this is normal) into a cylinder and wrap tightly with plastic wrap to compress.",
+        "Chill in freezer for 30 minutes or until firm, or in the refrigerator for 2 hours.",
+        "With a sharp knife, slice into 1/2 inch thick cookies (if they crumble apart your dough isn’t cold enough).",
+        "Bake in a preheated oven @ 350 degrees (F) on a greased or parchment lined cookie sheet for 15 minutes, or until firm and golden brown. Allow to cool before removing.",
+        "Notes",
+        "Approx nutrition info per cookie: 119 calories, 11g fat, 1.6g net carbs, 3g protein",
+        "Approx nutrition info per 1/8th tart crust: 238 calories, 23g fat, 3g net carbs, 6g protein"
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-stevia-baking-blend-truvia-clone",
+      "title": "Stevia Baking Blend (Truvia clone)",
+      "collection": "low-carb",
+      "category": "other",
+      "ingredients": [
+        "1 cup granulated erythritol",
+        "1 tsp pure stevia extract powder"
+      ],
+      "steps": [
+        "Combine ingredients in a bowl.",
+        "Store in a container with a tight-fitting lid.  Use as a 1:2 replacement (e.g. 1 cup baking blend equals 2 cups sugar) for baking with wet batter. If using for frostings, be sure to grind the blend into a powdered sugar consistency first, as erythritol only dissolves in water."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-thai-iced-tea",
+      "title": "Thai Iced Tea",
+      "collection": "low-carb",
+      "category": "other",
+      "ingredients": [
+        "Bring water to boil and add the thai tea mix or the 4 black tea bags. Add sugar and gently stir to completely dissolve sugar. Gently boil tea for about 3 minutes. Remove from heat.",
+        "Allow tea to steep for at least 30 minutes and allow it to cool. The more concentrated the tea flavor, the better the Thai tea tastes.",
+        "If you are using the Thai tea mix, strain the tea leaves. Set finished Thai tea aside to cool.",
+        "If you are using black tea bags, remove the tea bags and set aside finished Thai tea to cool.",
+        "You can make this ahead of time and have the Thai tea chilling in the fridge.",
+        "Assembly directions",
+        "Fill glasses with ice.",
+        "Fill glass with about 3/4 full of the Thai tea mix. Then top off remainder of glass with half and half.",
+        "Stir and enjoy."
+      ],
+      "steps": [
+        "1 cups tea mix",
+        "8 cups water",
+        "1 ½ cup erythritol",
+        "1 ½ teaspoon stevia powder"
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-lchf-thin-crust-pizza",
+      "title": "LCHF Thin crust pizza",
+      "collection": "low-carb",
+      "category": "main",
+      "ingredients": [
+        "1-2 Mission Carb Balance tortilla(s), soft taco size",
+        "Pizza toppings",
+        "8-inch cast iron skillet",
+        "Cooking oil",
+        "Parmesan cheese crumbles, to taste"
+      ],
+      "steps": [
+        "Preheat oven to 425 degrees.",
+        "Lightly grease the bottom and sides of the cast iron skillet.",
+        "Place one tortilla at the bottom of the skillet, then spread pesto or garlic evenly along the bottom.",
+        "(Optional) If making a stuffed crust (second tortilla), add a layer of italian cheese, then place the second tortilla on top.",
+        "Spread pizza sauce or caesar dressing on as the next layer.",
+        "Sprinkle on a thick layer of cheese.",
+        "Add the remaining pizza toppings, adding the remaining shredded cheese last. Make sure to spread some cheese into the edges of the tortilla, which will form a crispy edge.",
+        "Sprinkle parmesan cheese on top.",
+        "Bake for 10-12 minutes, or until the cheese on top is lightly browned and bubbling.",
+        "Allow pizza to cool for 2-5 minutes, then gently press down on the edges of the pizza to loosen it from the pan. Remove with a spatula, then cut and serve.",
+        "Makes 1 pizza. Net carbs: 9g of carbs for single layer crust, 15g of carbs for stuffed crust",
+        "For pepperoni pizza:\n7 slices of pepperoni\n⅓ cup italian cheese blend, shredded\n⅓ cup mozzarella, shredded\n1 Tbsp pizza sauce\n2 tsp basil pesto",
+        "For garlic chicken pizza\n⅓ cup grilled chicken slices\n⅓ cup italian cheese blend, shredded\n⅓ cup mozzarella, shredded\n1 tsp crushed garlic\n1 Tbsp creamy caesar dressing\n¼ cup chopped spinach"
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "low-carb-low-carb-french-vanilla-ice-cream",
+      "title": "Low carb French vanilla ice cream",
+      "collection": "low-carb",
+      "category": "dessert",
+      "ingredients": [
+        "2 1/2 cups heavy cream",
+        "1 1/2 cups whole milk (separated into 1 cup and 1/2 cup)",
+        "1 tablespoon vanilla extract",
+        "8 large egg yolks",
+        "3/4 cup sugar equivalent",
+        "3 Tbsp Truvia blend",
+        "9 Tbsp erythritol",
+        "1/4 teaspoon salt",
+        "For chocolate ice cream, add 1/2 cup cocoa powder and an extra 1/4 cup stevia blend."
+      ],
+      "steps": [
+        "In a medium bowl, beat together the yolks and half of the sugar. You can beat by hand using a whisk or using a hand mixer or egg beater. Beat until thoroughly smooth and creamy. (A couple of minutes by hand.)",
+        "Put cream, 1 cup of the milk, vanilla extract, the remaining half of the sugar, and the salt into a medium saucepan over medium heat. Heat the mixture until just before it starts to simmer (do not let simmer). Remove mixture from heat and let stand 10 minutes.",
+        "While the mixture is standing, prepare an ice water bath in a bowl large enough to set another bowl easily inside of it. Set aside.",
+        "Whisk in 1 cup of the cream mixture in a slow stream into the yolk mixture to temper it. Add another cup of the cream mixture; continue to whisk. Transfer the egg yolk mixture back to the saucepan with the remaining cream, milk and vanilla. Cook over medium-high heat, stirring constantly, until it is thick enough to coat the back of a wooden spoon and an instant-read thermometer registers 180°, 5 to 7 minutes. (You can run your finger in a line over the back of the coated spoon. If the mixture doesn't run, but stays in place on the spoon, it should be thick enough.) Remove from heat and mix in the remaining 1/2 cup of milk to stop the mixture from overcooking.",
+        "Pour custard through a medium-mesh sieve into a stainless steel bowl set in the ice-water bath. Let cool completely, stirring until completely chilled.",
+        "Freeze custard in an ice cream maker according to manufacturer's instructions. (Take care not to over churn the ice cream or it will get a grainy texture.) If you serve the ice cream immediately, it will probably be pretty soft. Freeze it for at least an hour in an airtight plastic container to have a firmer texture. If it has been frozen for more than a day, you may need to let it sit at room temperature for a few minutes to soften before serving it."
+      ],
+      "notes": [],
+      "pending": false
+    },
+    {
+      "id": "cabin-pumpkin-cookies",
+      "title": "Pumpkin Cookies with Brown Sugar Icing",
+      "collection": "cabin",
+      "author": "",
+      "category": "dessert",
+      "ingredients": [
+        "2¾ cup flour",
+        "1 tsp baking powder",
+        "1 tsp baking soda",
+        "¼ tsp salt",
+        "½ tsp cinnamon",
+        "¼ tsp nutmeg",
+        "¾ cup butter (1½ sticks)",
+        "2¼ cup brown sugar",
+        "2 eggs",
+        "½ cup canned pumpkin",
+        "¾ cup evaporated milk",
+        "1 tsp vanilla",
+        "ICING: 4 cups powdered sugar",
+        "10 Tbsp butter (1¼ sticks)",
+        "¼ cup plus 1 Tbsp evaporated milk (plus more if needed)",
+        "2 tsp vanilla"
+      ],
+      "steps": [
+        "Preheat oven to 375°. Mix flour, baking powder, soda, salt, cinnamon and nutmeg. Set aside.",
+        "Cream butter and brown sugar until fluffy. Mix in eggs. Add pumpkin, evaporated milk and vanilla.",
+        "Add flour mixture. Mix until combined. Drop teaspoonfuls on greased cookie sheet and bake 12 min. Cool completely.",
+        "Icing: Melt butter in saucepan until golden brown (~3 min). Add to powdered sugar with evaporated milk and vanilla. Stir smooth. Spread about 1 tsp on each cookie."
+      ],
+      "notes": [
+        "Makes approx. 7 dozen."
+      ],
+      "pending": false
+    },
+    {
+      "id": "cabin-bokchoy-salad",
+      "title": "Bokchoy Salad",
+      "collection": "cabin",
+      "category": "salad",
+      "ingredients": [
+        "ROAST MIX: 2 pk ramen noodles (no flavor packets)",
+        "½ cup sesame seeds or sunflower seeds (raw)",
+        "½ cup sliced almonds",
+        "1 cube melted butter"
+      ],
+      "steps": [
+        "Mix roast ingredients together.",
+        "Cook at 350° in 9×13 pan for 10–15 minutes, or until browned."
+      ],
+      "notes": [
+        "Photo shows roast mix portion — more salad steps may be on another page."
+      ],
+      "pending": false
+    },
+    {
+      "id": "cabin-broccoli-slaw",
+      "title": "Broccoli Slaw",
+      "collection": "cabin",
+      "category": "salad",
+      "ingredients": [
+        "DRESSING: 2 tbsp soy sauce",
+        "½ cup red wine vinegar",
+        "¼ to 1 cup sugar (to taste)",
+        "1 cup oil",
+        "3 cups broccoli",
+        "3 cups cabbage",
+        "½ cup red onion"
+      ],
+      "steps": [
+        "Whisk dressing ingredients together.",
+        "Toss with broccoli, cabbage and red onion."
+      ],
+      "pending": false
+    },
+    {
+      "id": "cabin-huckleberry-pie",
+      "title": "Huckleberry Pie",
+      "collection": "cabin",
+      "category": "dessert",
+      "ingredients": [
+        "1 small pkg cream cheese",
+        "½ cup powdered sugar",
+        "½ tsp vanilla",
+        "1 cup whipping cream",
+        "⅓ cup sugar to 1 cup berries",
+        "Cornstarch to thicken berries"
+      ],
+      "steps": [
+        "Prepare pie shell.",
+        "Beat cream cheese, powdered sugar, vanilla and whipping cream. Spread on shell.",
+        "Sweeten huckleberries with sugar and thicken with cornstarch.",
+        "Spread berries on top of cream layer."
+      ],
+      "pending": false
+    }
+  ]
+};

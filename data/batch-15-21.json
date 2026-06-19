@@ -1,0 +1,686 @@
+[
+  {
+    "id": "monster-cookies",
+    "title": "Monster cookies",
+    "collection": "prescott-cousins",
+    "sourcePage": 15,
+    "author": "Marla Reynolds",
+    "category": "dessert",
+    "ingredients": [
+      "12 eggs",
+      "2 lbs. brn. sugar",
+      "4 cups white sugar",
+      "1 Tab. vanilla",
+      "1 Tab. syrup",
+      "8 tsp. soda",
+      "1 lb. butter",
+      "3 lbs. peanut butter",
+      "18 cups oatmeal",
+      "1 lb. choc. chips",
+      "1 lb. nuts"
+    ],
+    "steps": [
+      "Mix in order. Drop by ice cream scoop onto greased cookie sheet, and flatten with fork. 6 scoops to a sheet.",
+      "Bake 12 mins. at 350°. Yield 20 doz."
+    ],
+    "notes": [
+      "I make regular size cookies and I sometimes freeze ½ of the dough and bake later."
+    ],
+    "pending": false
+  },
+  {
+    "id": "no-bake-cookies",
+    "title": "No bake cookies",
+    "collection": "prescott-cousins",
+    "sourcePage": 15,
+    "author": "Kelly J. Colucci",
+    "category": "dessert",
+    "ingredients": [
+      "3 cups oatmeal",
+      "1 cup coconut",
+      "5 T. cocoa",
+      "1 teas. vanilla",
+      "2 cups sugar",
+      "1 cube margarine",
+      "½ cup milk"
+    ],
+    "steps": [
+      "Combine oatmeal, coconut, cocoa and vanilla. Set aside.",
+      "Mix sugar, margarine and milk. Bring to boil, but don't cook.",
+      "Add oatmeal mixture and mix well.",
+      "Drop by teaspoon onto waxed paper."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "magic-cookie-bars",
+    "title": "Magic cookie bars",
+    "collection": "prescott-cousins",
+    "sourcePage": 15,
+    "author": "Jeanne Prescott Farnworth",
+    "category": "dessert",
+    "ingredients": [
+      "½ cup margarine",
+      "1½ cup graham cracker crumbs",
+      "1 (14 oz.) can sweetened condensed milk",
+      "1 package chocolate chips",
+      "1 package flaked coconut",
+      "1 cup chopped nuts"
+    ],
+    "steps": [
+      "Preheat oven to 350°.",
+      "In 13 by 9 cake pan melt margarine in oven.",
+      "Sprinkle graham cracker crumbs over margarine.",
+      "Pour sweetened condensed milk over crumbs.",
+      "Top with remaining ingredients. Press down.",
+      "Bake 25–30 min. Cool. Cut into bars."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "beer-bread",
+    "title": "Beer bread",
+    "collection": "prescott-cousins",
+    "sourcePage": 15,
+    "author": "Marla Reynolds",
+    "category": "bread",
+    "ingredients": [
+      "1 can room temp. beer",
+      "3 tab. sugar",
+      "3 cups self-rising flour"
+    ],
+    "steps": [
+      "Mix all together. Let rise for 30 min. or until high in warm spot, in greased loaf pan.",
+      "Bake at 350° for 1 hr.",
+      "May put water and wet finger on top to smooth the last 10 min. Take out of oven and brush with butter."
+    ],
+    "notes": [
+      "m-m-m- m-m-m- good."
+    ],
+    "pending": false
+  },
+  {
+    "id": "unbaked-oatmeal-cookies",
+    "title": "Unbaked oatmeal cookies",
+    "collection": "prescott-cousins",
+    "sourcePage": 15,
+    "author": "Marla Reynolds",
+    "category": "dessert",
+    "ingredients": [
+      "1 stick oleo melted",
+      "2 cups sugar",
+      "½ cup milk",
+      "2 Tab. Dutch Choc.",
+      "3 cups quick oatmeal",
+      "1 tsp. vanilla",
+      "½ cup nuts (optional)"
+    ],
+    "steps": [
+      "Add sugar to melted oleo or butter. Add milk and Dutch chocolate.",
+      "Bring to boil (boil 1 min.). Test to soft ball stage.",
+      "Add oatmeal and vanilla. Can add ½ cup nuts if you want.",
+      "Spoon out onto wax paper. Makes about 18 cookies."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "macaroni-salad",
+    "title": "Macaroni salad",
+    "collection": "prescott-cousins",
+    "sourcePage": 16,
+    "author": "Sally Caboth",
+    "category": "salad",
+    "ingredients": [
+      "1 pkg. macaroni & cheese",
+      "1 cup chopped tomatoes",
+      "1 cup chopped cucumber",
+      "½ cup chopped onion",
+      "½ cup chopped green pepper",
+      "½ cup salad dressing",
+      "salt & pepper"
+    ],
+    "steps": [
+      "Prepare macaroni & cheese as directed.",
+      "Add tomatoes, cucumber, onion, green pepper, salad dressing, salt and pepper."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "frozen-fruit-salad",
+    "title": "Frozen fruit salad",
+    "collection": "prescott-cousins",
+    "sourcePage": 16,
+    "author": "Ethel Wagner",
+    "category": "salad",
+    "ingredients": [
+      "1½ cup sugar",
+      "1 cup water",
+      "#2 can crushed pineapple (drained)",
+      "#2½ can apricots (drained and chunked)",
+      "4 diced bananas",
+      "2 pkgs. frozen strawberries"
+    ],
+    "steps": [
+      "Boil together the sugar and water.",
+      "Add the fruits.",
+      "Place in baking cups in muffin tins and freeze for individual servings."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "hamburger-salad",
+    "title": "Hamburger salad",
+    "collection": "prescott-cousins",
+    "sourcePage": 16,
+    "author": "Tesa Heldenbrand",
+    "category": "salad",
+    "ingredients": [
+      "1 lb. hamburger",
+      "1 lb. Italian sausage",
+      "1 med. onion (chopped)",
+      "1 can kidney beans",
+      "1 head lettuce",
+      "3 med. tomatoes",
+      "10 oz. cheddar cheese",
+      "1 bottle French dressing (clear)",
+      "1 pkg. crushed taco chips"
+    ],
+    "steps": [
+      "Cook hamburger, sausage and onion. Add beans and mix well. Drain and let cool.",
+      "In a lrg. bowl chop lettuce and tomatoes in small pieces.",
+      "Add cooled meat mixture and shredded cheese. Add crushed taco chips.",
+      "Pour French dressing on and mix. Can use taco sauce at the table."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "pickled-mastaccoli",
+    "title": "Pickled Mastaccoli",
+    "collection": "prescott-cousins",
+    "sourcePage": 16,
+    "author": "Nancy Yori",
+    "category": "salad",
+    "ingredients": [
+      "1 lb. mestaccioli",
+      "1½ cup white vinegar",
+      "1½ cup sugar",
+      "1 med. onion",
+      "1 tea. garlic powder",
+      "1 tea. pepper",
+      "1 tea. accent",
+      "2 Tab. dry parsley",
+      "1 can black olives chopped"
+    ],
+    "steps": [
+      "Prepare pasta according to directions. Drain and cool.",
+      "Place remaining ingredients in the blender. Pour over pasta.",
+      "Refrigerate for 2–3 days. Stir frequently."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "cabbage-salad",
+    "title": "Cabbage salad",
+    "collection": "prescott-cousins",
+    "sourcePage": 16,
+    "author": "Sally Caboth",
+    "category": "salad",
+    "ingredients": [
+      "1 head cabbage shredded",
+      "2 carrots",
+      "4 stalks celery (chopped)",
+      "1 green pepper",
+      "1 onion",
+      "1 cup sugar",
+      "½ cup vinegar",
+      "½ cup oil",
+      "salt & pepper"
+    ],
+    "steps": [
+      "Bring sugar, vinegar and oil to boil with salt and pepper.",
+      "Pour over vegetables while hot. Chill.",
+      "Will keep in frig. a long time."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "vegetable-salad",
+    "title": "Vegetable salad",
+    "collection": "prescott-cousins",
+    "sourcePage": 16,
+    "author": "Nancy Yori",
+    "category": "salad",
+    "ingredients": [
+      "1 head lettuce",
+      "1 small head cauliflower",
+      "1 med. onion diced",
+      "3–4 oz. Parmesan cheese",
+      "¼ cup imitation bacon bits",
+      "1½–2 cup Miracle Whip light",
+      "pepper to taste"
+    ],
+    "steps": [
+      "Mix all together and let set overnight."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "swiss-steak",
+    "title": "Swiss steak",
+    "collection": "prescott-cousins",
+    "sourcePage": 17,
+    "author": "Christy Colucci",
+    "category": "main",
+    "ingredients": [
+      "1 round steak",
+      "tomato sauce",
+      "sliced onions",
+      "green pepper",
+      "2 cloves garlic (crushed or sliced)",
+      "salt & pepper"
+    ],
+    "steps": [
+      "Put round steak in a baking pan. Cover with tomato sauce.",
+      "Add sliced onions, green pepper and garlic.",
+      "Salt and pepper to taste. Cover.",
+      "Bake at 350° 2 hours or till tender."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "beef-summer-sausage",
+    "title": "Beef summer sausage",
+    "collection": "prescott-cousins",
+    "sourcePage": 17,
+    "author": "Dale L. Baugh",
+    "category": "main",
+    "ingredients": [
+      "4 lb. cheap hamburger",
+      "4 Tabl. Morton Tender curing salt",
+      "2 tsp. seasoning pepper",
+      "1 Tab. garlic powder",
+      "1 Tab. onion powder",
+      "1 Tab. brown sugar",
+      "1 Tab. liquid smoke",
+      "1 tea. whole mustard seed",
+      "2 cups water"
+    ],
+    "steps": [
+      "Mix well and form into rolls. Wrap in foil and refrigerate for 24 hrs. to cure.",
+      "Bake in roaster pan with rolls covered with water for 1½ hrs.",
+      "Unwrap sausage and drain. Cool and re-wrap.",
+      "Keep sausage frozen; thaw before serving. Slice and serve with crackers."
+    ],
+    "notes": [
+      "Leave rolls wrapped while baking."
+    ],
+    "pending": false
+  },
+  {
+    "id": "pheasant-breast",
+    "title": "Pheasant breast",
+    "collection": "prescott-cousins",
+    "sourcePage": 17,
+    "author": "Linda Kimble",
+    "category": "main",
+    "ingredients": [
+      "pheasant breast",
+      "spices to taste",
+      "1 can undiluted mushroom soup",
+      "¼ can water"
+    ],
+    "steps": [
+      "In baking dish layer pheasant breast, spices, mushroom soup and water.",
+      "Cover and bake at 350° about 1½ hrs."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "mushroom-steak",
+    "title": "Mushroom steak",
+    "collection": "prescott-cousins",
+    "sourcePage": 17,
+    "author": "Linda Kimble",
+    "category": "main",
+    "ingredients": [
+      "round steak or cheap roast",
+      "flour",
+      "1 can mushroom soup",
+      "¼ cup water"
+    ],
+    "steps": [
+      "Dice steak or roast. Flour and brown fry.",
+      "In baking dish put browned meat. Cover with mushroom soup diluted with ¼ cup water.",
+      "Cover and bake at 350° 45 min. to 1 hr."
+    ],
+    "notes": [
+      "Our mother use to do this. — Naida Snyder"
+    ],
+    "pending": false
+  },
+  {
+    "id": "mex-tex-dip",
+    "title": "Mex tex dip",
+    "collection": "prescott-cousins",
+    "sourcePage": 18,
+    "author": "Rae Ann Prescott",
+    "category": "appetizer",
+    "ingredients": [
+      "2 cans refried beans",
+      "3 very ripe avocados",
+      "1 Tbsp. lemon juice",
+      "salt and pepper",
+      "1 quart sour cream",
+      "½ cup mayonnaise",
+      "1 pack taco mix",
+      "6–7 fresh green onions",
+      "3 tomatoes",
+      "1 can (7 oz.) ripe olives (sliced)",
+      "cheddar cheese"
+    ],
+    "steps": [
+      "Spread refried beans on bottom of 9 by 13 pan.",
+      "Mash avocados with lemon juice, salt and pepper. Spread on bean mixture.",
+      "Mix sour cream, mayonnaise and taco mix. Spread on.",
+      "Chop green onions and layer next.",
+      "Dice tomatoes and layer next.",
+      "Put sliced olives on top.",
+      "Grate cheddar cheese and spread on top.",
+      "Refrigerate 3 hours before serving. Serve with 1 or 2 bags of Tostitos."
+    ],
+    "notes": [
+      "Feeds a crowd. Good!"
+    ],
+    "pending": false
+  },
+  {
+    "id": "snack-crackers",
+    "title": "Snack crackers",
+    "collection": "prescott-cousins",
+    "sourcePage": 18,
+    "author": "Dale L. Baugh",
+    "category": "appetizer",
+    "ingredients": [
+      "1 cup Mazola oil",
+      "½ tsp. lemon pepper",
+      "1 tsp. dill weed",
+      "½ tsp. garlic powder",
+      "1 pkg. Hidden Valley Ranch dressing",
+      "2 packages small oyster crackers"
+    ],
+    "steps": [
+      "Mix oil, lemon pepper, dill weed, garlic powder and ranch dressing together.",
+      "In a double large brown bag, put oyster crackers and shake well.",
+      "Let stand and shake every 15–20 mins. for at least 4 hrs.",
+      "Best when made ahead a day."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "apple-dip",
+    "title": "Apple dip",
+    "collection": "prescott-cousins",
+    "sourcePage": 18,
+    "author": "Susan Friedrich",
+    "category": "appetizer",
+    "ingredients": [
+      "2 (8 oz.) cream cheese",
+      "1½ cup brown sugar",
+      "2 tsp. vanilla",
+      "¼ cup chopped pecans"
+    ],
+    "steps": [
+      "Mix cream cheese, brown sugar and vanilla well. Add pecans.",
+      "Dip apple wedges in. Tastes like carmeled apples.",
+      "If you aren't going to use it all, leave the nuts out — they will get soft."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "shrimp-dip",
+    "title": "Shrimp dip",
+    "collection": "prescott-cousins",
+    "sourcePage": 18,
+    "author": "Tina Prescott Colucci",
+    "category": "appetizer",
+    "ingredients": [
+      "1 pint whipping cream",
+      "8 oz. cream cheese (softened)",
+      "1 can shrimp (drained)",
+      "sliced green onions",
+      "dash of garlic"
+    ],
+    "steps": [
+      "Whip cream until it starts to thicken.",
+      "Add cream cheese and mix well.",
+      "Stir in drained shrimp, sliced green onions and a dash of garlic.",
+      "Serve with chips or fresh vegetables."
+    ],
+    "notes": [
+      "Delicious!!!!!"
+    ],
+    "pending": false
+  },
+  {
+    "id": "carmels",
+    "title": "Carmels",
+    "collection": "prescott-cousins",
+    "sourcePage": 19,
+    "author": "Randy Prescott",
+    "category": "candy",
+    "ingredients": [
+      "1 cup sugar",
+      "¾ cup corn syrup",
+      "1 cup milk",
+      "butter",
+      "½ teaspoon vanilla"
+    ],
+    "steps": [
+      "Butter sauce pan. Combine sugar, corn syrup, butter and ½ cup milk.",
+      "Bring to boil over low heat. Add remaining milk.",
+      "Cook to medium ball stage. Remove from heat.",
+      "Add vanilla. Pour in a buttered cake pan. Cool.",
+      "Cut. Pick up with fingers, put in mouth, chew awhile, swallow."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "pink-divinity",
+    "title": "Pink divinity",
+    "collection": "prescott-cousins",
+    "sourcePage": 19,
+    "author": "Jani Musser",
+    "category": "candy",
+    "ingredients": [
+      "3 cups sugar",
+      "¾ c. light corn syrup",
+      "¾ c. water",
+      "1 tsp. vanilla",
+      "dash of salt",
+      "1 pkg. red gelatin (jello)",
+      "1 c. chopped nuts",
+      "2 egg whites"
+    ],
+    "steps": [
+      "Mix sugar, corn syrup, water and salt in saucepan. Stir until sugar is dissolved.",
+      "Cover, bring to a boil, and cook for a minute or two to wash down the crystals.",
+      "Remove cover. Cook without stirring until syrup reaches hard ball stage (260°) or until mixture is slightly brittle when dropped into cold water.",
+      "Beat egg whites until frothy. Add gelatin gradually. Continue beating until stiff peaks form.",
+      "Slowly add hot syrup, continue beating until candy becomes creamy.",
+      "Stir in nuts and vanilla. As quickly as possible drop by teaspoonfuls onto waxed paper."
+    ],
+    "notes": [
+      "Yield about 5 doz.",
+      "The Pink Divinity is almost a no-fail receipe. And gives a different flavor to the divinity. And makes it a pretty pink."
+    ],
+    "pending": false
+  },
+  {
+    "id": "chocolate-sauce",
+    "title": "Chocolate sauce",
+    "collection": "prescott-cousins",
+    "sourcePage": 19,
+    "author": "Marla Reynolds",
+    "category": "sauce",
+    "ingredients": [
+      "3 cups water",
+      "¾ cup sugar",
+      "2 Tab. flour",
+      "2 Tab. cocoa",
+      "1 Tab. butter",
+      "dash salt"
+    ],
+    "steps": [
+      "Mix all together and boil until it thickens."
+    ],
+    "notes": [
+      "Good on biscuits."
+    ],
+    "pending": false
+  },
+  {
+    "id": "coconut-candies",
+    "title": "Coconut candies",
+    "collection": "prescott-cousins",
+    "sourcePage": 19,
+    "author": "Oran and Nancy Prescott",
+    "category": "candy",
+    "ingredients": [
+      "1 can Eagle Brand milk",
+      "1 stick oleo",
+      "1 lrg. pkg. flaked coconut",
+      "1 cup chopped nuts"
+    ],
+    "steps": [
+      "Mix together and refrigerate overnight.",
+      "Form into balls and refrigerate overnight.",
+      "Dip in melted almond bark."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "chocolate-covered-cherries",
+    "title": "Chocolate covered cherries",
+    "collection": "prescott-cousins",
+    "sourcePage": 19,
+    "author": "Fern Fitz",
+    "category": "candy",
+    "ingredients": [
+      "1 box powdered sugar",
+      "⅓ cup oleo",
+      "⅓ cup white sugar",
+      "cherries",
+      "1 lrg. pkg. chocolate chips",
+      "⅓ bar paraffin",
+      "almond bark"
+    ],
+    "steps": [
+      "Mix powdered sugar, oleo and white sugar with hand till forms a ball.",
+      "Roll small amount in hand, flatten and wrap around a cherry. Refrigerate overnight.",
+      "In double boiler melt chocolate chips and paraffin, or melt almond bark.",
+      "Dip balls in bark and place on wax paper."
+    ],
+    "notes": [
+      "This is my Mother's Fern Fitz. From Naida Snyder."
+    ],
+    "pending": false
+  },
+  {
+    "id": "microwave-fudge",
+    "title": "Microwave fudge",
+    "collection": "prescott-cousins",
+    "sourcePage": 20,
+    "author": "Jan Musser",
+    "category": "candy",
+    "ingredients": [
+      "1 # powdered sugar",
+      "¼ tsp. salt",
+      "2 tsp. vanilla",
+      "¼ tsp. pistachio flavoring (optional)",
+      "⅔ c. cocoa",
+      "¼ c. milk",
+      "½ c. chopped pistachios",
+      "¼ c. butter or margarine"
+    ],
+    "steps": [
+      "In large microwave-proof bowl, combine powdered sugar, cocoa and salt.",
+      "Stir in milk and flavoring. Mix well. Place butter on top.",
+      "Microwave at high for 2 min. Beat until smooth. Stir in pistachios.",
+      "Spread in buttered 8×8×2 inch baking dish.",
+      "Chill about 1 hour or until firm. Cut into 36 pieces."
+    ],
+    "notes": [
+      "Can substitute other nuts."
+    ],
+    "pending": false
+  },
+  {
+    "id": "cinnamon-candy",
+    "title": "Cinnamon candy",
+    "collection": "prescott-cousins",
+    "sourcePage": 20,
+    "author": "Shirley Prescott",
+    "category": "candy",
+    "ingredients": [
+      "2 cup sugar",
+      "1 cup Karo syrup",
+      "½ cup water",
+      "¼ tsp. food coloring",
+      "¼ tsp. cinnamon"
+    ],
+    "steps": [
+      "Boil sugar, Karo syrup and water to 280 degrees — hard crack.",
+      "Let cool slightly 3–5 min.",
+      "Stir in food coloring and cinnamon.",
+      "Pour in 8″ greased pan. When slightly cool, score.",
+      "Let cool completely and break."
+    ],
+    "notes": [],
+    "pending": false
+  },
+  {
+    "id": "turkey-taco-dip",
+    "title": "Turkey taco dip",
+    "collection": "prescott-cousins",
+    "sourcePage": 21,
+    "author": "Nancy Yori",
+    "category": "appetizer",
+    "ingredients": [
+      "2 cans refried beans",
+      "2 cups sour cream",
+      "1 lb. ground turkey",
+      "8 oz. mild taco sauce",
+      "1 (4 oz.) can green chili peppers chopped",
+      "2 cup grated American cheese",
+      "shredded lettuce",
+      "chopped tomato and onions",
+      "½ tea. garlic powder",
+      "½ tea. chili powder"
+    ],
+    "steps": [
+      "Spread beans on a large platter. Cover beans with one cup of sour cream.",
+      "Brown turkey with onion and garlic powder. Drain and cool.",
+      "When cool add taco sauce and spread over sour cream.",
+      "Add another cup of sour cream on top of turkey mixture.",
+      "Layer with chopped chili peppers, grated cheese, shredded lettuce and chopped tomatoes.",
+      "Serve with large taco chips."
+    ],
+    "notes": [],
+    "pending": false
+  }
+]
