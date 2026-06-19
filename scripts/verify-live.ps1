@@ -1,4 +1,4 @@
-# After every push28: live URL must contain the edit. Agent runs this — not Kelly.
+# After every push28: live URL must contain the edit. Agent runs this - not Kelly.
 param(
   [string]$MustContain = ""
 )
@@ -14,10 +14,10 @@ function Get-Body($u) {
   }
 }
 
-$home = Get-Body $url
+$homeBody = Get-Body $url
 $js = Get-Body $data
 
-if (-not $home) { Write-Error "FAIL: site not reachable: $url"; exit 1 }
+if (-not $homeBody) { Write-Error "FAIL: site not reachable: $url"; exit 1 }
 if (-not $js) { Write-Error "FAIL: recipes.js not reachable: $data"; exit 1 }
 
 Write-Host "OK  $url"
@@ -25,9 +25,9 @@ Write-Host "OK  $data"
 
 if ($MustContain) {
   $jsHas = $js -match [regex]::Escape($MustContain)
-  Write-Host "recipes.js contains '$MustContain': $jsHas"
+  Write-Host ("recipes.js contains [{0}]: {1}" -f $MustContain, $jsHas)
   if (-not $jsHas) {
-    Write-Error "FAIL: live site missing expected text — wait 60s and re-run, or check push"
+    Write-Error "FAIL: live site missing expected text - wait 60s and re-run"
     exit 1
   }
 }
