@@ -138,7 +138,7 @@ def main() -> None:
         "collections": [
             {
                 "id": "prescott-cousins",
-                "title": "Prescott Cousin's Cookbook",
+                "title": "Prescott Cousins' Cookbook",
                 "subtitle": "Hi, ya'll",
                 "cover": "assets/prescott-cover.png",
                 "source": src_pdf[0].name,

@@ -1,6 +1,6 @@
 # Family Recipes
 
-Heirloom cookbooks in one searchable page — Prescott Cousin's Cookbook, cabin notes, low-carb favorites, and more as we add them.
+Heirloom cookbooks in one searchable page — Prescott Cousins' Cookbook, cabin notes, low-carb favorites, and more as we add them.
 
 **Live site:** [kelly-nwb.github.io/family-recipes](https://kelly-nwb.github.io/family-recipes/)
 

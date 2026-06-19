@@ -2,7 +2,7 @@ window.RECIPE_DATA = {
   "collections": [
     {
       "id": "prescott-cousins",
-      "title": "Prescott Cousin's Cookbook",
+      "title": "Prescott Cousins' Cookbook",
       "subtitle": "Hi, ya'll",
       "cover": "assets/prescott-cover.png",
       "source": "Prescott Cusion's Cook Book.pdf",
