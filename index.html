@@ -398,7 +398,47 @@
       overflow: hidden;
       box-shadow: 3px 3px 0 var(--shadow);
       transition: transform 0.15s, box-shadow 0.15s;
-      border-left: 5px solid var(--campfire);
+      border-left: 6px solid var(--canvas);
+    }
+
+    .recipe-card.cat-dessert     { border-left-color: #4A8F55; }
+    .recipe-card.cat-main        { border-left-color: #B83A2E; }
+    .recipe-card.cat-side        { border-left-color: #A67C3D; }
+    .recipe-card.cat-salad       { border-left-color: #5C9E68; }
+    .recipe-card.cat-bread       { border-left-color: #C9A55C; }
+    .recipe-card.cat-appetizer   { border-left-color: #5B8FA8; }
+    .recipe-card.cat-candy       { border-left-color: #9E4A6A; }
+    .recipe-card.cat-sauce       { border-left-color: #7A5C3E; }
+    .recipe-card.cat-beverage    { border-left-color: #4A7FA8; }
+    .recipe-card.cat-condiment   { border-left-color: #8B7340; }
+    .recipe-card.cat-other,
+    .recipe-card.cat-uncategorized { border-left-color: #9A9590; }
+
+    .cat-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+      margin: -0.75rem 0 1.25rem;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.62rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--bark);
+    }
+
+    .cat-legend span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .cat-legend i {
+      display: inline-block;
+      width: 0.55rem;
+      height: 0.9rem;
+      border-radius: 1px;
+      font-style: normal;
     }
 
     .recipe-card:hover {
@@ -408,8 +448,11 @@
 
     .recipe-card.pending {
       border-color: var(--canvas);
-      border-left-color: var(--canvas);
       opacity: 0.88;
+    }
+
+    .recipe-card.pending:not([class*="cat-"]) {
+      border-left-color: var(--canvas);
     }
 
     .recipe-card > summary {
@@ -631,6 +674,7 @@
 <main>
   <div id="collections"></div>
   <p class="section-label" id="recipe-label">All Recipes</p>
+  <div class="cat-legend" id="cat-legend" aria-hidden="true"></div>
   <div class="recipe-grid" id="recipe-grid"></div>
 </main>
 
@@ -712,6 +756,26 @@ const COLLECTION_COPY = {
     meta: (c) => [`${c.recipeCount} recipes`]
   }
 };
+
+const CAT_COLORS = {
+  dessert: '#4A8F55',
+  main: '#B83A2E',
+  side: '#A67C3D',
+  salad: '#5C9E68',
+  bread: '#C9A55C',
+  appetizer: '#5B8FA8',
+  candy: '#9E4A6A',
+  sauce: '#7A5C3E',
+  beverage: '#4A7FA8',
+  condiment: '#8B7340',
+  other: '#9A9590',
+  uncategorized: '#9A9590'
+};
+
+function catClass(category) {
+  const key = (category || 'uncategorized').toLowerCase().replace(/[^a-z]/g, '');
+  return CAT_COLORS[key] ? `cat-${key}` : 'cat-uncategorized';
+}
 
 function filteredRecipes() {
   return DATA.recipes.filter(r => {
@@ -835,11 +899,15 @@ function renderRecipeCard(r) {
     `;
   const badge = pending ? 'On file' : 'Ready';
 
+  const cat = (r.category || 'uncategorized').toLowerCase();
+  const catLabel = cat === 'uncategorized' ? '' : `<span>${escapeHtml(cat)}</span>`;
+
   return `
-    <details class="recipe-card${pending ? ' pending' : ''}" data-recipe-id="${r.id}" id="recipe-${r.id}">
+    <details class="recipe-card ${catClass(r.category)}${pending ? ' pending' : ''}" data-recipe-id="${r.id}" id="recipe-${r.id}">
       <summary>
         <h3>${honorNames(r.title)}</h3>
         <div class="recipe-meta">
+          ${catLabel}
           ${r.author ? `<span>${honorNames(r.author)}</span>` : ''}
           ${r.sourcePage ? `<span>Page ${r.sourcePage}</span>` : ''}
           <span class="badge${pending ? ' pending-badge' : ''}">${badge}</span>
@@ -862,6 +930,7 @@ function renderRecipes() {
 
   if (!list.length) {
     grid.innerHTML = '<p class="empty-state">Nothing matched — try another search.</p>';
+    document.getElementById('cat-legend').innerHTML = '';
     return;
   }
 
@@ -880,6 +949,22 @@ function renderRecipes() {
   });
 
   grid.innerHTML = sorted.map(renderRecipeCard).join('');
+  renderCatLegend(list);
+}
+
+function renderCatLegend(list) {
+  const el = document.getElementById('cat-legend');
+  const cats = [...new Set(list.map(r => (r.category || 'uncategorized').toLowerCase()))]
+    .filter(c => c !== 'uncategorized')
+    .sort((a, b) => a.localeCompare(b));
+  if (!cats.length) {
+    el.innerHTML = '';
+    return;
+  }
+  el.innerHTML = cats.map(c => {
+    const color = CAT_COLORS[c] || CAT_COLORS.uncategorized;
+    return `<span><i style="background:${color}"></i>${escapeHtml(c)}</span>`;
+  }).join('');
 }
 
 function render() {
