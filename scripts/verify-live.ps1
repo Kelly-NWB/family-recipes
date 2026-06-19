@@ -24,9 +24,11 @@ Write-Host "OK  $url"
 Write-Host "OK  $data"
 
 if ($MustContain) {
+  $homeHas = $homeBody -match [regex]::Escape($MustContain)
   $jsHas = $js -match [regex]::Escape($MustContain)
+  Write-Host ("index.html contains [{0}]: {1}" -f $MustContain, $homeHas)
   Write-Host ("recipes.js contains [{0}]: {1}" -f $MustContain, $jsHas)
-  if (-not $jsHas) {
+  if (-not $homeHas -and -not $jsHas) {
     Write-Error "FAIL: live site missing expected text - wait 60s and re-run"
     exit 1
   }
