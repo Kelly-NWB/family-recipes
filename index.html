@@ -277,15 +277,29 @@
       color: var(--stone-warm);
     }
 
+    .chip--prized {
+      font-weight: 700;
+      letter-spacing: 0.14em;
+    }
+
     .chip--prized:not(.active) {
+      background: linear-gradient(135deg, #1e1b18 0%, #12100e 100%);
       border-color: #8a7340;
-      color: #5c4a30;
-      background: linear-gradient(135deg, #f4f0e8 0%, #ece8dc 100%);
+      color: #c9a962;
+      box-shadow: 0 0 14px rgba(201, 169, 98, 0.18);
     }
 
     .chip--prized:not(.active):hover {
-      color: #3d3020;
+      background: #2a2418;
+      color: #d4af5a;
       border-color: #c9a962;
+    }
+
+    .chip--prized.active {
+      background: linear-gradient(135deg, #2a2418 0%, #1a1714 100%);
+      border-color: #c9a962;
+      color: #f0e6cc;
+      box-shadow: 0 0 20px rgba(201, 169, 98, 0.22);
     }
 
     main {
@@ -1087,7 +1101,7 @@
   <p><strong>Family Recipes</strong> &mdash; one spot for all of them.</p>
 </footer>
 
-<script src="data/recipes.js"></script>
+<script src="data/recipes.js?v=prized-tab"></script>
 <script>
 let DATA = window.RECIPE_DATA || { collections: [], recipes: [] };
 let activeCollection = 'prescott-cousins';
