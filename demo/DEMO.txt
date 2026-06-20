@@ -1,0 +1,18 @@
+Family Recipes — demo video (v2 · tight cut)
+=============================================
+
+FILE:
+  family-recipes-demo.mp4  (~12 sec · 1280×720 · soft ambient audio)
+
+FLOW:
+  0:00  Title (1.4s)
+  0:01  Poem → Prescott → search lasagna → open recipe
+  0:08  Low carb filter → cover toggle
+  0:10  End card + URL
+
+REBUILD:
+  python scripts/record-demo.py
+  python scripts/assemble-demo.py
+
+SHARE:
+  Text the MP4 + https://kelly-nwb.github.io/family-recipes/

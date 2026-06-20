@@ -21,6 +21,11 @@ assets/anonymous-quote-page.png
 *.jpg
 desktop.ini
 
+# Demo video build artifacts (keep family-recipes-demo.mp4 locally to share)
+demo/*.webm
+demo/*.mp4
+demo/page@*
+
 # Local junk
 terminals/
 .DS_Store

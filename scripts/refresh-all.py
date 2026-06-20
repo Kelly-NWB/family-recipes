@@ -15,5 +15,6 @@ def run_script(name: str) -> None:
 
 if __name__ == "__main__":
     run_script("add-cabin-collection.py")
+    run_script("add-prized-collection.py")
     run_script("import-low-carb-docx.py")
-    print("Done — cabin paths + low-carb refreshed.")
+    print("Done — cabin, prized, and low-carb refreshed.")

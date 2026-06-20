@@ -77,14 +77,15 @@ def main() -> None:
     complete = sum(1 for r in final if r.get("steps"))
     print(f"Merged {len(final)} recipes ({complete} with content) -> data/recipes.json")
 
-    add_cabin_path = Path(__file__).resolve().parent / "add-cabin-collection.py"
-    if add_cabin_path.exists():
-        import importlib.util
+    for script_name in ("add-cabin-collection.py", "add-prized-collection.py"):
+        script_path = Path(__file__).resolve().parent / script_name
+        if script_path.exists():
+            import importlib.util
 
-        spec = importlib.util.spec_from_file_location("add_cabin", add_cabin_path)
-        mod = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(mod)
-        mod.main()
+            spec = importlib.util.spec_from_file_location(script_name, script_path)
+            mod = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(mod)
+            mod.main()
 
 
 if __name__ == "__main__":

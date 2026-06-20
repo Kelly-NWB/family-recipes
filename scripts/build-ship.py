@@ -9,6 +9,13 @@ SHIP = [
     "data/recipes.js",
     "assets/prescott-cover.png",
     "assets/prescott-cover-modern.png",
+    "assets/prized-cover.png",
+    "assets/prized-cover-modern.png",
+    "assets/prized-cover-modern-source.jpg",
+    "assets/cabin-cover.png",
+    "assets/cabin-cover-modern.png",
+    "assets/low-carb-cover.png",
+    "assets/low-carb-cover-modern.png",
 ]
 
 

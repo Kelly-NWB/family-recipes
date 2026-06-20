@@ -115,8 +115,9 @@ def main() -> None:
     cabin_collection = {
         "id": "cabin",
         "title": "Cabin",
-        "subtitle": "",
-        "type": "text",
+        "subtitle": "Handwritten notebook",
+        "cover": "assets/cabin-cover.png",
+        "type": "cabin",
         "recipeCount": len(CABIN_RECIPES),
     }
 

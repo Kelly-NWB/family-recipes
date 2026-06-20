@@ -8,7 +8,7 @@
   <title>Family Recipes</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Josefin+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <style>
     :root {
       --pine-deep: #1E3028;
@@ -277,6 +277,17 @@
       color: var(--stone-warm);
     }
 
+    .chip--prized:not(.active) {
+      border-color: #8a7340;
+      color: #5c4a30;
+      background: linear-gradient(135deg, #f4f0e8 0%, #ece8dc 100%);
+    }
+
+    .chip--prized:not(.active):hover {
+      color: #3d3020;
+      border-color: #c9a962;
+    }
+
     main {
       max-width: 1120px;
       margin: 0 auto;
@@ -296,6 +307,12 @@
       display: inline-block;
     }
 
+    .collections-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
     .collection-hero {
       display: grid;
       grid-template-columns: minmax(200px, 260px) 1fr;
@@ -307,6 +324,12 @@
       padding: 1.25rem;
       margin-bottom: 2rem;
       box-shadow: 4px 4px 0 var(--shadow);
+    }
+
+    .collection-hero--prized {
+      background: linear-gradient(145deg, #12100e 0%, #0c0b0a 100%);
+      border-color: #4a4030;
+      box-shadow: 0 8px 40px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(201, 169, 98, 0.1);
     }
 
     .cover-frame {
@@ -690,6 +713,312 @@
       }
     }
 
+    /* ── PRIZED (sister's cookbook) ── */
+    body.theme-prized {
+      background: #0c0b0a;
+      background-image:
+        radial-gradient(ellipse 80% 50% at 50% -10%, rgba(201, 169, 98, 0.14) 0%, transparent 55%),
+        radial-gradient(ellipse 40% 30% at 90% 80%, rgba(201, 169, 98, 0.06) 0%, transparent 50%),
+        linear-gradient(180deg, #12100e 0%, #0c0b0a 40%, #080706 100%);
+      color: #e8e0d0;
+    }
+
+    body.theme-prized .opening-quote {
+      background: #080706;
+      border-bottom-color: #8a7340;
+      color: #c9b896;
+    }
+
+    body.theme-prized .opening-quote cite { color: #6e6458; }
+
+    body.theme-prized .site-header {
+      background: linear-gradient(180deg, #080706 0%, #12100e 55%, #1a1714 100%);
+      border-bottom-color: #8a7340;
+    }
+
+    body.theme-prized .site-header h1,
+    body.theme-prized .built-by .kj-mark { color: #d4af5a; text-shadow: 0 0 40px rgba(212, 175, 90, 0.25); }
+    body.theme-prized .site-header .sub,
+    body.theme-prized .built-by { color: #8a7d68; }
+    body.theme-prized .site-header .stamp { color: #a89880; }
+
+    body.theme-prized .toolbar {
+      background: rgba(12, 11, 10, 0.97);
+      border-bottom-color: #3d3528;
+    }
+
+    body.theme-prized .search-wrap input {
+      background: #161412;
+      border-color: #4a4030;
+      color: #e8e0d0;
+    }
+
+    body.theme-prized .search-wrap input::placeholder { color: #6e6458; }
+    body.theme-prized .search-wrap input:focus {
+      border-color: #8a7340;
+      box-shadow: 0 0 0 2px rgba(201, 169, 98, 0.2);
+    }
+
+    body.theme-prized .stats { color: #8a7d68; }
+
+    body.theme-prized .chip {
+      background: #161412;
+      border-color: #3d3528;
+      color: #8a7d68;
+    }
+
+    body.theme-prized .chip:hover {
+      background: #1e1b18;
+      color: #d4af5a;
+      border-color: #6e5c38;
+    }
+
+    body.theme-prized .chip.active {
+      background: linear-gradient(135deg, #2a2418 0%, #1a1714 100%);
+      border-color: #c9a962;
+      color: #f0e6cc;
+      box-shadow: 0 0 20px rgba(201, 169, 98, 0.15);
+    }
+
+    body.theme-prized .chip--prized:not(.active) {
+      border-color: #6e5c38;
+      color: #c9a962;
+    }
+
+    body.theme-prized .section-label {
+      color: #d4af5a;
+      border-bottom-color: #8a7340;
+      letter-spacing: 0.28em;
+    }
+
+    body.theme-prized .type-legend {
+      background: #12100e;
+      border-color: #3d3528;
+    }
+
+    body.theme-prized .type-legend-title,
+    body.theme-prized .legend-item { color: #8a7d68; }
+
+    body.theme-prized .recipe-card {
+      background: linear-gradient(145deg, #161412 0%, #12100e 100%);
+      border-color: #3d3528;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.45), inset 0 1px 0 rgba(201, 169, 98, 0.06);
+      border-left-width: 4px;
+      border-left-color: #c9a962;
+    }
+
+    body.theme-prized .recipe-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.55), 0 0 24px rgba(201, 169, 98, 0.08);
+      border-color: #6e5c38;
+    }
+
+    body.theme-prized .recipe-card > summary {
+      background: linear-gradient(180deg, #1a1714 0%, #161412 100%);
+    }
+
+    body.theme-prized .recipe-card > summary h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      color: #f0e6cc;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+    }
+
+    body.theme-prized .recipe-card[open] > summary {
+      border-bottom-color: #6e5c38;
+    }
+
+    body.theme-prized .recipe-meta { color: #8a7d68; }
+
+    body.theme-prized .recipe-card > summary::after { color: #c9a962; }
+
+    body.theme-prized .recipe-body {
+      color: #c9b896;
+    }
+
+    body.theme-prized .recipe-body h4 {
+      color: #d4af5a;
+      letter-spacing: 0.2em;
+    }
+
+    body.theme-prized .recipe-body li::marker { color: #8a7340; }
+
+    body.theme-prized .recipe-note {
+      background: #1a1714;
+      border-left-color: #c9a962;
+      color: #a89880;
+      font-style: italic;
+    }
+
+    body.theme-prized .badge {
+      background: linear-gradient(135deg, #3d3528, #2a2418);
+      color: #d4af5a;
+      border: 1px solid #6e5c38;
+    }
+
+    body.theme-prized .empty-state { color: #8a7d68; }
+
+    body.theme-prized footer {
+      background: #080706;
+      border-top-color: #3d3528;
+      color: #6e6458;
+    }
+
+    body.theme-prized footer strong { color: #c9a962; }
+
+    .prized-hero,
+    .collection-hero--prized {
+      display: grid;
+      grid-template-columns: minmax(220px, 300px) 1fr;
+      gap: 2rem;
+      align-items: stretch;
+      background: linear-gradient(145deg, #12100e 0%, #0c0b0a 100%);
+      border: 1px solid #4a4030;
+      border-radius: 2px;
+      padding: 1.75rem;
+      margin-bottom: 2.5rem;
+      box-shadow:
+        0 8px 40px rgba(0, 0, 0, 0.6),
+        inset 0 1px 0 rgba(201, 169, 98, 0.12),
+        inset 0 0 80px rgba(201, 169, 98, 0.03);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .collection-hero--prized .collection-filter-hint {
+      color: #6e6458;
+    }
+
+    .prized-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(201, 169, 98, 0.015) 2px,
+        rgba(201, 169, 98, 0.015) 3px
+      );
+      pointer-events: none;
+    }
+
+    .prized-hero .cover-frame {
+      border-color: #6e5c38;
+      background: #0a0908;
+      box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.55), inset 0 0 0 1px rgba(201, 169, 98, 0.08);
+    }
+
+    .prized-hero .cover-badge {
+      background: rgba(10, 9, 8, 0.92);
+      border-color: rgba(201, 169, 98, 0.35);
+      color: #d4af5a;
+    }
+
+    .prized-hero .cover-hint {
+      background: linear-gradient(transparent, rgba(10, 9, 8, 0.96));
+      color: #a89880;
+    }
+
+    .prized-copy h2 {
+      font-family: 'Cinzel', Georgia, serif;
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-weight: 600;
+      color: #f0e6cc;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      line-height: 1.15;
+    }
+
+    .prized-copy .tagline {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: #c9a962;
+      margin-top: 0.5rem;
+    }
+
+    .prized-dedication {
+      margin-top: 1.25rem;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: #a89880;
+      line-height: 1.65;
+      max-width: 52ch;
+      border-left: 2px solid #6e5c38;
+      padding-left: 1.1rem;
+    }
+
+    .prized-dedication em {
+      color: #d4af5a;
+      font-style: italic;
+    }
+
+    .prized-note {
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      color: #8a7d68;
+      max-width: 52ch;
+    }
+
+    .prized-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1.5rem;
+      margin-top: 1.25rem;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.62rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #6e6458;
+    }
+
+    .prized-meta span::before {
+      content: '◆ ';
+      color: #8a7340;
+      font-size: 0.5rem;
+    }
+
+    .prized-manifest {
+      margin-top: 1.5rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid #2a2418;
+    }
+
+    .prized-manifest-title {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 0.58rem;
+      font-weight: 700;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: #6e5c38;
+      margin-bottom: 0.65rem;
+    }
+
+    .prized-manifest-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem 0.6rem;
+    }
+
+    .prized-manifest-item {
+      font-family: 'Playfair Display', serif;
+      font-size: 0.78rem;
+      color: #8a7d68;
+      padding: 0.22rem 0.55rem;
+      border: 1px solid #2a2418;
+      background: rgba(201, 169, 98, 0.04);
+      letter-spacing: 0.02em;
+    }
+
+    @media (max-width: 700px) {
+      .prized-hero { grid-template-columns: 1fr; }
+    }
+
     @media print {
       .toolbar, footer { display: none; }
       .recipe-card { break-inside: avoid; box-shadow: none; }
@@ -761,18 +1090,55 @@
 <script src="data/recipes.js"></script>
 <script>
 let DATA = window.RECIPE_DATA || { collections: [], recipes: [] };
-let activeCollection = 'all';
+let activeCollection = 'prescott-cousins';
 let searchQuery = '';
-let coverView = 'modern';
+const coverViews = {
+  'prescott-cousins': 'modern',
+  'prized': 'modern',
+  'cabin': 'modern',
+  'low-carb': 'modern'
+};
 
 const COVER_SETS = {
   'prescott-cousins': {
     modern: 'assets/prescott-cover-modern.png',
-    original: 'assets/prescott-cover.png'
+    original: 'assets/prescott-cover.png',
+    badgeModern: 'Modern · 3D',
+    badgeOriginal: 'Original · Scanned',
+    hintModern: 'Click to see the original Word doc',
+    hintOriginal: 'Click for the 3D cover'
+  },
+  'prized': {
+    modern: 'assets/prized-cover-modern.png',
+    original: 'assets/prized-cover.png',
+    badgeModern: 'Modern · 3D',
+    badgeOriginal: 'Original · Photo',
+    hintModern: 'Click to see Christy\'s recipe card photo',
+    hintOriginal: 'Click for the purple 3D cover'
+  },
+  'cabin': {
+    modern: 'assets/cabin-cover-modern.png',
+    original: 'assets/cabin-cover.png',
+    badgeModern: 'Modern · 3D',
+    badgeOriginal: 'Original · Notebook',
+    hintModern: 'Click to see the cabin notebook photo',
+    hintOriginal: 'Click for the polished page'
+  },
+  'low-carb': {
+    modern: 'assets/low-carb-cover-modern.png',
+    original: 'assets/low-carb-cover.png',
+    badgeModern: 'Modern · 3D',
+    badgeOriginal: 'Original · Binder',
+    hintModern: 'Click to see the plain binder',
+    hintOriginal: 'Click for the 3D cover'
   }
 };
 
-const COLLECTION_ORDER = ['prescott-cousins', 'cabin', 'low-carb'];
+function getCoverView(collectionId) {
+  return coverViews[collectionId] || 'modern';
+}
+
+const COLLECTION_ORDER = ['prescott-cousins', 'prized', 'cabin', 'low-carb'];
 
 function collectionSortKey(id) {
   const i = COLLECTION_ORDER.indexOf(id);
@@ -830,8 +1196,18 @@ const COLLECTION_COPY = {
   'low-carb': {
     blurb: 'Low-carb binder — nice to have. First cut if the archive gets too big.',
     meta: (c) => [`${c.recipeCount} recipes`]
+  },
+  'prized': {
+    blurb: 'Recipe cards gathered — some stolen from Mom — and clung to. Her prized possessions.',
+    meta: (c) => [`${c.recipeCount} recipes on file`]
   }
 };
+
+const PRIZED_MANIFEST = [
+  'Marinara', 'Shrimp Pasta', 'Tomato Bisque', 'Stuffed Burgers',
+  'Baked Brie', 'Fondant Balls', 'Pralines', 'Herman',
+  'German Chocolate', 'Killer Coffee Cake'
+];
 
 const CAT_COLORS = {
   dessert: '#4A8F55',
@@ -881,7 +1257,64 @@ function filteredRecipes() {
 }
 
 function collectionLabel(c) {
-  return c.id === 'prescott-cousins' ? 'Prescott' : c.title;
+  if (c.id === 'prescott-cousins') return 'Prescott';
+  if (c.id === 'prized') return 'Prized';
+  return c.title;
+}
+
+function prizedHeroHtml(c) {
+  const copy = COLLECTION_COPY.prized;
+  const meta = copy.meta(c).map(m => `<span>${escapeHtml(m)}</span>`).join('');
+  const manifest = PRIZED_MANIFEST.map(item =>
+    `<span class="prized-manifest-item">${escapeHtml(item)}</span>`
+  ).join('');
+
+  return `
+    <article class="prized-hero collection-hero collection-hero--prized" data-collection-id="prized">
+      ${coverHtml('prized', c.title)}
+      <div class="prized-copy">
+        <h2>Prized</h2>
+        <p class="tagline">${escapeHtml(c.author || c.subtitle || 'Christy C.')}</p>
+        <blockquote class="prized-dedication">
+          A celebration of childhood memories in the kitchen with Mom and the Grandmas.
+          <em>Oh those beloved coconut balls.</em>
+          To all the amazing cooks I'm privileged to be related to — this book exists because of you.
+        </blockquote>
+        <p class="prized-note">${escapeHtml(copy.blurb)}</p>
+        <div class="prized-meta">${meta}</div>
+        <div class="prized-manifest">
+          <p class="prized-manifest-title">On the table</p>
+          <div class="prized-manifest-items">${manifest}</div>
+        </div>
+        <p class="collection-filter-hint">Click here to filter recipes</p>
+      </div>
+    </article>`;
+}
+
+function standardHeroHtml(c) {
+  const copy = COLLECTION_COPY[c.id] || {
+    blurb: 'Family recipes on file.',
+    meta: (col) => [`${col.recipeCount} recipes`]
+  };
+  const meta = copy.meta(c).map(m => `<span>${escapeHtml(m)}</span>`).join('');
+  const tagline = c.subtitle ? `<p class="tagline">${escapeHtml(c.subtitle)}</p>` : '';
+  const title = c.id === 'prescott-cousins' ? honorNames(c.title) : escapeHtml(c.title);
+
+  return `
+    <article class="collection-hero" data-collection-id="${c.id}">
+      ${coverHtml(c.id, c.title)}
+      <div class="collection-copy">
+        <h2>${title}</h2>
+        ${tagline}
+        <p>${escapeHtml(copy.blurb)}</p>
+        <div class="collection-meta">${meta}</div>
+        <p class="collection-filter-hint">Click here to filter recipes</p>
+      </div>
+    </article>`;
+}
+
+function collectionHeroHtml(c) {
+  return c.id === 'prized' ? prizedHeroHtml(c) : standardHeroHtml(c);
 }
 
 function catLegendLabel(key) {
@@ -916,14 +1349,14 @@ function renderTypeLegend() {
 function renderFilters() {
   const el = document.getElementById('filters');
   const chips = [
-    { id: 'all', label: 'All' },
     ...sortCollections(DATA.collections).map(c => ({
       id: c.id,
       label: collectionLabel(c)
-    }))
+    })),
+    { id: 'all', label: 'All' }
   ];
   el.innerHTML = chips.map(c => `
-    <button type="button" class="chip${activeCollection === c.id ? ' active' : ''}" data-collection="${c.id}">${escapeHtml(c.label)}</button>
+    <button type="button" class="chip${c.id === 'prized' ? ' chip--prized' : ''}${activeCollection === c.id ? ' active' : ''}" data-collection="${c.id}">${escapeHtml(c.label)}</button>
   `).join('');
   el.querySelectorAll('.chip').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -935,23 +1368,21 @@ function renderFilters() {
 
 function coverHtml(collectionId, title) {
   const coll = DATA.collections.find(x => x.id === collectionId);
-  if (coll?.type === 'text' || (coll?.id === 'low-carb' && !coll?.cover)) {
-    return `<div class="collection-cover-photo" style="display:flex;align-items:center;justify-content:center;background:var(--pine-deep);color:var(--stone);font-family:'Josefin Sans',sans-serif;font-size:0.85rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;min-height:200px;">${escapeHtml(title)}</div>`;
-  }
-  if (coll?.type === 'photos') {
+  const set = COVER_SETS[collectionId];
+  if (coll?.type === 'photos' && !set) {
     return `<img class="collection-cover-photo" src="${coll.cover}" alt="${escapeHtml(title)}">`;
   }
-  const set = COVER_SETS[collectionId];
   if (!set) {
     return `<img class="collection-cover-photo" src="${coll?.cover || ''}" alt="${escapeHtml(title)} cover">`;
   }
-  const badge = coverView === 'modern' ? 'Modern · 3D' : 'Original · Scanned';
-  const hint = coverView === 'modern' ? 'Click to see the original Word doc' : 'Click for the 3D cover';
+  const view = getCoverView(collectionId);
+  const badge = view === 'modern' ? set.badgeModern : set.badgeOriginal;
+  const hint = view === 'modern' ? set.hintModern : set.hintOriginal;
   return `
-    <div class="cover-frame" data-view="${coverView}" data-collection="${collectionId}" role="button" tabindex="0" aria-label="Toggle cookbook cover between modern and original">
+    <div class="cover-frame" data-view="${view}" data-collection="${collectionId}" role="button" tabindex="0" aria-label="Toggle cookbook cover between modern and original">
       <div class="cover-stack">
-        <img class="cover-layer modern${coverView === 'modern' ? ' active' : ''}" src="${set.modern}" alt="${escapeHtml(title)} — modern cover">
-        <img class="cover-layer original${coverView === 'original' ? ' active' : ''}" src="${set.original}" alt="${escapeHtml(title)} — original scanned cover">
+        <img class="cover-layer modern${view === 'modern' ? ' active' : ''}" src="${set.modern}" alt="${escapeHtml(title)} — modern cover">
+        <img class="cover-layer original${view === 'original' ? ' active' : ''}" src="${set.original}" alt="${escapeHtml(title)} — original scanned cover">
       </div>
       <span class="cover-badge">${badge}</span>
       <span class="cover-hint">${hint}</span>
@@ -960,8 +1391,9 @@ function coverHtml(collectionId, title) {
 }
 
 function bindCoverToggle(frame) {
+  const collectionId = frame.dataset.collection;
   const toggle = () => {
-    coverView = coverView === 'modern' ? 'original' : 'modern';
+    coverViews[collectionId] = getCoverView(collectionId) === 'modern' ? 'original' : 'modern';
     renderCollections();
   };
   frame.addEventListener('click', e => {
@@ -977,41 +1409,8 @@ function bindCoverToggle(frame) {
   });
 }
 
-function renderCollections() {
-  const el = document.getElementById('collections');
-  if (activeCollection !== 'all') {
-    el.innerHTML = '';
-    return;
-  }
-
-  const c = DATA.collections.find(x => x.id === 'prescott-cousins');
-  if (!c) {
-    el.innerHTML = '';
-    return;
-  }
-
-  const copy = COLLECTION_COPY[c.id] || {
-    blurb: 'Family recipes on file.',
-    meta: (col) => [`${col.recipeCount} recipes`]
-  };
-  const meta = copy.meta(c).map(m => `<span>${escapeHtml(m)}</span>`).join('');
-  const tagline = c.subtitle ? `<p class="tagline">${escapeHtml(c.subtitle)}</p>` : '';
-
-  el.innerHTML = `
-    <article class="collection-hero" data-collection-id="${c.id}">
-      ${coverHtml(c.id, c.title)}
-      <div class="collection-copy">
-        <h2>${honorNames(c.title)}</h2>
-        ${tagline}
-        <p>${copy.blurb}</p>
-        <div class="collection-meta">${meta}</div>
-        <p class="collection-filter-hint">Click here to filter recipes</p>
-      </div>
-    </article>`;
-
-  el.querySelectorAll('.cover-frame').forEach(bindCoverToggle);
-
-  el.querySelectorAll('.collection-hero').forEach(card => {
+function bindCollectionHeroClicks(root) {
+  root.querySelectorAll('.collection-hero, .prized-hero').forEach(card => {
     card.style.cursor = 'pointer';
     card.addEventListener('click', (e) => {
       if (e.target.closest('.cover-frame')) return;
@@ -1020,6 +1419,27 @@ function renderCollections() {
       document.getElementById('recipe-label').scrollIntoView({ behavior: 'smooth' });
     });
   });
+}
+
+function renderCollections() {
+  const el = document.getElementById('collections');
+
+  if (activeCollection === 'all') {
+    el.innerHTML = '';
+    return;
+  }
+
+  const collections = DATA.collections.filter(c => c.id === activeCollection);
+  if (!collections.length) {
+    el.innerHTML = '';
+    return;
+  }
+
+  const heroes = collections.map(collectionHeroHtml).join('');
+  el.innerHTML = heroes;
+
+  el.querySelectorAll('.cover-frame').forEach(bindCoverToggle);
+  bindCollectionHeroClicks(el);
 }
 
 function renderRecipeCard(r) {
@@ -1036,8 +1456,10 @@ function renderRecipeCard(r) {
   const cat = (r.category || 'uncategorized').toLowerCase();
   const catLabel = cat === 'uncategorized' ? '' : `<span>${escapeHtml(cat)}</span>`;
 
+  const prizedClass = r.collection === 'prized' ? ' recipe-card--prized' : '';
+
   return `
-    <details class="recipe-card ${catClass(r.category)}${pending ? ' pending' : ''}" data-recipe-id="${r.id}" id="recipe-${r.id}">
+    <details class="recipe-card ${catClass(r.category)}${prizedClass}${pending ? ' pending' : ''}" data-recipe-id="${r.id}" id="recipe-${r.id}">
       <summary>
         <h3>${honorNames(r.title)}</h3>
         <div class="recipe-meta">
@@ -1059,7 +1481,9 @@ function renderRecipes() {
   const label = document.getElementById('recipe-label');
   const coll = DATA.collections.find(c => c.id === activeCollection);
 
-  label.textContent = activeCollection === 'all' ? 'All Recipes' : (coll ? coll.title : 'Recipes');
+  label.textContent = activeCollection === 'all'
+    ? 'All Recipes'
+    : (coll ? (coll.id === 'prescott-cousins' ? 'Prescott Cousins\' Cookbook' : coll.title) : 'Recipes');
   document.getElementById('stats').textContent = `${list.length} shown · ${complete} ready`;
 
   if (!list.length) {
@@ -1085,6 +1509,12 @@ function renderRecipes() {
 }
 
 function render() {
+  const prizedOnly = activeCollection === 'prized';
+  document.body.classList.toggle('theme-prized', prizedOnly);
+  document.querySelector('meta[name="theme-color"]').setAttribute(
+    'content',
+    prizedOnly ? '#0c0b0a' : '#2A4035'
+  );
   renderFilters();
   renderCollections();
   renderTypeLegend();

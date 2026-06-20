@@ -163,7 +163,8 @@ def main() -> None:
             "id": "low-carb",
             "title": "Low Carb",
             "subtitle": "Nice to have",
-            "type": "text",
+            "cover": "assets/low-carb-cover.png",
+            "type": "low-carb",
             "recipeCount": len(recipes),
         }
     )
